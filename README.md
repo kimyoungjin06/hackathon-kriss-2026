@@ -6,8 +6,10 @@ KRISS 화학소재측정본부 워크숍을 위해 만든 3시간 AI 해커톤 �
 
 ## 바로 시작하기
 
+- [공개 자료 대문](index.html) — 발표자료, CiteSage와 API 안내로 이동
 - [행사 허브](event-hub/index.html) — 일정, 트랙, 데이터 규칙과 제출물
 - [CiteSage 쇼케이스](demo/index.html) — 오프라인으로 열리는 연구 문헌 탐색 데모
+- [API 안내](API_GUIDE.md) — 공개 가능한 연결 범위와 데이터 안전 원칙
 - [참가자 안내](PARTICIPANT_GUIDE.md) — 준비물, 역할, 진행 규칙
 - [공개 프로그램](PROGRAM.md) — 180분 구성과 학습 목표
 - [산출물 예시](EXAMPLES.md) — 3시간 안에 만들 수 있는 네 가지 결과물
@@ -27,6 +29,7 @@ KRISS 화학소재측정본부 워크숍을 위해 만든 3시간 AI 해커톤 �
 
 | 경로 | 내용 |
 |---|---|
+| `index.html` | 발표자료·CiteSage·API 안내를 연결하는 공개 대문 |
 | `event-hub/` | 행사 진행용 첫 화면 |
 | `demo/` | CiteSage 정적 쇼케이스 7개 화면 |
 | `data/` | UCI 가스센서 드리프트와 BIPM KCDB 교육용 데이터 |
