@@ -1,0 +1,87 @@
+<!doctype html><meta charset="utf-8">
+<title>KRISS 화학소재측정본부 해커톤 — CiteSage 쇼케이스</title>
+<style>
+  :root{--paper:#FBFAF7;--ink:#1B2530;--ink2:#5A6675;--muted:#8B96A3;--line:#E4E0D8;
+    --panel:#F3F0EA;--panel-br:#E0DBD1;--spine:#C8792E;--focus:#2F7183}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.65 -apple-system,"Noto Sans KR",sans-serif}
+  .wrap{max-width:1040px;margin:0 auto;padding:44px 28px 60px}
+  .eyebrow{font:12px ui-monospace,Menlo,monospace;letter-spacing:.14em;color:var(--muted);text-transform:uppercase}
+  h1{font-size:34px;line-height:1.15;margin:6px 0 10px}.lede{color:var(--ink2);max-width:78ch;margin:0 0 30px}
+  .section{display:flex;align-items:baseline;gap:10px;margin:30px 0 12px}
+  .section h2{font-size:20px;margin:0}.section span{font-size:12px;color:var(--muted);font-family:ui-monospace,Menlo,monospace}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(285px,1fr));gap:14px}
+  a.card{display:block;background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px 22px;
+    text-decoration:none;color:inherit;transition:border-color .15s,transform .15s}
+  a.card:hover{border-color:var(--spine);transform:translateY(-1px)}
+  .num{font:12px ui-monospace,Menlo,monospace;color:var(--spine);letter-spacing:.08em}
+  .deep .num{color:var(--focus)}a.card h3{font-size:18px;line-height:1.35;margin:4px 0 6px}
+  a.card p{margin:0;color:var(--ink2);font-size:14px}.say{margin-top:10px;padding:10px 12px;background:var(--panel);
+    border-left:3px solid var(--spine);border-radius:0 8px 8px 0;font-size:13px;color:var(--ink2)}
+  .say b{color:var(--ink)}.note{margin-top:30px;background:var(--panel);border:1px solid var(--panel-br);
+    border-radius:12px;padding:16px 18px;font-size:13.5px;color:var(--ink2)}.note b{color:var(--ink)}
+  .foot{margin-top:22px;font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:12px}
+  code{font-family:ui-monospace,Menlo,monospace;font-size:.92em}
+</style>
+<div class="wrap">
+  <div class="eyebrow">KRISS 화학소재측정본부 · 3시간 AI 해커톤 · 쇼케이스 (S7)</div>
+  <h1>CiteSage 화학소재측정본부판 — 7개 화면</h1>
+  <p class="lede">KRISS 연구자 시드 문헌 <b>7,970편</b>과 계량·분석화학 배경 문헌
+  <b>10,882편</b>을 합친 OpenAlex 제목·초록 탐색 코퍼스입니다. 모든 화면은
+  <b>인터넷·서버 없이</b> 열리며, OpenAlex 레코드 링크만 온라인 연결을 사용합니다.</p>
+
+  <div class="section"><h2>3분 핵심 동선</h2><span>지도 → 검토 답변 → 시기 간 인용</span></div>
+  <div class="cards">
+    <a class="card" href="cluster_map.html">
+      <div class="num">01 · 30초</div><h3>연구 테마 지도 · 코퍼스 전체</h3>
+      <p>18,852편을 40개 클러스터로 배치하고 분야·중앙 연도·KRISS 비중을 전환합니다.</p>
+      <div class="say"><b>말할 것:</b> “KRISS 시드와 배경 문헌을 함께 놓은 탐색 지도입니다.
+      KRISS 비중은 이 코퍼스 안의 구성비이지 기관 성과지표가 아닙니다.”</div>
+    </a>
+    <a class="card" href="demo_static.html">
+      <div class="num">02 · 90초</div><h3>출처 범위를 검토한 답변 3건</h3>
+      <p>가스표준 불확도, qNMR·질량수지, 혈청 페닐알라닌 후보 기준측정절차 사례입니다.</p>
+      <div class="say"><b>말할 것:</b> “인용 ID 11개와 출처 초록 지지 범위를 확인했습니다.
+      측정·화학 분야 전문가 검토는 아직 <code>NOT_RUN</code>입니다.”</div>
+    </a>
+    <a class="card" href="knowledge_sankey.html">
+      <div class="num">03 · 45초</div><h3>시기 간 직접 인용 Sankey · 코퍼스 전체</h3>
+      <p>5개 연속 시기의 코퍼스 내부 직접 인용 24,377건을 집계합니다. 기본은 인접 시기 4개,
+      전체 보기를 누르면 10개 시기쌍이 열립니다.</p>
+      <div class="say"><b>말할 것:</b> “왼쪽→오른쪽은 인용된 선행 시기에서 인용한 후속 시기로 향하는
+      지식 흐름입니다. 실제 인용 행위는 후속→선행이며, 띠 폭은 인용 횟수일 뿐 영향력은 아닙니다.”</div>
+    </a>
+  </div>
+
+  <div class="section"><h2>심화 탐색</h2><span>발표 후 질의응답·체험용</span></div>
+  <div class="cards deep">
+    <a class="card" href="theme_alluvial.html">
+      <div class="num">04 · GLOBAL</div><h3>시기별 테마 인용 연결</h3>
+      <p>시기마다 독립적으로 묶은 클러스터를 후속 문헌의 직접 인용으로 연결합니다.
+      리본은 연결 강도이지 테마 변환을 뜻하지 않습니다.</p>
+    </a>
+    <a class="card" href="knowledge_flow.html">
+      <div class="num">05 · FOCUS</div><h3>표준가스 논문 단위 인용 흐름</h3>
+      <p>“중량법 표준가스 조제 불확도 흡착 안정성” 질의의 13편·12개 직접 인용을 시간축에서 봅니다.
+      KRISS 4편과 배경 9편을 구분하며, 노드를 가리키면 초록 검토 요약과 범위가 열립니다.</p>
+    </a>
+    <a class="card" href="research_timeline.html">
+      <div class="num">06 · FOCUS</div><h3>연속 구간 연구 타임라인</h3>
+      <p>같은 13편을 누락·중복 없이 4개 연속 구간에 배치하고, 각 구간의 제목·초록 검토 요약과
+      근거 레코드를 함께 보여줍니다.</p>
+    </a>
+    <a class="card" href="flow_dossier.html">
+      <div class="num">07 · FOCUS</div><h3>논문별 초록 검토 dossier</h3>
+      <p>노드를 클릭하면 한국어 요약·범위, OpenAlex 초록, 관측된 부모·자식 인용 관계가 분리되어
+      열립니다. 인용 관계를 과학적 기여·계승·인과로 자동 해석하지 않습니다.</p>
+    </a>
+  </div>
+
+  <div class="note"><b>운영 메모</b><br>
+    · 3분 발표는 <b>01 → 02 → 03</b>만 사용하고, 04~07은 질문이 나왔을 때 여세요.<br>
+    · 자유 질의는 이 정적 묶음에서 불가합니다. 새 질문은 <code>make serve</code>와 검색·생성 서버가 필요합니다.<br>
+    · 답변은 <b>125%</b>, 지도·Sankey·심화 화면은 <b>100~110%</b> 확대를 권합니다.
+  </div>
+  <p class="foot">코퍼스: OpenAlex 제목·초록 기반 공개 서지 · 공개 답변: 인용 ID 및 초록 지지 범위 검토 완료 ·
+  심화 표준가스 내용: 제목·초록 지지 범위 검토 PASS · 분야 전문가 검토: NOT_RUN.</p>
+</div>

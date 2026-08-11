@@ -1,0 +1,443 @@
+kcdbCode,categoryValue,subCategoryValue,analyteValue,analyteMatrix,quantityValue,cmc_low,cmc_high,cmc_unit,unc_low,unc_high,unc_unit,uncertaintyMode,coverageFactor,confidenceLevel,mechanism,publicationDate,status
+APMP-QM-KR-000000GT-1,Inorganic solutions,Elemental,magnesium,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-017,2013-03-12,Published
+APMP-QM-KR-000000GY-1,Inorganic solutions,Elemental,phosphorus,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-022,2013-03-12,Published
+APMP-QM-KR-000000GZ-1,Inorganic solutions,Elemental,potassium,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-023,2013-03-12,Published
+APMP-QM-KR-000000H1-1,Inorganic solutions,Elemental,sodium,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-027,2013-03-12,Published
+APMP-QM-KR-000000H3-1,Inorganic solutions,Elemental,vanadium,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-031,2013-03-12,Published
+APMP-QM-KR-000000H5-1,Inorganic solutions,Elemental,gallium,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-034,2013-03-12,Published
+APMP-QM-KR-000000H6-1,Inorganic solutions,Elemental,indium,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-035,2013-03-12,Published
+APMP-QM-KR-000000HC-1,Inorganic solutions,Elemental,germanium,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-013,2013-03-12,Published
+APMP-QM-KR-000000HI-1,Inorganic solutions,Elemental,barium,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-033,2013-03-12,Published
+APMP-QM-KR-000000IH-1,Advanced materials,Polymers and plastics,mercury,ABS,Mass fraction,10.0,2000.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 113-01-011, CRM 113-01-012, CRM 113-01-013, CRM 113-01-014, CRM 113-01-015",2012-09-06,Published
+APMP-QM-KR-000000II-1,Advanced materials,Polymers and plastics,nickel,ABS,Mass fraction,10.0,2000.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 113-01-011, CRM 113-01-012, CRM 113-01-013, CRM 113-01-014, CRM 113-01-015",2012-09-06,Published
+APMP-QM-KR-000000IO-1,Advanced materials,Polymers and plastics,cadmium,polypropylene (PP),Mass fraction,1.0,200.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 113-01-001, CRM 113-01-002, CRM 113-01-003, CRM 113-01-004, CRM 113-01-005",2013-06-13,Published
+APMP-QM-KR-000000TV-1,Other materials,"Other than cements, paints, textiles, glasses, thin films, coatings, insulating materials, rubber, and adhesives",lead,cosmetic powder,Mass fraction,1.0,100.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 114-01-001, CRM 114-01-002",2016-01-20,Published
+APMP-QM-KR-000003PY-1,High purity chemicals,Inorganic compounds,chloride expressed as sodium chloride,high purity sodium chloride,Mass fraction,99.9,100.0,%,0.01,0.03,%,Relative,2.0,95.0,KRISS CRM 104-02-001,2018-09-26,Published
+APMP-QM-KR-000003PZ-1,High purity chemicals,Inorganic compounds,total acid expressed as potassium hydrogen phthalate,high purity potassium hydrogen phthalate,Mass fraction,99.9,100.0,%,0.005,0.02,%,Relative,2.0,95.0,KRISS CRM 104-02-002,2018-09-26,Published
+APMP-QM-KR-00000424-1,Gases,"Other than high purity, environmental, fuel, forensic, or medical",dichloromethane,nitrogen,Amount-of-substance fraction,0.0001,0.001,mol/mol,1.5,1.5,%,Relative,2.0,95.0,CRM 112-01-087,2016-01-20,Published
+APMP-QM-KR-00000425-1,Gases,"Other than high purity, environmental, fuel, forensic, or medical",chloroethylene,nitrogen,Amount-of-substance fraction,0.0001,0.001,mol/mol,1.5,1.5,%,Relative,2.0,95.0,CRM 112-01-088,2016-01-20,Published
+APMP-QM-KR-00000426-1,Gases,"Other than high purity, environmental, fuel, forensic, or medical","1,2-dichloroethene",nitrogen,Amount-of-substance fraction,0.0001,0.001,mol/mol,1.5,1.5,%,Relative,2.0,95.0,CRM 112-01-089,2016-01-20,Published
+APMP-QM-KR-00000427-1,Gases,"Other than high purity, environmental, fuel, forensic, or medical","1,1-dichloroethane",nitrogen,Amount-of-substance fraction,0.0001,0.001,mol/mol,1.5,1.5,%,Relative,2.0,95.0,CRM 112-01-090,2016-01-20,Published
+APMP-QM-KR-0000042A-1,Gases,Environmental,"1,2,4-trichlorobenzene",nitrogen,Amount-of-substance fraction,1e-05,0.0001,mol/mol,3.0,2.0,%,Relative,2.0,95.0,CRM 112-03-715,2016-01-20,Published
+APMP-QM-KR-0000042C-1,Gases,Environmental,trichloroethylene,nitrogen,Amount-of-substance fraction,1e-05,0.0001,mol/mol,3.0,2.0,%,Relative,2.0,95.0,CRM 112-03-785,2016-01-20,Published
+APMP-QM-KR-0000042E-1,Gases,Environmental,carbon tetrachloride,nitrogen,Amount-of-substance fraction,1e-05,0.0001,mol/mol,3.0,2.0,%,Relative,2.0,95.0,CRM 112-03-789,2016-01-20,Published
+APMP-QM-KR-0000042P-1,Gases,"Other than high purity, environmental, fuel, forensic, or medical",dichloromethane,nitrogen,Amount-of-substance fraction,1e-05,0.0001,mol/mol,3.0,2.0,%,Relative,2.0,95.0,CRM 112-01-087,2016-01-20,Published
+APMP-QM-KR-0000042Q-1,Gases,"Other than high purity, environmental, fuel, forensic, or medical",chloroethylene,nitrogen,Amount-of-substance fraction,1e-05,0.0001,mol/mol,3.0,2.0,%,Relative,2.0,95.0,CRM 112-01-088,2016-01-20,Published
+APMP-QM-KR-0000042S-1,Gases,"Other than high purity, environmental, fuel, forensic, or medical","1,2-dichloroethane",nitrogen,Amount-of-substance fraction,1e-05,0.0001,mol/mol,3.0,2.0,%,Relative,2.0,95.0,CRM 112-01-089,2016-01-20,Published
+APMP-QM-KR-0000042U-1,Gases,Environmental,trichlorofluoromethane (CFC-11),air,Amount-of-substance fraction,5e-05,10.0,µmol/mol,0.8,0.8,%,Relative,2.0,95.0,CRM 112-011-038,2016-01-20,Published
+APMP-QM-KR-0000042V-1,Gases,Environmental,"1,1,2-trichlorotrifluoroethane (CFC-113)",air,Amount-of-substance fraction,5e-05,10.0,µmol/mol,3.5,3.5,%,Relative,2.0,95.0,CRM 112-011-039,2016-01-20,Published
+APMP-QM-KR-0000042Z-1,Gases,Environmental,carbon monoxide,nitrogen,Amount-of-substance fraction,0.004,10.0,µmol/mol,100.0,0.08,%,Relative,2.0,95.0,CRM 112-03-634,2017-08-30,Published
+APMP-QM-KR-0000044R-1,Gases,Environmental,dimethyl sulfide,nitrogen,Amount-of-substance fraction,100.0,1000.0,µmol/mol,0.6,0.6,%,Relative,2.0,95.0,CRM 112-03-2505M,2018-09-26,Published
+APMP-QM-KR-00000452-1,Gases,Environmental,helium,neon,Amount-of-substance fraction,0.1,96.0,cmol/mol,0.2,0.2,%,Relative,2.0,95.0,CRM-112-01-00000,2018-09-26,Published
+APMP-QM-KR-00000459-1,Gases,Environmental,methanethiol,methane,Amount-of-substance fraction,10.0,100.0,µmol/mol,0.6,0.6,%,Relative,2.0,95.0,CRM 112-03-2504N,2018-09-26,Published
+APMP-QM-KR-0000045B-1,Gases,Environmental,carbonyl sulfide,nitrogen,Amount-of-substance fraction,0.5,10.0,µmol/mol,1.2,0.6,%,Relative,2.0,95.0,CRM112-03-724,2018-09-26,Published
+APMP-QM-KR-0000045C-1,Gases,Environmental,carbon disulfide,nitrogen,Amount-of-substance fraction,0.5,10.0,µmol/mol,1.2,0.6,%,Relative,2.0,95.0,CRM112-03-727,2018-09-26,Published
+APMP-QM-KR-0000045D-1,Gases,Environmental,dimethyl sulfide,nitrogen,Amount-of-substance fraction,0.5,10.0,µmol/mol,1.2,0.6,%,Relative,2.0,95.0,CRM112-03-733,2018-09-26,Published
+APMP-QM-KR-0000045E-1,Gases,Environmental,ethyl methyl sulfide,nitrogen,Amount-of-substance fraction,0.5,10.0,µmol/mol,1.2,0.6,%,Relative,2.0,95.0,CRM112-03-790,2018-09-26,Published
+APMP-QM-KR-0000045H-1,Gases,Environmental,ethanethiol,nitrogen,Amount-of-substance fraction,0.5,10.0,µmol/mol,1.2,0.6,%,Relative,2.0,95.0,CRM112-03-780,2018-09-26,Published
+APMP-QM-KR-0000045J-1,Gases,Environmental,1-propanethiol,nitrogen,Amount-of-substance fraction,0.5,10.0,µmol/mol,1.2,0.6,%,Relative,2.0,95.0,CRM112-03-795,2018-09-26,Published
+APMP-QM-KR-0000045K-1,Gases,Environmental,2-methyl-2-propanethiol,nitrogen,Amount-of-substance fraction,0.5,10.0,µmol/mol,1.2,0.6,%,Relative,2.0,95.0,CRM112-03-739,2018-09-26,Published
+APMP-QM-KR-0000045P-1,Gases,Environmental,ethyl methyl sulfide,nitrogen,Amount-of-substance fraction,10.0,100.0,µmol/mol,0.6,0.6,%,Relative,2.0,95.0,CRM112-03-791,2018-09-26,Published
+APMP-QM-KR-0000045T-1,Gases,Environmental,2-propanethiol,nitrogen,Amount-of-substance fraction,10.0,100.0,µmol/mol,0.6,0.6,%,Relative,2.0,95.0,CRM112-03-740,2018-09-26,Published
+APMP-QM-KR-0000045U-1,Gases,Environmental,1-propanethiol,nitrogen,Amount-of-substance fraction,10.0,100.0,µmol/mol,0.6,0.6,%,Relative,2.0,95.0,CRM112-03-795,2018-09-26,Published
+APMP-QM-KR-0000045W-1,Gases,Environmental,tetrahydrothiophene,nitrogen,Amount-of-substance fraction,10.0,100.0,µmol/mol,0.6,0.6,%,Relative,2.0,95.0,CRM112-03-738,2018-09-26,Published
+APMP-QM-KR-0000045X-1,Gases,Fuel,carbonyl sulfide,methane,Amount-of-substance fraction,0.5,10.0,µmol/mol,1.2,0.6,%,Relative,2.0,95.0,CRM112-03-724,2018-09-26,Published
+APMP-QM-KR-0000045Y-1,Gases,Fuel,carbon disulfide,methane,Amount-of-substance fraction,0.5,10.0,µmol/mol,1.2,0.6,%,Relative,2.0,95.0,CRM112-03-727,2018-09-26,Published
+APMP-QM-KR-0000045Z-1,Gases,Fuel,dimethyl sulfide,methane,Amount-of-substance fraction,0.5,10.0,µmol/mol,1.2,0.6,%,Relative,2.0,95.0,CRM112-03-733,2018-09-26,Published
+APMP-QM-KR-00000460-1,Gases,Fuel,ethyl methyl sulfide,methane,Amount-of-substance fraction,0.5,10.0,µmol/mol,1.2,0.6,%,Relative,2.0,95.0,CRM112-03-790,2018-09-26,Published
+APMP-QM-KR-00000462-1,Gases,Fuel,methanethiol,methane,Amount-of-substance fraction,0.5,10.0,µmol/mol,1.2,0.6,%,Relative,2.0,95.0,CRM112-03-780,2018-09-26,Published
+APMP-QM-KR-00000464-1,Gases,Fuel,2-propanethiol,methane,Amount-of-substance fraction,0.5,10.0,µmol/mol,1.2,0.6,%,Relative,2.0,95.0,CRM112-03-739,2018-09-26,Published
+APMP-QM-KR-00000468-1,Gases,Fuel,carbonyl sulfide,methane,Amount-of-substance fraction,10.0,100.0,µmol/mol,0.6,0.6,%,Relative,2.0,95.0,CRM112-03-725,2018-09-26,Published
+APMP-QM-KR-0000046C-1,Gases,Fuel,diethyl sulfide,methane,Amount-of-substance fraction,10.0,100.0,µmol/mol,0.6,0.6,%,Relative,2.0,95.0,CRM112-03-796,2018-09-26,Published
+APMP-QM-KR-0000046H-1,Gases,Environmental,formaldehyde,nitrogen,Amount-of-substance fraction,1.0,10.0,µmol/mol,2.6,1.3,%,Relative,2.0,95.0,"CRM112-03-744, CRM112-03-745",2018-09-26,Published
+APMP-QM-KR-000004EW-1,Food,Contaminants,lead,milk powder,Mass fraction,2.0,5.0,mg/kg,0.1,0.03,mg/kg,Absolute,2.0,95.0,Assignment of reference values for KOLAS proficiency test,2007-04-06,Published
+APMP-QM-KR-000004EZ-1,Food,Nutritional constituents,copper,oyster tissue,Mass fraction,100.0,500.0,mg/kg,0.5,1.5,%,Absolute,2.0,95.0,Assignment of reference values for KOLAS proficiency test,2005-04-29,Published
+APMP-QM-KR-000004FW-1,Food,Contaminants,cadmium,rice,Mass fraction,0.1,100.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-01-003, CRM 108-01-004, and PT providing",2013-06-13,Published
+APMP-QM-KR-000004G0-1,Food,Nutritional constituents,calcium,soybean,Mass fraction,1.0,10.0,g/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-01-005, PT providing",2013-06-13,Published
+APMP-QM-KR-000004G4-1,Food,Nutritional constituents,zinc,soybean,Mass fraction,1.0,1000.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-01-005, PT providing",2013-06-13,Published
+APMP-QM-KR-000004GK-1,Food,Contaminants,lead,tomato paste,Mass fraction,0.1,100.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-05-005, PT providing",2013-06-13,Published
+APMP-QM-KR-000004GM-1,Food,Nutritional constituents,copper,chinese cabbage,Mass fraction,1.0,1000.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-05-002, PT providing",2013-06-13,Published
+APMP-QM-KR-000004GP-1,Food,Contaminants,cadmium,ginseng,Mass fraction,0.1,100.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-10-006, PT providing",2013-06-13,Published
+APMP-QM-KR-000004GT-1,Food,Nutritional constituents,zinc,infant formula,Mass fraction,10.0,200.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-02-002, PT providing",2013-06-13,Published
+APMP-QM-KR-000004GZ-1,Food,Contaminants,lead,tea leaf,Mass fraction,0.05,100.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-10-009, PT providing",2013-06-13,Published
+APMP-QM-KR-000004H2-1,Food,Contaminants,chromium,hijiki,Mass fraction,1.0,1000.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-10-002, PT providing",2013-06-13,Published
+APMP-QM-KR-000004H5-1,Food,Nutritional constituents,zinc,herb,Mass fraction,1.0,1000.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-10-014, PT providing",2013-06-13,Published
+APMP-QM-KR-000004H8-1,Food,Contaminants,arsenic,hijiki,Mass fraction,1.0,100.0,mg/kg,5.0,10.0,%,Relative,2.0,95.0,"CRM 108-10-002, PT providing",2013-12-19,Published
+APMP-QM-KR-000004HB-1,Food,Contaminants,carbofuran,kimchi cabbage,Mass fraction (dry mass correction),0.01,50.0,mg/kg,10.0,1.0,%,Relative,2.0,95.0,CRM 108-05-006,2018-09-26,Published
+APMP-QM-KR-000004HC-1,Food,Contaminants,patulin,apple juice,Mass fraction,3.0,100.0,µg/kg,5.0,2.0,%,Relative,2.0,95.0,CRM 108-05-008,2018-09-26,Published
+APMP-QM-KR-000004HE-1,Food,Nutritional constituents,thiamin,dairy products,Mass fraction (dry mass base),0.5,300.0,mg/kg,5.0,1.0,%,Relative,2.0,95.0,CRM 108-02-003,2018-09-26,Published
+APMP-QM-KR-000004HU-1,Food,Nutritional constituents,pyridoxine,food supplement,Mass fraction (dry mass base),0.1,300.0,g/kg,10.0,1.0,%,Relative,2.0,95.0,CRM 108-10-019,2018-09-26,Published
+APMP-QM-KR-000004I0-1,Food,Nutritional constituents,alpha-linolenic acid,dairy products,Mass fraction (dry mass base),0.001,10.0,g/kg,10.0,1.0,%,Relative,2.0,95.0,CRM 108-02-003,2018-09-26,Published
+APMP-QM-KR-000004I3-1,Food,Nutritional constituents,eicosapentaenoic acid,dairy products,Mass fraction (dry mass base),1.0,1000.0,mg/kg,10.0,1.0,%,Relative,2.0,95.0,CRM 108-02-003,2018-09-26,Published
+APMP-QM-KR-000004I4-1,Food,Nutritional constituents,docosahexanoic cid,dairy products,Mass fraction (dry mass base),1.0,1000.0,mg/kg,10.0,1.0,%,Relative,2.0,95.0,CRM 108-02-003,2018-09-26,Published
+APMP-QM-KR-000004I9-1,Food,Nutritional constituents,cis-phylloquinone,cabbage,Mass fraction (dry mass base),0.05,500.0,mg/kg,20.0,1.0,%,Relative,2.0,95.0,CRM 108-05-011,2018-09-26,Published
+APMP-QM-KR-000004N9-1,Biological fluids and materials,Blood serum,glucose,serum (frozen),Mass fraction,0.7,4.0,mg/g,1.5,1.0,%,Absolute,2.0,95.0,Certification service,2007-04-06,Published
+APMP-QM-KR-000004NA-1,Biological fluids and materials,Blood serum,d-glucose,human serum (frozen),Mass fraction,200.0,2000.0,mg/kg,5.0,30.0,mg/kg,Absolute,2.3,95.0,KRISS CRM 111-01-A,2008-12-15,Published
+APMP-QM-KR-000004NM-1,Biological fluids and materials,Blood serum,d-glucose,human serum (lyophilized),Mass fraction,200.0,2000.0,mg/kg,5.0,30.0,mg/kg,Absolute,2.3,95.0,KRISS CRM 111-04-A,2008-12-15,Published
+APMP-QM-KR-000004NQ-1,Biological fluids and materials,Blood serum,cortisol,human serum (frozen or lyophilized),Mass fraction,50.0,500.0,µg/kg,2.5,2.0,%,Relative,2.0,95.0,"KRISS CRM 111-01-A, KRISS CRM 111-02-A, KRISS CRM 111-03-A, KRISS CRM 111-04-A",2012-09-06,Published
+APMP-QM-KR-00000JNT-1,Gases,"Other than high purity, environmental, fuel, forensic, or medical",water,nitrogen or air,Amount-of-substance fraction,10.0,100.0,µmol/mol,1.3,1.3,%,Relative,2.0,95.0,"CRM 112-01-601, CRM 112-01-603, calibration",2020-03-06,Published
+APMP-QM-KR-00000JWL-1,Advanced materials,Polymers and plastics,gamma-HBCD,Plastic (ABS),Mass fraction,50.0,500.0,mg/kg,5.0,2.0,%,Relative,2.0,95.0,CRM 113-03-008,2020-04-08,Published
+APMP-QM-KR-00000JWU-1,Advanced materials,Polymers and plastics,butyl benzyl phthalate,Plastic (PVC),Mass fraction,300.0,1000.0,mg/kg,5.0,2.0,%,Relative,2.0,95.0,CRM 113-03-006,2020-04-08,Published
+APMP-QM-KR-00000444-2,Gases,"Other than high purity, environmental, fuel, forensic, or medical",methane,nitrogen,Amount-of-substance fraction,1.8,500000.0,µmol/mol,0.3,0.3,%,Relative,2.0,95.0,CRM 112-1-2851P,2020-09-21,Published
+APMP-QM-KR-00000LNM-1,Gases,"Other than high purity, environmental, fuel, forensic, or medical",ethane,nitrogen or air,Amount-of-substance fraction,0.03,10.0,µmol/mol,100.0,0.3,%,Relative,2.0,95.0,CRM 112-01-057,2020-09-21,Published
+APMP-QM-KR-0000042H-2,Gases,Environmental,chloroform,nitrogen,Amount-of-substance fraction,20.0,100.0,nmol/mol,5.0,2.0,%,Relative,2.0,95.0,CRM 112-03-701,2021-10-25,Published
+APMP-QM-KR-0000046J-2,Gases,Environmental,3-carene,nitrogen or synthetic air,Amount-of-substance fraction,1.0,500.0,nmol/mol,2.7,2.7,%,Relative,2.0,95.0,CRM109-02-003,2021-10-25,Published
+APMP-QM-KR-0000046P-2,Gases,Environmental,methanethiol,nitrogen,Amount-of-substance fraction,1.0,100.0,µmol/mol,6.0,0.6,%,Relative,2.0,95.0,"CRM112-03-759, CRM112-03-760",2021-10-25,Published
+APMP-QM-KR-00000470-2,Gases,Fuel,propene,LPG,Amount-of-substance fraction,1.0,15.0,cmol/mol,0.8,0.8,%,Relative,2.0,95.0,"CRM112-01-361, CRM112-01-730",2021-10-25,Published
+APMP-QM-KR-00000477-2,Gases,"Other than high purity, environmental, fuel, forensic, or medical",argon,noble gases,Amount-of-substance fraction,0.1,96.0,cmol/mol,0.2,0.2,%,Relative,2.0,95.0,"CRM112-01-039, CRM112-040, CRM112-03-041, CRM112-03-042, CRM112-03-043, CRM112-03-044, CRM112-01-701",2021-10-25,Published
+APMP-QM-KR-00000478-2,Gases,"Other than high purity, environmental, fuel, forensic, or medical",krypton,noble gases,Amount-of-substance fraction,0.1,96.0,cmol/mol,0.2,0.2,%,Relative,2.0,95.0,"CRM112-01-039, CRM112-040, CRM112-03-041, CRM112-03-042, CRM112-03-043, CRM112-03-044, CRM112-01-701",2021-10-25,Published
+APMP-QM-KR-000003XF-5,Gases,"Other than high purity, environmental, fuel, forensic, or medical",hydrogen,nitrogen,Amount-of-substance fraction,1e-05,0.5,mol/mol,2.0,1.0,%,Relative,2.0,95.0,"CRM 112-01-2101N, CRM 112-01-2101O, CRM 112-01-2101P",2022-08-24,Published
+APMP-QM-KR-000003XJ-2,Gases,"Other than high purity, environmental, fuel, forensic, or medical",nitrogen,helium,Amount-of-substance fraction,1e-05,0.5,mol/mol,5.0,0.2,%,Relative,2.0,95.0,"CRM 112-01-1121N, CRM 112-01-1121P",2022-09-19,Published
+APMP-QM-KR-000003Y6-2,Gases,"Other than high purity, environmental, fuel, forensic, or medical",carbon dioxide,methane,Amount-of-substance fraction,0.05,0.07,mol/mol,1.5,1.5,%,Relative,2.0,95.0,CRM 112-01-6871P,2022-09-19,Published
+APMP-QM-KR-00000NMD-1,Food,Nutritional constituents,linoleic acid,spinach,Mass fraction (dry mass correction),10.0,10000.0,mg/kg,10.0,2.0,%,Relative,2.6,95.0,CRM 108-05-010,2022-05-13,Published
+APMP-QM-KR-00000NME-1,Food,Nutritional constituents,alpha-linolenic acid,spinach,Mass fraction (dry mass correction),10.0,30000.0,mg/kg,10.0,1.0,%,Relative,2.3,95.0,CRM 108-05-010,2022-05-13,Published
+APMP-QM-KR-00000O8N-1,Water,Fresh water,copper,"natural water, synthetic water and drinking water",Mass fraction,0.003,3.0,mg/kg,2.0,10.0,%,Relative,2.0,95.0,"CRM, Calibration service, Proficiency testing",2023-11-09,Published
+APMP-QM-KR-00000O8O-1,Water,Fresh water,iron,"natural water, synthetic water and drinking water",Mass fraction,0.003,10.0,mg/kg,2.0,10.0,%,Relative,2.0,95.0,"CRM, PT providing, calibration service",2023-11-09,Published
+APMP-QM-KR-00000OBC-1,Food,Nutritional constituents,copper,oyster,Mass fraction,10.0,1000.0,mg/kg,0.8,10.0,%,Relative,2.0,95.0,"CRM, PT providing, calibration service",2023-11-09,Published
+APMP-QM-KR-00000OBS-1,Food,Contaminants,benz(a)anthracene,Soybean oil,Mass fraction,0.5,50.0,µg/kg,5.0,2.0,%,Relative,2.0,95.0,CRM,2023-11-09,Published
+APMP-QM-KR-00000OBY-1,Advanced materials,Polymers and plastics,"benzo(g,h,i)perylene",plastic (HIPS),Mass fraction,200.0,2000.0,µg/kg,5.0,2.0,%,Relative,2.0,95.0,CRM 113-03-010,2023-11-09,Published
+APMP-QM-KR-00000OBZ-1,Advanced materials,Polymers and plastics,"Indeno(1,2,3-cd)pyrene",plastic (HIPS),Mass fraction,200.0,2000.0,µg/kg,5.0,2.0,%,Relative,2.0,95.0,CRM 113-03-010,2023-11-09,Published
+APMP-QM-KR-00000OC0-1,Advanced materials,Polymers and plastics,diisobutyl phthalate,Plastic (PVC),Mass fraction,300.0,1000.0,mg/kg,5.0,2.0,%,Relative,2.0,95.0,CRM 113-03-011,2023-11-09,Published
+APMP-QM-KR-00000OCT-1,Food,Contaminants,lead,kimchi cabbage,Mass fraction,0.4,2.0,mg/kg,2.0,5.0,%,Relative,2.0,95.0,"CRM, PT providing, calibration service",2023-11-09,Published
+APMP-QM-KR-000000GK-1,Inorganic solutions,Elemental,aluminum,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-001,2013-03-12,Published
+APMP-QM-KR-000000GM-1,Inorganic solutions,Elemental,boron,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-005,2013-03-12,Published
+APMP-QM-KR-000000GO-1,Inorganic solutions,Elemental,chromium,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-008,2013-03-12,Published
+APMP-QM-KR-000000GP-1,Inorganic solutions,Elemental,cobalt,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-009,2013-03-12,Published
+APMP-QM-KR-000000GQ-1,Inorganic solutions,Elemental,copper,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-010,2013-03-12,Published
+APMP-QM-KR-000000GX-1,Inorganic solutions,Elemental,nickel,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-021,2013-03-12,Published
+APMP-QM-KR-000000H4-1,Inorganic solutions,Elemental,zinc,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-032,2013-03-12,Published
+APMP-QM-KR-000000H8-1,Inorganic solutions,Elemental,beryllium,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-004,2013-03-12,Published
+APMP-QM-KR-000000HD-1,Inorganic solutions,Elemental,lithium,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-016,2013-03-12,Published
+APMP-QM-KR-000000HF-1,Inorganic solutions,Elemental,silver,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-026,2013-03-12,Published
+APMP-QM-KR-000000IB-1,Advanced materials,Polymers and plastics,"BDE 154 (2,2',4,4',5,6-hexabromodiphenyl ether)",plastic (HIPS),Mass fraction,1.0,1000.0,mg/kg,5.0,30.0,%,Relative,2.0,95.0,CRM,2010-07-19,Published
+APMP-QM-KR-000000IE-1,Advanced materials,Polymers and plastics,BDE 209 (decabromodiphenyl ether),plastic (HIPS),Mass fraction,1.0,1000.0,mg/kg,5.0,30.0,%,Relative,2.0,95.0,CRM,2010-07-19,Published
+APMP-QM-KR-000000IF-1,Advanced materials,Polymers and plastics,cadmium,ABS,Mass fraction,1.0,200.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 113-01-011, CRM 113-01-012, CRM 113-01-013, CRM 113-01-014, CRM 113-01-015",2012-09-06,Published
+APMP-QM-KR-000000IJ-1,Advanced materials,Polymers and plastics,lead,ABS,Mass fraction,10.0,2000.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 113-01-011, CRM 113-01-012, CRM 113-01-013, CRM 113-01-014, CRM 113-01-015",2012-09-06,Published
+APMP-QM-KR-000000IK-1,Advanced materials,Polymers and plastics,antimony,ABS,Mass fraction,10.0,2000.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 113-01-011, CRM 113-01-012, CRM 113-01-013, CRM 113-01-014, CRM 113-01-015",2012-09-06,Published
+APMP-QM-KR-000000IQ-1,Advanced materials,Polymers and plastics,mercury,polypropylene (PP),Mass fraction,10.0,2000.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 113-01-001, CRM 113-01-002, CRM 113-01-003, CRM 113-01-004, CRM 113-01-005",2013-06-13,Published
+APMP-QM-KR-000000IT-1,"Surfaces, films, and engineered nanomaterials",Inorganic,silicon dioxide,thermal silicon oxide on Si single crystal,Amount of SiO2 expressed as thickness of SiO2 on Si,1.5,8.0,nm,3.8,5.6,%,Relative,2.0,95.0,CRM 102-04-021,2013-06-13,Published
+APMP-QM-KR-000000IU-1,"Surfaces, films, and engineered nanomaterials",Inorganic,iron,Fe-Ni alloy film,Amount-of-substance fraction of Fe,0.477,0.512,mol/mol,5.8,6.8,%,Relative,2.0,95.0,CRM 103-04-012,2013-06-13,Published
+APMP-QM-KR-000000TW-1,Other materials,"Other than cements, paints, textiles, glasses, thin films, coatings, insulating materials, rubber, and adhesives",arsenic,cosmetic powder,Mass fraction,1.0,100.0,mg/kg,5.0,10.0,%,Relative,2.0,95.0,CRM 114-01-002,2016-01-20,Published
+APMP-QM-KR-000000TY-1,Other materials,"Other than cements, paints, textiles, glasses, thin films, coatings, insulating materials, rubber, and adhesives",arsenic,cosmetic cream,Mass fraction,1.0,100.0,mg/kg,8.5,10.0,%,Relative,2.0,95.0,CRM 114-01-004,2016-01-20,Published
+APMP-QM-KR-00000422-1,Gases,Environmental,nitrogen trifluoride,nitrogen,Amount-of-substance fraction,1e-05,0.1,mol/mol,0.5,0.5,%,Relative,2.0,95.0,CRM 112-01-2706N,2016-01-20,Published
+APMP-QM-KR-00000423-1,Gases,"Other than high purity, environmental, fuel, forensic, or medical",chloroform,nitrogen,Amount-of-substance fraction,0.0001,0.001,mol/mol,1.5,1.5,%,Relative,2.0,95.0,CRM 112-01-086,2016-01-20,Published
+APMP-QM-KR-00000428-1,Gases,"Other than high purity, environmental, fuel, forensic, or medical","1,2-dichloroethane",nitrogen,Amount-of-substance fraction,0.0001,0.001,mol/mol,1.5,1.5,%,Relative,2.0,95.0,CRM 112-01-091,2016-01-20,Published
+APMP-QM-KR-0000042D-1,Gases,Environmental,tetrachloroethylene,nitrogen,Amount-of-substance fraction,1e-05,0.0001,mol/mol,3.0,2.0,%,Relative,2.0,95.0,CRM 112-03-787,2016-01-20,Published
+APMP-QM-KR-0000042T-1,Gases,Environmental,dichlorodifluoromethane (CFC-12),air,Amount-of-substance fraction,5e-05,10.0,µmol/mol,0.5,0.5,%,Relative,2.0,95.0,CRM 112-011-037,2016-01-20,Published
+APMP-QM-KR-0000042W-1,Gases,Environmental,"1,1,1,2-tetrafluoroethane (HFC-134a)",air,Amount-of-substance fraction,5e-05,10.0,µmol/mol,10.0,10.0,%,Relative,2.0,95.0,CRM 112-011-040,2016-01-20,Published
+APMP-QM-KR-0000043H-1,Gases,"Other than high purity, environmental, fuel, forensic, or medical",methane,air,Amount-of-substance fraction,1.8,500000.0,µmol/mol,0.06,0.06,%,Relative,2.0,95.0,CRM 112-01-320M,2017-08-30,Published
+APMP-QM-KR-0000044O-1,Gases,Environmental,carbonyl sulfide,nitrogen,Amount-of-substance fraction,100.0,1000.0,µmol/mol,0.6,0.6,%,Relative,2.0,95.0,CRM 112-03-2502N,2018-09-26,Published
+APMP-QM-KR-0000044P-1,Gases,Environmental,carbon disulfide,nitrogen,Amount-of-substance fraction,100.0,1000.0,µmol/mol,0.6,0.6,%,Relative,2.0,95.0,CRM 112-03-2503N,2018-09-26,Published
+APMP-QM-KR-0000044Q-1,Gases,Environmental,methylmercaptan,nitrogen,Amount-of-substance fraction,100.0,1000.0,µmol/mol,0.6,0.6,%,Relative,2.0,95.0,CRM 112-03-2504N,2018-09-26,Published
+APMP-QM-KR-0000045A-1,Gases,Environmental,ethanethiol,methane,Amount-of-substance fraction,10.0,100.0,µmol/mol,0.6,0.6,%,Relative,2.0,95.0,CRM 112-03-6533M,2018-09-26,Published
+APMP-QM-KR-0000045F-1,Gases,Environmental,diethyl sulfide,nitrogen,Amount-of-substance fraction,0.5,10.0,µmol/mol,1.2,0.6,%,Relative,2.0,95.0,CRM112-03-790,2018-09-26,Published
+APMP-QM-KR-0000045I-1,Gases,Environmental,2-propanethiol,nitrogen,Amount-of-substance fraction,0.5,10.0,µmol/mol,1.2,0.6,%,Relative,2.0,95.0,CRM112-03-753,2018-09-26,Published
+APMP-QM-KR-0000045O-1,Gases,Environmental,dimethyl sulfide,nitrogen,Amount-of-substance fraction,10.0,100.0,µmol/mol,0.6,0.6,%,Relative,2.0,95.0,CRM112-03-736,2018-09-26,Published
+APMP-QM-KR-0000045R-1,Gases,Environmental,methanethiol,nitrogen,Amount-of-substance fraction,10.0,100.0,µmol/mol,0.6,0.6,%,Relative,2.0,95.0,CRM112-03-731,2018-09-26,Published
+APMP-QM-KR-00000461-1,Gases,Fuel,diethyl sulfide,methane,Amount-of-substance fraction,0.5,10.0,µmol/mol,1.2,0.6,%,Relative,2.0,95.0,CRM112-03-796,2018-09-26,Published
+APMP-QM-KR-00000469-1,Gases,Fuel,carbon disulfide,methane,Amount-of-substance fraction,10.0,100.0,µmol/mol,0.6,0.6,%,Relative,2.0,95.0,CRM112-03-728,2018-09-26,Published
+APMP-QM-KR-0000046G-1,Gases,Fuel,tetrahydrothiophene,methane,Amount-of-substance fraction,10.0,100.0,µmol/mol,0.6,0.6,%,Relative,2.0,95.0,CRM112-03-738,2018-09-26,Published
+APMP-QM-KR-0000046Y-1,Gases,Fuel,ethane,LPG,Amount-of-substance fraction,2.0,15.0,cmol/mol,1.1,1.1,%,Relative,2.0,95.0,"CRM112-01-361, CRM112-01-730",2018-09-26,Published
+APMP-QM-KR-00000475-1,Gases,"Other than high purity, environmental, fuel, forensic, or medical",neon,noble gases,Amount-of-substance fraction,0.1,96.0,cmol/mol,0.2,0.2,%,Relative,2.0,95.0,"CRM112-01-039, CRM112-040, CRM112-03-041, CRM112-03-042, CRM112-03-043, CRM112-03-044, CRM112-01-701",2018-09-26,Published
+APMP-QM-KR-000004EX-1,Food,Contaminants,cadmium,milk powder,Mass fraction,1.0,3.0,mg/kg,0.02,0.01,mg/kg,Absolute,2.0,95.0,Assignment of reference values for KOLAS proficiency test,2007-04-06,Published
+APMP-QM-KR-000004F0-1,Food,Nutritional constituents,iron,oyster tissue,Mass fraction,100.0,500.0,mg/kg,0.7,6.0,%,Absolute,2.0,95.0,Assignment of reference values for KOLAS proficiency test,2005-04-29,Published
+APMP-QM-KR-000004FK-1,Food,Nutritional constituents,retinol,dairy products,Mass fraction (dry mass base),1.0,100.0,mg/kg,5.0,1.0,%,Relative,2.0,95.0,CRM 108-02-001 and PT Providing,2013-06-13,Published
+APMP-QM-KR-000004FX-1,Food,Nutritional constituents,copper,rice,Mass fraction,1.0,1000.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-01-004, PT providing
+",2013-06-13,Published
+APMP-QM-KR-000004G2-1,Food,Nutritional constituents,copper,soybean,Mass fraction,1.0,1000.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-01-005, PT providing",2013-06-13,Published
+APMP-QM-KR-000004G9-1,Food,Nutritional constituents,iron,oyster,Mass fraction,1.0,1000.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-04-001, PT providing",2013-06-13,Published
+APMP-QM-KR-000004GC-1,Food,Contaminants,mercury,tuna,Mass fraction,0.1,1000.0,mg/kg,2.0,5.0,%,Relative,2.0,95.0,"CRM 108-04-002, PT providing",2013-06-13,Published
+APMP-QM-KR-000004GH-1,Food,Nutritional constituents,zinc,water dropwort,Mass fraction,1.0,1000.0,mg/kg,1.0,5.0,%,Absolute,2.0,95.0,"CRM 108-05-001, PT providing",2013-06-13,Published
+APMP-QM-KR-000004GJ-1,Food,Contaminants,tin,tomato paste,Mass fraction,100.0,500.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-05-005, PT providing",2013-06-13,Published
+APMP-QM-KR-000004GO-1,Food,Nutritional constituents,iron,chinese cabbage,Mass fraction,1.0,1000.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-05-002, PT providing",2013-06-13,Published
+APMP-QM-KR-000004GR-1,Food,Nutritional constituents,copper,infant formula,Mass fraction,1.0,200.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-02-002, PT providing",2013-06-13,Published
+APMP-QM-KR-000004GU-1,Food,Contaminants,cadmium,mushroom,Mass fraction,1.0,100.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-10-011, PT providing",2013-06-13,Published
+APMP-QM-KR-000004GX-1,Food,Nutritional constituents,copper,tea leaf,Mass fraction,1.0,200.0,mg/kg,0.5,5.0,%,Relative,2.0,95.0,"CRM 108-10-009, PT providing",2013-06-13,Published
+APMP-QM-KR-000004H1-1,Food,Contaminants,cadmium,hijiki,Mass fraction,0.5,100.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-10-002, PT providing",2013-06-13,Published
+APMP-QM-KR-000004H3-1,Food,Contaminants,cadmium,herb,Mass fraction,0.1,100.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-10-014, PT providing",2013-06-13,Published
+APMP-QM-KR-000004H4-1,Food,Contaminants,lead,herb,Mass fraction,0.5,100.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-10-014, PT providing",2013-06-13,Published
+APMP-QM-KR-000004H7-1,Food,Contaminants,arsenic,oyster,Mass fraction,1.0,100.0,mg/kg,2.0,10.0,%,Relative,2.0,95.0,"CRM 108-04-003, PT providing",2013-12-19,Published
+APMP-QM-KR-000004HF-1,Food,Nutritional constituents,riboflavin,dairy products,Mass fraction (dry mass base),0.5,300.0,mg/kg,5.0,1.0,%,Relative,2.0,95.0,CRM 108-02-003,2018-09-26,Published
+APMP-QM-KR-000004HH-1,Food,Nutritional constituents,pyridoxine,dairy products,Mass fraction (dry mass base),0.5,300.0,mg/kg,5.0,1.0,%,Relative,2.0,95.0,CRM 108-02-003,2018-09-26,Published
+APMP-QM-KR-000004HJ-1,Food,Nutritional constituents,delta-tocopherol,dairy products,Mass fraction (dry mass base),1.0,500.0,mg/kg,15.0,1.0,%,Relative,2.0,95.0,CRM 108-02-003,2018-09-26,Published
+APMP-QM-KR-000004HN-1,Food,Nutritional constituents,trans-phylloquinone,dairy products,Mass fraction (dry mass base),0.05,100.0,mg/kg,10.0,1.0,%,Relative,2.0,95.0,CRM 108-02-003,2018-09-26,Published
+APMP-QM-KR-000004HO-1,Food,Nutritional constituents,cholesterol,dairy products,Mass fraction (dry mass base),10.0,900.0,mg/kg,15.0,1.0,%,Relative,2.0,95.0,CRM 108-02-003,2018-09-26,Published
+APMP-QM-KR-000004HP-1,Food,Nutritional constituents,stearic acid,dairy products,Mass fraction (dry mass base),0.01,50.0,g/kg,10.0,1.0,%,Relative,2.0,95.0,CRM 108-02-003,2018-09-26,Published
+APMP-QM-KR-000004HQ-1,Food,Nutritional constituents,oleic acid,dairy products,Mass fraction (dry mass base),0.01,100.0,g/kg,10.0,1.0,%,Relative,2.0,95.0,CRM 108-02-003,2018-09-26,Published
+APMP-QM-KR-000004HX-1,Food,Nutritional constituents,cholecalciferol,food supplement,Mass fraction (dry mass base),0.1,500.0,mg/kg,10.0,1.0,%,Relative,2.0,95.0,CRM 108-02-003,2018-09-26,Published
+APMP-QM-KR-000004HZ-1,Food,Nutritional constituents,linoleic acid,dairy products,Mass fraction (dry mass base),0.001,100.0,g/kg,10.0,1.0,%,Relative,2.0,95.0,CRM 108-02-003,2018-09-26,Published
+APMP-QM-KR-000004I1-1,Food,Nutritional constituents,gamma-linolenic acid,dairy products,Mass fraction (dry mass base),1.0,1000.0,mg/kg,10.0,1.0,%,Relative,2.0,95.0,CRM 108-02-003,2018-09-26,Published
+APMP-QM-KR-000004I5-1,Food,Nutritional constituents,thiamin,rice,Mass fraction (dry mass base),0.1,500.0,mg/kg,10.0,1.0,%,Relative,2.0,95.0,CRM 108-01-007,2018-09-26,Published
+APMP-QM-KR-000004I6-1,Food,Nutritional constituents,thiamin,wheat,Mass fraction (dry mass base),0.1,500.0,mg/kg,10.0,1.0,%,Relative,2.0,95.0,"CRM 108-01-009, PT Providing",2018-09-26,Published
+APMP-QM-KR-000004I7-1,Food,Nutritional constituents,cis-phylloquinone,spinach,Mass fraction (dry mass base),0.05,500.0,mg/kg,25.0,1.0,%,Relative,2.0,95.0,CRM 108-05-010,2018-09-26,Published
+APMP-QM-KR-000004IA-1,Food,Nutritional constituents,trans-phylloquinone,cabbage,Mass fraction (dry mass base),0.1,500.0,mg/kg,20.0,1.0,%,Relative,2.0,95.0,CRM 108-05-011,2018-09-26,Published
+APMP-QM-KR-000004NB-1,Biological fluids and materials,Blood serum,creatinine,human serum (frozen),Mass fraction,2.0,100.0,mg/kg,0.3,1.5,mg/kg,Absolute,2.3,95.0,KRISS CRM 111-01-A,2001-10-21,Published
+APMP-QM-KR-000004ND-1,Biological fluids and materials,Blood serum,urea,human serum (frozen),Mass fraction,100.0,1200.0,mg/kg,1.8,22.0,mg/kg,Absolute,2.3,95.0,KRISS CRM 111-01-A,2001-10-21,Published
+APMP-QM-KR-000004NR-1,Biological fluids and materials,Blood serum,d-glucose,human serum (frozen or lyophilized),Mass fraction,200.0,4000.0,mg/kg,2.0,1.0,%,Relative,2.0,95.0,KRISS CRM 111-05-A1,2012-09-06,Published
+APMP-QM-KR-00000JWM-1,Advanced materials,Polymers and plastics,gamma-HBCD,plastic (HIPS),Mass fraction,50.0,500.0,mg/kg,5.0,2.0,%,Relative,2.0,95.0,CRM 113-03-009,2020-04-08,Published
+APMP-QM-KR-00000JWP-1,Advanced materials,Polymers and plastics,chrysene,plastic (HIPS),Mass fraction,200.0,2000.0,µg/kg,5.0,2.0,%,Relative,2.0,95.0,CRM 113-03-010,2020-04-08,Published
+APMP-QM-KR-00000JWY-1,Biological fluids and materials,Blood serum,5-methyltetrahydrofolic acid,plasma,Mass fraction,1.0,50.0,µg/kg,10.0,1.0,%,Relative,2.0,95.0,CRM 111-01-018,2020-04-08,Published
+APMP-QM-KR-0000043E-2,Gases,Environmental,sulfur dioxide,nitrogen,Amount-of-substance fraction,0.06,10.0,µmol/mol,100.0,0.3,%,Relative,2.0,95.0,CRM 112-03-520,2020-09-21,Published
+APMP-QM-KR-0000043F-2,Gases,Environmental,sulfur dioxide,nitrogen,Amount-of-substance fraction,10.0,500000.0,µmol/mol,0.3,0.3,%,Relative,2.0,95.0,CRM 112-03-522,2020-09-21,Published
+APMP-QM-KR-0000044G-2,Gases,Environmental,nitrogen dioxide,nitrogen,Amount-of-substance fraction,10.0,1000.0,µmol/mol,3.0,3.0,%,Relative,2.0,95.0,"CRM 112-03-529, CRM 112-03-530, CRM 112-03-531",2020-09-21,Published
+APMP-QM-KR-00000LNO-1,Food,Contaminants,chrysene,olive oil,Mass fraction,0.5,50.0,µg/kg,5.0,2.0,%,Relative,2.0,95.0,Assignment of reference values for KOLAS proficiency test,2020-09-21,Published
+APMP-QM-KR-00000LNQ-1,Food,Contaminants,benzo(a)pyrene,olive oil,Mass fraction,0.5,50.0,µg/kg,5.0,2.0,%,Relative,2.0,95.0,Assignment of reference values for KOLAS proficiency test,2020-09-21,Published
+APMP-QM-KR-0000042K-2,Gases,Environmental,tetrachloroethylene,nitrogen,Amount-of-substance fraction,20.0,100.0,nmol/mol,5.0,2.0,%,Relative,2.0,95.0,CRM 112-03-701,2021-10-25,Published
+APMP-QM-KR-0000042M-2,Gases,Environmental,"1,3-butadiene",nitrogen,Amount-of-substance fraction,20.0,100.0,nmol/mol,5.0,2.0,%,Relative,2.0,95.0,CRM 112-03-701,2021-10-25,Published
+APMP-QM-KR-00000471-2,Gases,Fuel,i-butane,LPG,Amount-of-substance fraction,1.0,95.0,cmol/mol,0.8,0.8,%,Relative,2.0,95.0,"CRM112-01-361, CRM112-01-730",2021-10-25,Published
+APMP-QM-KR-00000474-3,Gases,Fuel,isopentane,LPG,Amount-of-substance fraction,1.0,15.0,cmol/mol,1.7,1.7,%,Relative,2.0,95.0,"CRM112-01-361, CRM112-01-730",2021-10-25,Published
+APMP-QM-KR-00000433-4,Gases,"Other than high purity, environmental, fuel, forensic, or medical",carbon dioxide,nitrogen or air or synthetic air,Amount-of-substance fraction,0.05,10.0,µmol/mol,100.0,0.05,%,Relative,2.0,95.0,CRM 112-01-2141N,2022-05-25,Published
+APMP-QM-KR-000003XI-2,Gases,"Other than high purity, environmental, fuel, forensic, or medical",argon,air,Amount-of-substance fraction,1e-05,0.5,mol/mol,5.0,0.2,%,Relative,2.0,95.0,CRM 112-01-3136,2022-08-24,Published
+APMP-QM-KR-000003YZ-2,Gases,Environmental,m-xylene,nitrogen,Amount-of-substance fraction,1e-05,0.0001,mol/mol,3.0,2.0,%,Relative,2.0,95.0,CRM 112-03-2403M,2022-09-19,Published
+APMP-QM-KR-000003Z1-2,Gases,Environmental,o-xylene,nitrogen,Amount-of-substance fraction,1e-05,0.0001,mol/mol,3.0,2.0,%,Relative,2.0,95.0,CRM 112-03-2405M,2022-09-19,Published
+APMP-QM-KR-0000040L-3,Gases,Environmental,o-xylene,nitrogen,Amount-of-substance fraction,1e-06,1e-05,mol/mol,3.0,2.0,%,Relative,2.0,95.0,CRM 112-03-2405L,2022-10-06,Published
+APMP-QM-KR-00000NMB-1,Food,Contaminants,Clothianidin,chinese cabbage,Mass fraction (dry mass correction),0.1,50.0,mg/kg,4.0,1.0,%,Relative,2.0,95.0,CRM 108-05-013,2022-05-13,Published
+APMP-QM-KR-00000NMH-1,Food,Nutritional constituents,linoleic acid,rice,Mass fraction (dry mass correction),10.0,5000.0,mg/kg,10.0,2.0,%,Relative,2.4,95.0,CRM 108-01-007,2022-05-13,Published
+APMP-QM-KR-00000OBT-1,Food,Contaminants,chrysene,Soybean oil,Mass fraction,0.5,50.0,µg/kg,5.0,2.0,%,Relative,2.0,95.0,CRM,2023-11-09,Published
+APMP-QM-KR-00000OBU-1,Food,Contaminants,benzo(b)fluoranthene,Soybean oil,Mass fraction,0.5,50.0,µg/kg,7.0,2.0,%,Relative,2.0,95.0,CRM,2023-11-09,Published
+APMP-QM-KR-00000OC1-1,Advanced materials,Polymers and plastics,dicyclohexyl phthalate,Plastic (PVC),Mass fraction,300.0,1000.0,mg/kg,7.0,2.0,%,Relative,2.0,95.0,CRM 113-03-011,2023-11-09,Published
+APMP-QM-KR-00000OCQ-1,Food,Nutritional constituents,zinc,Kimchi,Mass fraction,20.0,200.0,mg/kg,2.0,5.0,%,Relative,2.0,95.0,"CRM, PT providing, calibration service",2023-11-09,Published
+APMP-QM-KR-0000041E-3,Gases,Environmental,benzene,nitrogen,Amount-of-substance fraction,5.0,10000.0,nmol/mol,5.0,5.0,%,Relative,2.0,95.0,CRM 112-03-2417M,2025-08-25,Published
+APMP-QM-KR-0000044N-2,Gases,Environmental,hydrogen sulfide,nitrogen,Amount-of-substance fraction,10.0,500.0,µmol/mol,0.9,0.9,%,Relative,2.0,95.0,CRM 112-03-2501M,2025-08-25,Published
+APMP-QM-KR-00000QC1-1,Gases,Environmental,ozone,air,Amount -of-substance fraction,0.0,1000.0,nmol/mol,1.0,9.2,nmol/mol,Absolute,2.0,95.0,Calibration service with SRP,2025-08-25,Published
+APMP-QM-KR-000000GL-1,Inorganic solutions,Elemental,arsenic,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-003,2013-03-12,Published
+APMP-QM-KR-000000GR-1,Inorganic solutions,Elemental,iron,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-014,2013-03-12,Published
+APMP-QM-KR-000000GV-1,Inorganic solutions,Elemental,mercury,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-019,2013-03-12,Published
+APMP-QM-KR-000000GW-1,Inorganic solutions,Elemental,molybdenum,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-020,2013-03-12,Published
+APMP-QM-KR-000000H7-1,Inorganic solutions,Elemental,antimony,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-002,2013-03-12,Published
+APMP-QM-KR-000000HB-1,Inorganic solutions,Elemental,gadolinium,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-012,2013-03-12,Published
+APMP-QM-KR-000000HE-1,Inorganic solutions,Elemental,silicon,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-025,2013-03-12,Published
+APMP-QM-KR-000000IC-1,Advanced materials,Polymers and plastics,"BDE 183 (2,2',3,4,4',5',6-heptabromodiphenyl ether)",plastic (HIPS),Mass fraction,1.0,1000.0,mg/kg,5.0,30.0,%,Relative,2.0,95.0,CRM,2010-07-19,Published
+APMP-QM-KR-000000ID-1,Advanced materials,Polymers and plastics,"BDE 206 (2,2',3,3',4,4',5,5',6-nonabromodiphenyl ether)",plastic (HIPS),Mass fraction,1.0,1000.0,mg/kg,5.0,30.0,%,Relative,2.0,95.0,CRM,2010-07-19,Published
+APMP-QM-KR-000000IN-1,Advanced materials,Polymers and plastics,antimony,acrylonitrile butadiene styrene (ABS),Mass fraction,10.0,2000.0,mg/kg,2.5,10.0,%,Relative,2.0,95.0,"CRM 113-01-011, CRM 113-01-012, CRM 113-01-013, CRM 113-01-014, CRM 113-01-015",2013-06-13,Published
+APMP-QM-KR-000000IR-1,Advanced materials,Polymers and plastics,lead,polypropylene (PP),Mass fraction,10.0,2000.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 113-01-001, CRM 113-01-002, CRM 113-01-003, CRM 113-01-004, CRM 113-01-005",2013-06-13,Published
+APMP-QM-KR-000000TX-1,Other materials,"Other than cements, paints, textiles, glasses, thin films, coatings, insulating materials, rubber, and adhesives",arsenic,cosmetic cream,Mass fraction,1.0,100.0,mg/kg,5.0,10.0,%,Relative,2.0,95.0,CRM 114-01-003,2016-01-20,Published
+APMP-QM-KR-0000042B-1,Gases,Environmental,trichloromethane,nitrogen,Amount-of-substance fraction,1e-05,0.0001,mol/mol,3.0,2.0,%,Relative,2.0,95.0,CRM 112-03-783,2016-01-20,Published
+APMP-QM-KR-0000042X-1,Gases,Environmental,chlorodifluoroethane (HCFC-22),air,Amount-of-substance fraction,5e-05,10.0,µmol/mol,8.0,8.0,%,Relative,2.0,95.0,CRM 112-011-041,2016-01-20,Published
+APMP-QM-KR-00000447-1,Gases,"Other than high purity, environmental, fuel, forensic, or medical",ethanol,air,Amount-of-substance fraction,50.0,500.0,µmol/mol,0.53,0.53,%,Relative,2.0,95.0,CRM 112-01-3331N,2018-09-26,Published
+APMP-QM-KR-0000044S-1,Gases,Environmental,dimethyl disulfide,nitrogen,Amount-of-substance fraction,100.0,1000.0,µmol/mol,0.6,0.6,%,Relative,2.0,95.0,CRM 112-03-2510N,2018-09-26,Published
+APMP-QM-KR-0000044Z-1,Gases,Environmental,helium,neon,Amount-of-substance fraction,0.1,96.0,cmol/mol,0.2,0.2,%,Relative,2.0,95.0,CRM-112-01-00000,2018-09-26,Published
+APMP-QM-KR-00000455-1,Gases,Environmental,helium,argon,Amount-of-substance fraction,0.1,1.0,cmol/mol,0.2,0.2,%,Relative,2.0,95.0,CRM-112-01-00000,2018-09-26,Published
+APMP-QM-KR-0000045G-1,Gases,Environmental,methanethiol,nitrogen,Amount-of-substance fraction,0.5,10.0,µmol/mol,1.2,0.6,%,Relative,2.0,95.0,CRM112-03-730,2018-09-26,Published
+APMP-QM-KR-0000045N-1,Gases,Environmental,carbon disulfide,nitrogen,Amount-of-substance fraction,10.0,100.0,µmol/mol,0.6,0.6,%,Relative,2.0,95.0,CRM112-03-728,2018-09-26,Published
+APMP-QM-KR-0000045V-1,Gases,Environmental,2-methyl-2-propanethiol,nitrogen,Amount-of-substance fraction,10.0,100.0,µmol/mol,0.6,0.6,%,Relative,2.0,95.0,CRM112-03-740,2018-09-26,Published
+APMP-QM-KR-00000465-1,Gases,Fuel,1-propanethiol,methane,Amount-of-substance fraction,0.5,10.0,µmol/mol,1.2,0.6,%,Relative,2.0,95.0,CRM112-03-795,2018-09-26,Published
+APMP-QM-KR-00000466-1,Gases,Fuel,2-methyl-2-propanethiol,methane,Amount-of-substance fraction,0.5,10.0,µmol/mol,1.2,0.6,%,Relative,2.0,95.0,CRM112-03-739,2018-09-26,Published
+APMP-QM-KR-0000046A-1,Gases,Fuel,dimethyl sulfide,methane,Amount-of-substance fraction,10.0,100.0,µmol/mol,0.6,0.6,%,Relative,2.0,95.0,CRM112-03-734,2018-09-26,Published
+APMP-QM-KR-0000046F-1,Gases,Fuel,2-methyl-2-propanethiol,methane,Amount-of-substance fraction,10.0,100.0,µmol/mol,0.6,0.6,%,Relative,2.0,95.0,CRM112-03-740,2018-09-26,Published
+APMP-QM-KR-000004EV-1,Food,Contaminants,chromium,oyster tissue,Mass fraction,0.2,1.0,mg/kg,0.1,0.05,mg/kg,Absolute,2.0,95.0,CRM 108-04-001,2007-04-06,Published
+APMP-QM-KR-000004FC-1,Food,"Other than nutritional constituents, contaminants, and GMOs",propyl 4-hydroxybenzonate,"beverage, fruit juice",Mass fraction,1.0,2000.0,mg/kg,4.0,1.0,%,Absolute,2.0,95.0,PT Providing,2013-06-13,Published
+APMP-QM-KR-000004FG-1,Food,"Other than nutritional constituents, contaminants, and GMOs",ibuprofen,phamarceutical tablet or powder,Mass fraction,0.1,0.9,kg/kg,3.0,1.0,%,Relative,2.0,95.0,CRM 111-09-001 and PT Providing,2013-06-13,Published
+APMP-QM-KR-000004G1-1,Food,Contaminants,cadmium,soybean,Mass fraction,0.1,100.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-01-005, PT providing",2013-06-13,Published
+APMP-QM-KR-000004G3-1,Food,Nutritional constituents,iron,soybean,Mass fraction,1.0,1000.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-01-005, PT providing",2013-06-13,Published
+APMP-QM-KR-000004G7-1,Food,Nutritional constituents,copper,oyster,Mass fraction,1.0,1000.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-04-001, PT providing",2013-06-13,Published
+APMP-QM-KR-000004GA-1,Food,Contaminants,mercury,oyster,Mass fraction,0.1,1000.0,mg/kg,2.0,5.0,%,Relative,2.0,95.0,"CRM 108-04-001, PT providing",2013-06-13,Published
+APMP-QM-KR-000004GI-1,Food,Nutritional constituents,iron,water dropwort,Mass fraction,1.0,1000.0,mg/kg,1.0,5.0,%,Absolute,2.0,95.0,"CRM 108-05-001, PT providing",2013-06-13,Published
+APMP-QM-KR-000004GQ-1,Food,Contaminants,lead,ginseng,Mass fraction,0.1,100.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-10-006, PT providing",2013-06-13,Published
+APMP-QM-KR-000004GS-1,Food,Nutritional constituents,iron,infant formula,Mass fraction,10.0,200.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-02-002, PT providing",2013-06-13,Published
+APMP-QM-KR-000004GV-1,Food,Contaminants,lead,mushroom,Mass fraction,1.0,100.0,mg/kg,2.0,10.0,%,Relative,2.0,95.0,"CRM 108-10-011, PT providing",2013-06-13,Published
+APMP-QM-KR-000004GW-1,Food,Contaminants,chromium,tea leaf,Mass fraction,0.1,100.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-10-009, PT providing",2013-06-13,Published
+APMP-QM-KR-000004GY-1,Food,Nutritional constituents,iron,tea leaf,Mass fraction,1.0,200.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-10-009, PT providing",2013-06-13,Published
+APMP-QM-KR-000004H6-1,Food,Contaminants,arsenic,oyster,Mass fraction,1.0,100.0,mg/kg,2.5,5.0,%,Relative,2.0,95.0,"CRM 108-04-003, PT providing",2013-12-19,Published
+APMP-QM-KR-000004HA-1,Food,Contaminants,carbaryl,kimchi cabbage,Mass fraction (dry mass correction),0.01,50.0,mg/kg,10.0,1.0,%,Relative,2.0,95.0,CRM 108-05-006,2018-09-26,Published
+APMP-QM-KR-000004HG-1,Food,Nutritional constituents,pantothenic acid,dairy products,Mass fraction (dry mass base),0.5,500.0,mg/kg,5.0,1.0,%,Relative,2.0,95.0,"CRM 108-02-003, PT Providing",2018-09-26,Published
+APMP-QM-KR-000004HK-1,Food,Nutritional constituents,gamma-tocopherol,dairy products,Mass fraction (dry mass base),1.0,500.0,mg/kg,15.0,1.0,%,Relative,2.0,95.0,CRM 108-02-003,2018-09-26,Published
+APMP-QM-KR-000004HL-1,Food,Nutritional constituents,cholecalciferol,dairy products,Mass fraction (dry mass base),1.0,500.0,µg/kg,15.0,1.0,%,Relative,2.0,95.0,CRM 108-02-003,2018-09-26,Published
+APMP-QM-KR-000004HM-1,Food,Nutritional constituents,cis-phylloquinone,dairy products,Mass fraction (dry mass base),0.05,100.0,mg/kg,15.0,1.0,%,Relative,2.0,95.0,CRM 108-02-003,2018-09-26,Published
+APMP-QM-KR-000004HR-1,Food,Nutritional constituents,thiamin,food supplement,Mass fraction (dry mass base),0.1,100.0,g/kg,10.0,1.0,%,Relative,2.0,95.0,CRM 108-10-019,2018-09-26,Published
+APMP-QM-KR-000004HS-1,Food,Nutritional constituents,riboflavin,food supplement,Mass fraction (dry mass base),0.1,300.0,g/kg,15.0,1.0,%,Relative,2.0,95.0,CRM 108-10-019,2018-09-26,Published
+APMP-QM-KR-000004HT-1,Food,Nutritional constituents,pantothenic acid,food supplement,Mass fraction (dry mass base),0.1,500.0,g/kg,10.0,1.0,%,Relative,2.0,95.0,CRM 108-10-019,2018-09-26,Published
+APMP-QM-KR-000004HV-1,Food,Nutritional constituents,biotin,food supplement,Mass fraction (dry mass base),0.5,100.0,mg/kg,10.0,1.0,%,Relative,2.0,95.0,CRM 108-10-019,2018-09-26,Published
+APMP-QM-KR-000004HY-1,Food,Nutritional constituents,biotin,dairy products,Mass fraction (dry mass base),0.5,50.0,mg/kg,5.0,1.0,%,Relative,2.0,95.0,CRM 108-02-003,2018-09-26,Published
+APMP-QM-KR-000004I8-1,Food,Nutritional constituents,trans-phylloquinone,spinach,Mass fraction (dry mass base),0.1,500.0,mg/kg,20.0,1.0,%,Relative,2.0,95.0,CRM 108-05-010,2018-09-26,Published
+APMP-QM-KR-000004N8-1,Biological fluids and materials,Blood serum,creatinine,serum (frozen),Mass fraction,5.0,15.0,µg/g,1.5,1.0,%,Relative,2.0,95.0,KRISS CRM 110-02-01,2007-04-06,Published
+APMP-QM-KR-000004NC-1,Biological fluids and materials,Blood serum,uric acid,human serum (frozen),Mass fraction,10.0,150.0,mg/kg,0.15,1.3,mg/kg,Absolute,2.3,95.0,KRISS CRM 111-01-A,2001-10-21,Published
+APMP-QM-KR-000004NE-1,Biological fluids and materials,Blood serum,d-glucose,human serum (frozen),Mass fraction,200.0,2000.0,mg/kg,5.0,30.0,mg/kg,Absolute,2.3,95.0,KRISS CRM 111-02-A,2008-12-15,Published
+APMP-QM-KR-000004NF-1,Biological fluids and materials,Blood serum,creatinine,human serum (frozen),Mass fraction,2.0,100.0,mg/kg,0.3,1.5,mg/kg,Absolute,2.3,95.0,KRISS CRM 111-02-A,2001-10-21,Published
+APMP-QM-KR-000004NG-1,Biological fluids and materials,Blood serum,uric acid,human serum (frozen),Mass fraction,10.0,150.0,mg/kg,0.15,1.3,mg/kg,Absolute,2.3,95.0,KRISS CRM 111-02-A,2001-10-21,Published
+APMP-QM-KR-000004NH-1,Biological fluids and materials,Blood serum,urea,human serum (frozen),Mass fraction,100.0,1200.0,mg/kg,1.8,22.0,mg/kg,Absolute,2.3,95.0,KRISS CRM 111-02-A,2001-10-21,Published
+APMP-QM-KR-000004NK-1,Biological fluids and materials,Blood serum,uric acid,human serum (lyophilized),Mass fraction,10.0,150.0,mg/kg,0.15,1.3,mg/kg,Absolute,2.3,95.0,KRISS CRM 111-03-A,2001-10-21,Published
+APMP-QM-KR-000004NL-1,Biological fluids and materials,Blood serum,urea,human serum (lyophilized),Mass fraction,100.0,1200.0,mg/kg,1.8,22.0,mg/kg,Absolute,2.3,95.0,KRISS CRM 111-03-A,2001-10-21,Published
+APMP-QM-KR-000004NN-1,Biological fluids and materials,Blood serum,creatinine,human serum (lyophilized),Mass fraction,2.0,100.0,mg/kg,0.3,1.5,mg/kg,Absolute,2.3,95.0,KRISS CRM 111-04-A,2001-10-21,Published
+APMP-QM-KR-00000JNO-1,Gases,Environmental,alpha-pinene,nitrogen or synthetic air,Amount-of-substance fraction,1.0,500.0,nmol/mol,1.9,1.9,%,Relative,2.0,95.0,CRM109-02-003,2020-03-06,Published
+APMP-QM-KR-00000JNQ-1,Gases,Environmental,R-limonene,nitrogen or synthetic air,Amount-of-substance fraction,1.0,500.0,nmol/mol,2.9,2.9,%,Relative,2.0,95.0,CRM109-02-003,2020-03-06,Published
+APMP-QM-KR-00000JNR-1,Gases,Environmental,"1,8-cineole",nitrogen or synthetic air,Amount-of-substance fraction,1.0,500.0,nmol/mol,3.2,3.2,%,Relative,2.0,95.0,CRM109-02-003,2020-03-06,Published
+APMP-QM-KR-00000JNS-1,Gases,"Other than high purity, environmental, fuel, forensic, or medical",water,nitrogen or air,Amount-of-substance fraction,0.14,10.0,µmol/mol,100.0,1.3,%,Relative,2.0,95.0,"CRM 112-01-600, CRM 112-01-602, calibration",2020-03-06,Published
+APMP-QM-KR-00000JWT-1,Advanced materials,Polymers and plastics,dibutyl phthalate,Plastic (PVC),Mass fraction,300.0,1000.0,mg/kg,5.0,2.0,%,Relative,2.0,95.0,CRM 113-03-006,2020-04-08,Published
+APMP-QM-KR-00000JWX-1,Biological fluids and materials,Blood serum,folic acid,plasma,Mass fraction,0.06,5.0,µg/kg,20.0,5.0,%,Relative,2.0,95.0,CRM 111-01-018,2020-04-08,Published
+APMP-QM-KR-00000LNG-1,Organic solutions,Pesticides,"Organophosphorous pesticides (including diazinon, chlorpyrifos, etc, pKow<-2 and M.W.<500)","General organic solvents (such as acetonitrile, methanol, tetrahydrofuran, toluens, etc) for calibration solutions",Mass fraction,0.1,100.0,mg/kg,5.0,2.0,%,Relative,2.0,95.0,"CRM
+Certification service
+PT providing for water analysis",2020-09-21,Published
+APMP-QM-KR-00000LNH-1,Organic solutions,"Other than PAHs, PCBs, and pesticides",Phthalate esters ( pKow<-2 and M.W.<500),"General organic solvents (such as acetonitrile, tetrahydrofuran, toluens, etc) for calibration solutions",Mass fraction,0.1,100.0,mg/kg,5.0,2.0,%,Relative,2.0,95.0,"CRM
+Certification service",2020-09-21,Published
+APMP-QM-KR-00000LNI-1,Organic solutions,"Other than PAHs, PCBs, and pesticides","Hexabromocyclododecanes (HBCDs, pKow<-2 and M.W.<500)","General organic solvents (such as acetonitrile, tetrahydrofuran, toluens, etc) for calibration solutions",Mass fraction,0.1,100.0,mg/kg,5.0,2.0,%,Relative,2.0,95.0,"CRM
+Certification service",2020-09-21,Published
+APMP-QM-KR-00000LNK-1,Organic solutions,"Other than PAHs, PCBs, and pesticides","Alkylbenzenes (such as benzene, toluene, ethylbenzene,xylenes, pKow<-2 and M.W.<500)","General organic solvents (such as acetonitrile, methanol, etc) for calibration solutions",Mass fraction,20.0,1000.0,mg/kg,2.0,1.0,%,Relative,2.0,95.0,"CRM
+Certification service
+PT providing for water analysis",2020-09-21,Published
+APMP-QM-KR-0000043C-2,Gases,Environmental,nitrogen monoxide,nitrogen,Amount-of-substance fraction,0.06,10.0,µmol/mol,100.0,0.6,%,Relative,2.0,95.0,CRM 112-03-503,2020-09-21,Published
+APMP-QM-KR-0000043D-2,Gases,Environmental,nitrogen monoxide,nitrogen,Amount-of-substance fraction,10.0,500000.0,µmol/mol,0.6,0.6,%,Relative,2.0,95.0,CRM 112-03-505,2020-09-21,Published
+APMP-QM-KR-0000044A-2,Gases,Medical,helium,nitrogen,Amount-of-substance fraction,90000.0,120000.0,µmol/mol,1.5,1.5,%,Relative,2.0,95.0,CRM 112-02-2831P,2020-09-21,Published
+APMP-QM-KR-0000047B-2,Gases,Environmental,carbon monoxide,nitrogen,Amount-of-substance fraction,10.0,500000.0,µmol/mol,0.3,0.3,%,Relative,2.0,95.0,CRM 112-03-550,2020-09-21,Published
+APMP-QM-KR-00000LNN-1,Food,Contaminants,benz(a)anthracene,olive oil,Mass fraction,0.5,50.0,µg/kg,5.0,2.0,%,Relative,2.0,95.0,CRM 108-04-001,2020-09-21,Published
+APMP-QM-KR-00000LNP-1,Food,Contaminants,benzo(b)fluoranthene,olive oil,Mass fraction,0.5,50.0,µg/kg,7.0,2.0,%,Relative,2.0,95.0,Assignment of reference values for KOLAS proficiency test,2020-09-21,Published
+APMP-QM-KR-00000LNS-1,Food,Contaminants,enrofloxacin,animal meat products,Mass fraction,20.0,25000.0,µg/kg,15.0,4.5,%,Relative,2.0,95.0,Assignment of reference values for KOLAS proficiency test,2020-09-21,Published
+APMP-QM-KR-00000450-2,Gases,Environmental,krypton,neon,Amount-of-substance fraction,0.1,96.0,cmol/mol,0.2,0.2,%,Relative,2.0,95.0,CRM-112-01-00000,2021-10-25,Published
+APMP-QM-KR-00000453-2,Gases,Environmental,krypton,neon,Amount-of-substance fraction,0.1,96.0,cmol/mol,0.2,0.2,%,Relative,2.0,95.0,CRM-112-01-00000,2021-10-25,Published
+APMP-QM-KR-00000457-2,Gases,Environmental,xenon,argon,Amount-of-substance fraction,0.001,0.1,cmol/mol,0.2,0.2,%,Relative,2.0,95.0,CRM-112-01-00000,2021-10-25,Published
+APMP-QM-KR-00000458-2,Gases,Environmental,neon,argon,Amount-of-substance fraction,1.0,10.0,cmol/mol,0.2,0.2,%,Relative,2.0,95.0,CRM-112-01-00000,2021-10-25,Published
+APMP-QM-KR-0000046R-2,Gases,Fuel,tetrahydrothiophene,methane,Amount-of-substance fraction,1.0,100.0,µmol/mol,6.0,0.6,%,Relative,2.0,95.0,"CRM112-03-753, CRM112-03-754, CRM112-03-755",2021-10-25,Published
+APMP-QM-KR-0000046U-2,Gases,Fuel,methanethiol,methane,Amount-of-substance fraction,1.0,100.0,µmol/mol,6.0,0.6,%,Relative,2.0,95.0,CRM112-03-777,2021-10-25,Published
+APMP-QM-KR-00000473-2,Gases,Fuel,but-1-ene,LPG,Amount-of-substance fraction,1.0,15.0,cmol/mol,0.8,0.8,%,Relative,2.0,95.0,"CRM112-01-361, CRM112-01-730",2021-10-25,Published
+APMP-QM-KR-00000476-2,Gases,"Other than high purity, environmental, fuel, forensic, or medical",helium,noble gases,Amount-of-substance fraction,0.1,96.0,cmol/mol,0.2,0.2,%,Relative,2.0,95.0,"CRM112-01-039, CRM112-040, CRM112-03-041, CRM112-03-042, CRM112-03-043, CRM112-03-044, CRM112-01-701",2021-10-25,Published
+APMP-QM-KR-00000479-2,Gases,"Other than high purity, environmental, fuel, forensic, or medical",xenon,noble gases,Amount-of-substance fraction,0.1,96.0,cmol/mol,0.2,0.2,%,Relative,2.0,95.0,"CRM112-01-039, CRM112-040, CRM112-03-041, CRM112-03-042, CRM112-03-043, CRM112-03-044, CRM112-01-701",2021-10-25,Published
+APMP-QM-KR-000003XO-2,Gases,Environmental,trifluoromethane,nitrogen,Amount-of-substance fraction,1e-05,0.1,mol/mol,1.0,0.5,%,Relative,2.0,95.0,CRM 112-01-2711N,2022-09-19,Published
+APMP-QM-KR-000003YE-2,Gases,"Other than high purity, environmental, fuel, forensic, or medical",argon,neon,Amount-of-substance fraction,0.01,0.03,mol/mol,2.0,2.0,%,Relative,2.0,95.0,CRM 112-01-9121P,2022-08-24,Published
+APMP-QM-KR-000003YY-2,Gases,Environmental,toluene,nitrogen,Amount-of-substance fraction,1e-05,0.0001,mol/mol,3.0,2.0,%,Relative,2.0,95.0,CRM 112-03-2402M,2022-09-19,Published
+APMP-QM-KR-000003Z3-2,Gases,Environmental,styrene,nitrogen,Amount-of-substance fraction,1e-05,0.0001,mol/mol,3.0,2.0,%,Relative,2.0,95.0,CRM 112-03-2413M,2022-10-06,Published
+APMP-QM-KR-0000040K-2,Gases,Environmental,m-xylene,nitrogen,Amount-of-substance fraction,1e-06,1e-05,mol/mol,3.0,2.0,%,Relative,2.0,95.0,CRM 112-03-2403L,2022-10-06,Published
+APMP-QM-KR-00000NMF-1,Food,Nutritional constituents,alpha-linolenic acid,kimchi cabbage,Mass fraction (dry mass correction),10.0,20000.0,mg/kg,10.0,1.0,%,Relative,2.3,95.0,CRM 108-05-011,2022-05-13,Published
+APMP-QM-KR-00000OBE-1,Food,Nutritional constituents,iron,oyster,Mass fraction,50.0,1000.0,mg/kg,2.7,5.0,%,Relative,2.0,95.0,"CRM, PT providing, calibration service",2023-11-09,Published
+APMP-QM-KR-00000OBX-1,Advanced materials,Polymers and plastics,Benzo(k)fluoranthene,plastic (HIPS),Mass fraction,200.0,2000.0,µg/kg,5.0,2.0,%,Relative,2.0,95.0,CRM 113-03-010,2023-11-09,Published
+APMP-QM-KR-00000OCO-1,Food,Nutritional constituents,iron,Kimchi,Mass fraction,40.0,200.0,mg/kg,4.0,8.0,%,Relative,2.0,95.0,"CRM, PT providing, calibration service",2023-11-09,Published
+APMP-QM-KR-00000OCP-1,Food,Nutritional constituents,magnesium,Kimchi,Mass fraction,1000.0,5000.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM, PT providing, calibration service",2023-11-09,Published
+APMP-QM-KR-00000OCU-1,Food,Nutritional constituents,zinc,kimchi cabbage,Mass fraction,50.0,500.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM, PT providing, calibration service",2023-11-09,Published
+APMP-QM-KR-000004FT-3,Food,Contaminants,beta-endosulfan,chinese cabbage,Mass fraction (dry mass base),0.1,1.5,mg/kg,4.0,1.0,%,Relative,2.0,95.0,CRM 108-05-013 and PT service,2025-07-21,Published
+APMP-QM-KR-000004FU-2,Food,Contaminants,alpha-endosulfan,ginseng,Mass fraction (dry mass base),0.1,1.0,mg/kg,4.0,2.0,%,Relative,2.0,95.0,PT service,2025-07-21,Published
+APMP-QM-KR-000004FI-2,Food,Nutritional constituents,nicotinamide,food supplement,Mass fraction,10.0,100.0,g/kg,7.0,1.0,%,Relative,2.0,95.0,CRM 108-10-019,2025-07-21,Published
+APMP-QM-KR-0000047D-3,Gases,Environmental,nitrous oxide,nitrogen,Amount-of-substance fraction,0.2,500000.0,µmol/mol,0.2,0.2,%,Relative,2.0,95.0,CRM112-03-570 CRM112-03-571 CRM112-03-572,2025-08-25,Published
+APMP-QM-KR-000000GN-1,Inorganic solutions,Elemental,cadmium,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-006,2013-03-12,Published
+APMP-QM-KR-000000GS-1,Inorganic solutions,Elemental,lead,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-015,2013-03-12,Published
+APMP-QM-KR-000000GU-1,Inorganic solutions,Elemental,manganese,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-018,2013-03-12,Published
+APMP-QM-KR-000000H0-1,Inorganic solutions,Elemental,selenium,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-024,2013-03-12,Published
+APMP-QM-KR-000000H2-1,Inorganic solutions,Elemental,tin,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-028,2013-03-12,Published
+APMP-QM-KR-000000H9-1,Inorganic solutions,Elemental,calcium,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-007,2013-03-12,Published
+APMP-QM-KR-000000HA-1,Inorganic solutions,Elemental,cesium,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-011,2013-03-12,Published
+APMP-QM-KR-000000HG-1,Inorganic solutions,Elemental,titanium,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-029,2013-03-12,Published
+APMP-QM-KR-000000HH-1,Inorganic solutions,Elemental,tungsten,monoelemental aqueous solution,Mass fraction,0.9,1.1,g/kg,0.1,0.5,%,Relative,2.0,95.0,CRM 105-02-030,2013-03-12,Published
+APMP-QM-KR-000000IG-1,Advanced materials,Polymers and plastics,chromium,ABS,Mass fraction,10.0,2000.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 113-01-011, CRM 113-01-012, CRM 113-01-013, CRM 113-01-014, CRM 113-01-015",2012-09-06,Published
+APMP-QM-KR-000000IL-1,Advanced materials,Polymers and plastics,arsenic,acrylonitrile butadiene styrene (ABS),Mass fraction,10.0,2000.0,mg/kg,2.5,5.0,%,Relative,2.0,95.0,"CRM 113-01-011, CRM 113-01-012, CRM 113-01-013, CRM 113-01-014, CRM 113-01-015",2013-06-13,Published
+APMP-QM-KR-000000IM-1,Advanced materials,Polymers and plastics,bromine,acrylonitrile butadiene styrene (ABS),Mass fraction,10.0,2000.0,mg/kg,2.5,10.0,%,Relative,2.0,95.0,"CRM 113-01-011, CRM 113-01-012, CRM 113-01-013, CRM 113-01-014, CRM 113-01-015",2013-06-13,Published
+APMP-QM-KR-000000IP-1,Advanced materials,Polymers and plastics,chromium,polypropylene (PP),Mass fraction,10.0,2000.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 113-01-001, CRM 113-01-002, CRM 113-01-003, CRM 113-01-004, CRM 113-01-005",2013-06-13,Published
+APMP-QM-KR-000000IS-1,Advanced materials,Polymers and plastics,zinc,polypropylene (PP),Mass fraction,10.0,2000.0,mg/kg,5.0,10.0,%,Relative,2.0,95.0,"CRM 113-01-001, CRM 113-01-002, CRM 113-01-003, CRM 113-01-004, CRM 113-01-005",2013-06-13,Published
+APMP-QM-KR-000000TZ-1,Other materials,"Other than cements, paints, textiles, glasses, thin films, coatings, insulating materials, rubber, and adhesives",lead,cosmetic cream,Mass fraction,1.0,100.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 114-01-003, CRM 114-01-004",2016-01-20,Published
+APMP-QM-KR-000003Q0-1,High purity chemicals,Inorganic compounds,oxidant expressed as potassium dichromate,high purity potassium dichromate,Mass fraction,99.9,100.0,%,0.0035,0.0043,%,Relative,2.0,95.0,KRISS CRM 104-02-003,2018-09-26,Published
+APMP-QM-KR-0000041Z-1,Gases,Environmental,nitrous oxide,air,Amount-of-substance fraction,2e-07,2e-05,mol/mol,0.2,0.2,%,Relative,2.0,95.0,CRM 112-01-3146N,2016-01-20,Published
+APMP-QM-KR-00000429-1,Gases,Environmental,chlorobenzene,nitrogen,Amount-of-substance fraction,1e-05,0.0001,mol/mol,3.0,2.0,%,Relative,2.0,95.0,CRM 112-03-713,2016-01-20,Published
+APMP-QM-KR-0000042O-1,Gases,"Other than high purity, environmental, fuel, forensic, or medical",chloromethane,nitrogen,Amount-of-substance fraction,1e-05,0.0001,mol/mol,3.0,2.0,%,Relative,2.0,95.0,CRM 112-01-086,2016-01-20,Published
+APMP-QM-KR-0000042R-1,Gases,"Other than high purity, environmental, fuel, forensic, or medical","1,1-dichloroethane",nitrogen,Amount-of-substance fraction,1e-05,0.0001,mol/mol,3.0,2.0,%,Relative,2.0,95.0,CRM 112-01-090,2016-01-20,Published
+APMP-QM-KR-0000042Y-1,Gases,Environmental,"1-chloro-1,1-difluoroethane (HCFC-142b)",air,Amount-of-substance fraction,1.5e-05,10.0,µmol/mol,10.0,10.0,%,Relative,2.0,95.0,CRM 112-011-042,2016-01-20,Published
+APMP-QM-KR-00000431-1,Gases,"Other than high purity, environmental, fuel, forensic, or medical",oxygen,nitrogen,Amount-of-substance fraction,0.02,10.0,µmol/mol,100.0,0.02,%,Relative,2.0,95.0,CRM 112-01-2131N,2017-08-30,Published
+APMP-QM-KR-0000043J-1,Gases,Forensic,ethanol,nitrogen,Amount-of-substance fraction,50.0,500.0,µmol/mol,0.53,0.53,%,Relative,2.0,95.0,CRM 112-05-294,2018-09-26,Published
+APMP-QM-KR-0000045L-1,Gases,Environmental,tetrahydrothiophene,nitrogen,Amount-of-substance fraction,0.5,10.0,µmol/mol,1.2,0.6,%,Relative,2.0,95.0,CRM112-03-737,2018-09-26,Published
+APMP-QM-KR-0000045M-1,Gases,Environmental,carbonyl sulfide,nitrogen,Amount-of-substance fraction,10.0,100.0,µmol/mol,0.6,0.6,%,Relative,2.0,95.0,CRM112-03-725,2018-09-26,Published
+APMP-QM-KR-0000045Q-1,Gases,Environmental,diethyl sulfide,nitrogen,Amount-of-substance fraction,10.0,100.0,µmol/mol,0.6,0.6,%,Relative,2.0,95.0,CRM112-03-796,2018-09-26,Published
+APMP-QM-KR-0000045S-1,Gases,Environmental,ethanethiol,nitrogen,Amount-of-substance fraction,10.0,100.0,µmol/mol,0.6,0.6,%,Relative,2.0,95.0,CRM112-03-781,2018-09-26,Published
+APMP-QM-KR-00000463-1,Gases,Fuel,ethanethiol,methane,Amount-of-substance fraction,0.5,10.0,µmol/mol,1.2,0.6,%,Relative,2.0,95.0,CRM112-03-780,2018-09-26,Published
+APMP-QM-KR-00000467-1,Gases,Fuel,tetrahydrothiophene,methane,Amount-of-substance fraction,0.5,10.0,µmol/mol,1.2,0.6,%,Relative,2.0,95.0,CRM112-03-739,2018-09-26,Published
+APMP-QM-KR-0000046B-1,Gases,Fuel,ethyl methyl sulfide,methane,Amount-of-substance fraction,10.0,100.0,µmol/mol,0.6,0.6,%,Relative,2.0,95.0,CRM112-03-791,2018-09-26,Published
+APMP-QM-KR-0000046D-1,Gases,Fuel,2-propanethiol,methane,Amount-of-substance fraction,10.0,100.0,µmol/mol,0.6,0.6,%,Relative,2.0,95.0,CRM112-03-740,2018-09-26,Published
+APMP-QM-KR-0000046E-1,Gases,Fuel,1-propanethiol,methane,Amount-of-substance fraction,10.0,100.0,µmol/mol,0.6,0.6,%,Relative,2.0,95.0,CRM112-03-795,2018-09-26,Published
+APMP-QM-KR-0000046S-1,Gases,Fuel,hydrogen sulfide,methane,Amount-of-substance fraction,1.0,100.0,µmol/mol,11.0,1.1,%,Relative,2.0,95.0,CRM112-03-777,2018-09-26,Published
+APMP-QM-KR-0000046X-1,Gases,Environmental,dimethyl sulfide,nitrogen,Amount-of-substance fraction,0.5,10.0,nmol/mol,3.0,3.0,%,Relative,2.0,95.0,CRM112-03-733,2018-09-26,Published
+APMP-QM-KR-000004EY-1,Food,Contaminants,cadmium,oyster tissue,Mass fraction,2.0,12.0,mg/kg,0.5,3.0,%,Absolute,2.0,95.0,Assignment of reference values for KOLAS proficiency test,2005-04-29,Published
+APMP-QM-KR-000004FY-1,Food,Contaminants,lead,rice,Mass fraction,0.1,100.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-01-003, PT providing
+",2013-06-13,Published
+APMP-QM-KR-000004FZ-1,Food,Nutritional constituents,zinc,rice,Mass fraction,1.0,1000.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-01-004, PT providing",2013-06-13,Published
+APMP-QM-KR-000004G5-1,Food,Contaminants,lead,oyster,Mass fraction,0.1,100.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-04-001, PT providing",2013-06-13,Published
+APMP-QM-KR-000004G6-1,Food,Contaminants,cadmium,oyster,Mass fraction,0.1,100.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-04-001, CRM 108-04-003, PT providing",2013-06-13,Published
+APMP-QM-KR-000004G8-1,Food,Nutritional constituents,zinc,oyster,Mass fraction,1.0,1000.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-04-001, PT providing",2013-06-13,Published
+APMP-QM-KR-000004GB-1,Food,Nutritional constituents,selenium,oyster,Mass fraction,1.0,1000.0,mg/kg,4.0,10.0,%,Relative,2.0,95.0,"CRM 108-04-001, PT providing",2013-06-13,Published
+APMP-QM-KR-000004GD-1,Food,Nutritional constituents,selenium,tuna,Mass fraction,1.0,1000.0,mg/kg,4.0,10.0,%,Relative,2.0,95.0,"CRM 108-04-002, PT providing",2013-06-13,Published
+APMP-QM-KR-000004GE-1,Food,Nutritional constituents,zinc,tuna,Mass fraction,1.0,1000.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-04-002, PT providing",2013-06-13,Published
+APMP-QM-KR-000004GF-1,Food,Contaminants,lead,water dropwort,Mass fraction,0.1,100.0,mg/kg,1.0,5.0,%,Absolute,2.0,95.0,"CRM 108-05-001, PT providing",2013-06-13,Published
+APMP-QM-KR-000004GG-1,Food,Nutritional constituents,copper,water dropwort,Mass fraction,1.0,1000.0,mg/kg,1.0,5.0,%,Absolute,2.0,95.0,"CRM 108-05-001, PT providing",2013-06-13,Published
+APMP-QM-KR-000004GL-1,Food,Contaminants,cadmium,tomato paste,Mass fraction,0.1,100.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-05-005, PT providing",2013-06-13,Published
+APMP-QM-KR-000004GN-1,Food,Nutritional constituents,zinc,chinese cabbage,Mass fraction,1.0,1000.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-05-002, PT providing",2013-06-13,Published
+APMP-QM-KR-000004H0-1,Food,Nutritional constituents,zinc,tea leaf,Mass fraction,1.0,100.0,mg/kg,1.0,5.0,%,Relative,2.0,95.0,"CRM 108-10-009, PT providing",2013-06-13,Published
+APMP-QM-KR-000004H9-1,Food,Contaminants,acrylamide,"potatochip paste, grains",Mass fraction,0.1,20.0,mg/kg,1.5,1.0,%,Relative,2.0,95.0,CRM 10810-003,2016-01-20,Published
+APMP-QM-KR-000004HD-1,Food,Contaminants,chloramphenicol,dairy products,Mass fraction,0.1,10.0,µg/kg,5.0,2.0,%,Relative,2.0,95.0,CRM 108-05-008,2018-09-26,Published
+APMP-QM-KR-000004HI-1,Food,Nutritional constituents,alpha-ocopherol,dairy products,Mass fraction (dry mass base),1.0,500.0,mg/kg,15.0,1.0,%,Relative,2.0,95.0,CRM 108-02-003,2018-09-26,Published
+APMP-QM-KR-000004HW-1,Food,Nutritional constituents,folic acid,food supplement,Mass fraction (dry mass base),0.1,500.0,mg/kg,10.0,1.0,%,Relative,2.0,95.0,CRM 108-10-019,2018-09-26,Published
+APMP-QM-KR-000004I2-1,Food,Nutritional constituents,arachidonic acid,dairy products,Mass fraction (dry mass base),1.0,3000.0,mg/kg,10.0,1.0,%,Relative,2.0,95.0,CRM 108-02-003,2018-09-26,Published
+APMP-QM-KR-000004NI-1,Biological fluids and materials,Blood serum,d-glucose,human serum (lyophilized),Mass fraction,200.0,2000.0,mg/kg,5.0,30.0,mg/kg,Absolute,2.3,95.0,KRISS CRM 111-03-A,2008-12-15,Published
+APMP-QM-KR-000004NJ-1,Biological fluids and materials,Blood serum,creatinine,human serum (lyophilized),Mass fraction,2.0,100.0,mg/kg,0.3,1.5,mg/kg,Absolute,2.3,95.0,KRISS CRM 111-03-A,2001-10-21,Published
+APMP-QM-KR-000004NO-1,Biological fluids and materials,Blood serum,uric acid,human serum (lyophilized),Mass fraction,10.0,150.0,mg/kg,0.15,1.3,mg/kg,Absolute,2.3,95.0,KRISS CRM 111-04-A,2001-10-21,Published
+APMP-QM-KR-000004NP-1,Biological fluids and materials,Blood serum,urea,human serum (lyophilized),Mass fraction,100.0,1200.0,mg/kg,1.8,22.0,mg/kg,Absolute,2.3,95.0,KRISS CRM 111-04-A,2001-10-21,Published
+APMP-QM-KR-00000JNP-1,Gases,Environmental,3-carene,nitrogen or synthetic air,Amount-of-substance fraction,1.0,500.0,nmol/mol,2.7,2.7,%,Relative,2.0,95.0,CRM109-02-003,2020-03-06,Published
+APMP-QM-KR-00000JNU-1,Gases,Environmental,sulfur hexafluoride,nitrogen or air,Amount-of-substance fraction,5e-06,10.0,µmol/mol,0.08,0.08,%,Relative,2.0,95.0,CRM 112-01-2166N,2020-03-06,Published
+APMP-QM-KR-00000420-2,Gases,Environmental,sulfur hexafluoride,nitrogen or air,Amount-of-substance fraction,1e-05,0.1,mol/mol,0.08,0.08,%,Relative,2.0,95.0,CRM 112-01-2166N,2020-03-06,Published
+APMP-QM-KR-00000436-2,Gases,"Other than high purity, environmental, fuel, forensic, or medical",propane,nitrogen or air,Amount-of-substance fraction,0.01,10.0,µmol/mol,100.0,0.1,%,Relative,2.0,95.0,"CRM 112-01-316,317,318",2020-03-06,Published
+APMP-QM-KR-00000437-2,Gases,"Other than high purity, environmental, fuel, forensic, or medical",propane,nitrogen or air,Amount-of-substance fraction,10.0,500000.0,µmol/mol,0.1,0.1,%,Relative,2.0,95.0,"CRM 112-01-317, 318",2020-03-06,Published
+APMP-QM-KR-00000JWN-1,Advanced materials,Polymers and plastics,benzo[a]pyrene,plastic (HIPS),Mass fraction,200.0,2000.0,µg/kg,5.0,2.0,%,Relative,2.0,95.0,CRM 113-03-010,2020-04-08,Published
+APMP-QM-KR-00000JWO-1,Advanced materials,Polymers and plastics,benzo[b]fluoranthene,plastic (HIPS),Mass fraction,200.0,2000.0,µg/kg,8.0,2.0,%,Relative,2.0,95.0,CRM 113-03-010,2020-04-08,Published
+APMP-QM-KR-00000JWQ-1,Advanced materials,Polymers and plastics,"dibenz[a,h]anthracene",plastic (HIPS),Mass fraction,200.0,2000.0,µg/kg,5.0,2.0,%,Relative,2.0,95.0,CRM 113-03-010,2020-04-08,Published
+APMP-QM-KR-00000JWR-1,Advanced materials,Polymers and plastics,dimethyl phthalate,Plastic (PVC),Mass fraction,300.0,1000.0,mg/kg,5.0,2.0,%,Relative,2.0,95.0,CRM 113-03-006,2020-04-08,Published
+APMP-QM-KR-00000JWS-1,Advanced materials,Polymers and plastics,diethyl phthalate,Plastic (PVC),Mass fraction,300.0,1000.0,mg/kg,5.0,2.0,%,Relative,2.0,95.0,CRM 113-03-006,2020-04-08,Published
+APMP-QM-KR-00000JWV-1,Advanced materials,Polymers and plastics,di(2-ethylhexyl) phthalate,Plastic (PVC),Mass fraction,300.0,1000.0,mg/kg,5.0,2.0,%,Relative,2.0,95.0,CRM 113-03-006,2020-04-08,Published
+APMP-QM-KR-00000JWW-1,Advanced materials,Polymers and plastics,di-n-octyl phthalate,Plastic (PVC),Mass fraction,300.0,1000.0,mg/kg,5.0,2.0,%,Relative,2.0,95.0,CRM 113-03-006,2020-04-08,Published
+APMP-QM-KR-00000LND-1,Organic solutions,PAHs,"PAHs (Polycyclic aromatic hydrocarbons, pKow<-2 and M.W.<500)","General organic solvents (such as acetonitrile, tetrahydrofuran, toluene, etc) for calibration solutions",Mass fraction,0.1,100.0,mg/kg,5.0,2.0,%,Relative,2.0,95.0,"CRM
+Certification cervice",2020-09-21,Published
+APMP-QM-KR-00000LNE-1,Organic solutions,PCBs,"PCBs (Polychlorinated biphenyls, pKow<-2 and M.W.<550)","General organic solvents (such as acetonitrile, tetrahydrofuran, toluens, etc) for calibration solutions",Mass fraction,0.1,100.0,mg/kg,5.0,2.0,%,Relative,2.0,95.0,"CRM
+Certification service",2020-09-21,Published
+APMP-QM-KR-00000LNF-1,Organic solutions,Pesticides,"Chlorinated pesticides (including DDE, DDT, HCH, endosulfanes, etc, pKow<-2 and M.W.<500)","General organic solvents (such as acetonitrile, methanol, tetrahydrofuran, toluens, etc) for calibration solutions",Mass fraction,0.1,100.0,mg/kg,5.0,2.0,%,Relative,2.0,95.0,"CRM
+Certification service",2020-09-21,Published
+APMP-QM-KR-00000LNJ-1,Organic solutions,"Other than PAHs, PCBs, and pesticides","Polybrominated diphenyl ethers (PBDEs, pKow<-2 and M.W.<500)","General organic solvents (such as acetonitrile, tetrahydrofuran, toluens, etc) for calibration solutions",Mass fraction,0.1,100.0,mg/kg,5.0,2.0,%,Relative,2.0,95.0,"CRM
+Certification service",2020-09-21,Published
+APMP-QM-KR-00000LNL-1,Organic solutions,"Other than PAHs, PCBs, and pesticides",tri- and tetra-halogenated methanes (halogens are limited to chlorine and bromine),"General organic solvents (such as acetonitrile, methanol, etc) for calibration solutions",Mass fraction,20.0,1000.0,mg/kg,2.0,1.0,%,Relative,2.0,95.0,"CRM
+Certification service
+PT providing for water analysis",2020-09-21,Published
+APMP-QM-KR-0000043X-2,Gases,"Other than high purity, environmental, fuel, forensic, or medical",neon,nitrogen,Amount-of-substance fraction,5000.0,10000.0,µmol/mol,1.5,1.5,%,Relative,2.0,95.0,CRM 112-01-2825O,2020-09-21,Published
+APMP-QM-KR-00000440-2,Gases,"Other than high purity, environmental, fuel, forensic, or medical",ethene,nitrogen,Amount-of-substance fraction,10000.0,50000.0,µmol/mol,1.5,1.5,%,Relative,2.0,95.0,CRM 112-1-2852P,2020-09-21,Published
+APMP-QM-KR-00000443-2,Gases,"Other than high purity, environmental, fuel, forensic, or medical",oxygen,nitrogen,Amount-of-substance fraction,10.0,500000.0,µmol/mol,0.3,0.3,%,Relative,2.0,95.0,CRM 112-1-2851P,2020-09-21,Published
+APMP-QM-KR-00000435-2,Gases,"Other than high purity, environmental, fuel, forensic, or medical",ethane,nitrogen,Amount-of-substance fraction,10.0,500000.0,µmol/mol,0.3,0.3,%,Relative,2.0,95.0,CRM 112-01-2216N,2020-09-21,Published
+APMP-QM-KR-00000LNR-1,Food,Contaminants,ciprofloxacin,animal meat products,Mass fraction,20.0,5000.0,µg/kg,15.0,3.5,%,Relative,2.0,95.0,Assignment of reference values for KOLAS proficiency test,2020-09-21,Published
+APMP-QM-KR-0000042J-2,Gases,Environmental,trichloroethylene,nitrogen,Amount-of-substance fraction,20.0,100.0,nmol/mol,5.0,2.0,%,Relative,2.0,95.0,CRM 112-03-701,2021-10-25,Published
+APMP-QM-KR-0000042L-2,Gases,Environmental,"1,2-dichloroethane",nitrogen,Amount-of-substance fraction,20.0,100.0,nmol/mol,5.0,2.0,%,Relative,2.0,95.0,CRM 112-03-701,2021-10-25,Published
+APMP-QM-KR-00000454-2,Gases,Environmental,xenon,neon,Amount-of-substance fraction,0.001,0.2,cmol/mol,0.2,0.2,%,Relative,2.0,95.0,CRM-112-01-00000,2021-10-25,Published
+APMP-QM-KR-0000046L-2,Gases,Environmental,"1,8-cineole",nitrogen or synthetic air,Amount-of-substance fraction,1.0,500.0,nmol/mol,3.2,3.2,%,Relative,2.0,95.0,CRM109-02-003,2021-10-25,Published
+APMP-QM-KR-0000046T-2,Gases,Fuel,carbonyl sulfide,methane,Amount-of-substance fraction,1.0,100.0,µmol/mol,6.0,0.6,%,Relative,2.0,95.0,CRM112-03-777,2021-10-25,Published
+APMP-QM-KR-0000046Z-2,Gases,Fuel,propane,LPG,Amount-of-substance fraction,1.0,95.0,cmol/mol,0.9,0.9,%,Relative,2.0,95.0,"CRM112-01-361, CRM112-01-730",2021-10-25,Published
+APMP-QM-KR-00000434-4,Gases,"Other than high purity, environmental, fuel, forensic, or medical",carbon dioxide,nitrogen or air or synthetic air,Amount-of-substance fraction,10.0,500000.0,µmol/mol,0.05,0.05,%,Relative,2.0,95.0,"CRM 112-01-2141O, CRM 112-03-164A",2022-05-25,Published
+APMP-QM-KR-000003XN-2,Gases,Environmental,hexafluoroethane,nitrogen,Amount-of-substance fraction,1e-05,0.1,mol/mol,1.0,0.5,%,Relative,2.0,95.0,CRM 112-01-2716N,2022-09-19,Published
+APMP-QM-KR-000003Z2-2,Gases,Environmental,ethylbenzene,nitrogen,Amount-of-substance fraction,1e-05,0.0001,mol/mol,3.0,2.0,%,Relative,2.0,95.0,CRM 112-03-2406M,2022-10-06,Published
+APMP-QM-KR-0000040M-2,Gases,Environmental,ethylbenzene,nitrogen,Amount-of-substance fraction,1e-06,1e-05,mol/mol,3.0,2.0,%,Relative,2.0,95.0,CRM 112-03-2406L,2022-10-06,Published
+APMP-QM-KR-00000NMC-1,Food,Contaminants,Thiamethoxam,kimchi cabbage,Mass fraction (dry mass correction),0.1,50.0,mg/kg,4.0,1.0,%,Relative,2.0,95.0,CRM 108-05-013,2022-05-13,Published
+APMP-QM-KR-00000OBV-1,Food,Contaminants,benzo(a)pyrene,Soybean oil,Mass fraction,0.5,50.0,µg/kg,5.0,2.0,%,Relative,2.0,95.0,CRM,2023-11-09,Published
+APMP-QM-KR-00000OC2-1,Advanced materials,Polymers and plastics,di-n-hexyl phthalate,Plastic (PVC),Mass fraction,300.0,1000.0,mg/kg,7.0,2.0,%,Relative,2.0,95.0,CRM 113-03-011,2023-11-09,Published
+APMP-QM-KR-00000OC3-1,Advanced materials,Polymers and plastics,di-n-pentyl phthalate,Plastic (PVC),Mass fraction,300.0,1000.0,mg/kg,5.0,2.0,%,Relative,2.0,95.0,CRM 113-03-011,2023-11-09,Published
+APMP-QM-KR-00000OCM-1,Food,Contaminants,mercury,Kimchi,Mass fraction,0.2,2.0,mg/kg,2.8,5.0,%,Relative,2.0,95.0,"CRM, PT providing, calibration service",2023-11-09,Published
+APMP-QM-KR-000004FM-2,Food,Contaminants,diazinon,chinese cabbage,Mass fraction (dry mass base),0.1,1.0,mg/kg,4.0,2.1,%,Relative,2.0,95.0,CRM 108-05-013 and PT providing,2026-01-09,Published
+APMP-QM-KR-000004FV-2,Food,Contaminants,beta-endosulfan,ginseng,Mass fraction (dry mass base),0.1,1.0,mg/kg,5.0,2.0,%,Relative,2.0,95.0,PT service,2025-07-21,Published
+APMP-QM-KR-000004FQ-2,Food,Contaminants,chlorpyrifos,ginseng,Mass fraction (dry mass base),0.1,1.0,mg/kg,4.0,2.0,%,Relative,2.0,95.0,PT service,2025-07-21,Published
+APMP-QM-KR-000004FJ-2,Food,Nutritional constituents,folic acid,dairy products,Mass fraction (dry mass base),0.5,50.0,mg/kg,8.0,1.0,%,Relative,2.0,95.0,CRM 108-02-003 and PT providing,2025-10-14,Published
+APMP-QM-KR-000003Z0-3,Gases,Environmental,p-xylene,nitrogen,Amount-of-substance fraction,5.0,10000.0,nmol/mol,5.0,5.0,%,Relative,2.0,95.0,CRM 112-03-2404M,2025-08-25,Published
+APMP-QM-KR-0000041G-3,Gases,Environmental,m-xylene,nitrogen,Amount-of-substance fraction,5.0,10000.0,nmol/mol,5.0,5.0,%,Relative,2.0,95.0,CRM 112-03-2417M,2025-08-25,Published
+APMP-QM-KR-0000042I-2,Gases,Environmental,dichloromethane,nitrogen,Amount-of-substance fraction,20.0,100.0,nmol/mol,5.0,2.0,%,Relative,2.0,95.0,CRM 112-03-701,2021-10-25,Published
+APMP-QM-KR-0000042N-2,Gases,Environmental,chloroethylene,nitrogen,Amount-of-substance fraction,20.0,100.0,nmol/mol,5.0,2.0,%,Relative,2.0,95.0,CRM 112-03-701,2021-10-25,Published
+APMP-QM-KR-0000044Y-2,Gases,Environmental,trimethylamine,nitrogen,Amount-of-substance fraction,100.0,1000.0,µmol/mol,3.0,3.0,%,Relative,2.0,95.0,CRM 112-03-2565N,2021-10-25,Published
+APMP-QM-KR-00000451-2,Gases,Environmental,xenon,neon,Amount-of-substance fraction,0.1,96.0,cmol/mol,0.2,0.2,%,Relative,2.0,95.0,CRM-112-01-00000,2021-10-25,Published
+APMP-QM-KR-00000456-2,Gases,Environmental,krypton,argon,Amount-of-substance fraction,0.05,0.5,cmol/mol,0.2,0.2,%,Relative,2.0,95.0,CRM-112-01-00000,2021-10-25,Published
+APMP-QM-KR-0000046K-2,Gases,Environmental,R-limonene,nitrogen or synthetic air,Amount-of-substance fraction,1.0,500.0,nmol/mol,2.9,2.9,%,Relative,2.0,95.0,CRM109-02-003,2021-10-25,Published
+APMP-QM-KR-00000472-2,Gases,Fuel,n-butane,LPG,Amount-of-substance fraction,1.0,95.0,cmol/mol,0.9,0.9,%,Relative,2.0,95.0,"CRM112-01-361, CRM112-01-730",2021-10-25,Published
+APMP-QM-KR-000003YX-3,Gases,Environmental,benzene,nitrogen,Amount-of-substance fraction,1e-05,0.0001,mol/mol,3.0,2.0,%,Relative,2.0,95.0,CRM 112-03-2401M,2022-09-19,Published
+APMP-QM-KR-0000040N-2,Gases,Environmental,trichlorofluoromethane,nitrogen,Amount-of-substance fraction,1.0,1000.0,µmol/mol,1.0,1.0,%,Relative,2.0,95.0,CRM 112-01-2180Q,2022-10-06,Published
+APMP-QM-KR-000003Z7-3,Gases,Environmental,n-octane,nitrogen,Amount-of-substance fraction,1e-05,0.0001,mol/mol,3.0,2.0,%,Relative,2.0,95.0,CRM 112-03-2414M,2022-10-06,Published
+APMP-QM-KR-0000040X-3,Gases,Environmental,nitrogen trifluoride,air,Amount-of-substance fraction,10.0,1000.0,µmol/mol,2.0,1.0,%,Relative,2.0,95.0,CRM-112-01-00000,2022-05-25,Published
+APMP-QM-KR-000003XQ-3,Gases,"Other than high purity, environmental, fuel, forensic, or medical",oxygen,helium,Amount-of-substance fraction,0.01,0.05,mol/mol,1.5,1.5,%,Relative,2.0,95.0,CRM 112-01-1822P,2022-10-06,Published
+APMP-QM-KR-00000NMA-1,Food,Contaminants,Imidacloprid,kimchi cabbage,Mass fraction (dry mass correction),0.1,50.0,mg/kg,4.0,1.0,%,Relative,2.0,95.0,CRM 108-05-013,2022-05-13,Published
+APMP-QM-KR-00000NMG-1,Food,Nutritional constituents,linoleic acid,kimchi cabbage,Mass fraction (dry mass correction),10.0,2000.0,mg/kg,10.0,2.0,%,Relative,2.4,95.0,CRM 108-05-011,2022-05-13,Published
+APMP-QM-KR-00000OBD-1,Food,Nutritional constituents,calcium,oyster,Mass fraction,20.0,10000.0,mg/kg,2.2,15.0,%,Relative,2.0,95.0,"CRM, PT providing, calibration service",2023-11-09,Published
+APMP-QM-KR-00000OBW-1,Advanced materials,Polymers and plastics,benz(a)anthracene,plastic (HIPS),Mass fraction,200.0,2000.0,µg/kg,5.0,2.0,%,Relative,2.0,95.0,CRM 113-03-010,2023-11-09,Published
+APMP-QM-KR-00000OCN-1,Food,Nutritional constituents,calcium,Kimchi,Mass fraction,1500.0,10000.0,mg/kg,1.0,10.0,%,Relative,2.0,95.0,"CRM, PT providing, calibration service",2023-11-09,Published
+APMP-QM-KR-000004FS-2,Food,Contaminants,alpha-endosulfan,chinese cabbage,Mass fraction (dry mass base),0.1,1.0,mg/kg,4.0,1.0,%,Relative,2.0,95.0,CRM 108-05-013 and PT providing,2025-07-21,Published
+APMP-QM-KR-000004FE-2,Food,Contaminants,chlorpyrifos,chinese cabbage,Mass fraction (dry mass base),0.1,1.0,mg/kg,4.0,2.1,%,Relative,2.0,95.0,CRM 108-05-013 and PT providing,2026-01-09,Published
+APMP-QM-KR-000004FP-2,Food,Contaminants,diazinon,ginseng,Mass fraction (dry mass base),0.1,1.0,mg/kg,4.0,2.0,%,Relative,2.0,95.0,PT service,2025-07-21,Published
+APMP-QM-KR-000004FR-2,Food,Contaminants,gamma-HCH,ginseng,Mass fraction,0.2,50.0,mg/kg,3.0,1.0,%,Relative,2.0,95.0,PT Providing,2025-10-14,Published
+APMP-QM-KR-000004FO-2,Food,Contaminants,"p,p'-DDE",ginseng,Mass fraction (dry mass base),0.1,1.0,mg/kg,3.0,1.0,%,Relative,2.0,95.0,PT Providing,2025-07-21,Published
+APMP-QM-KR-0000040W-3,Gases,Environmental,carbon tetrafluoride,nitrogen or air,Amount-of-substance fraction,10.0,1000.0,µmol/mol,0.2,0.2,%,Relative,2.0,95.0,CRM-112-01-00000,2025-08-25,Published
+APMP-QM-KR-0000040S-3,Gases,Environmental,carbon tetrafluoride,nitrogen or air,Amount-of-substance fraction,0.15,10.0,µmol/mol,10.0,0.15,%,Relative,2.0,95.0,CRM-112-01-****,2025-08-25,Published
+APMP-QM-KR-0000041F-3,Gases,Environmental,toluene,nitrogen,Amount-of-substance fraction,5.0,10000.0,nmol/mol,4.1,4.1,%,Relative,2.0,95.0,CRM 112-03-2417M,2025-08-25,Published
+APMP-QM-KR-0000046M-2,Gases,Environmental,hydrogen sulfide,nitrogen,Amount-of-substance fraction,1.0,10.0,µmol/mol,8.1,0.9,%,Relative,2.0,95.0,CRM112-03-721,2025-08-25,Published
+APMP-QM-KR-0000044X-2,Gases,Environmental,ammonia,nitrogen,Amount-of-substance fraction,10.0,1000.0,µmol/mol,1.6,1.6,%,Relative,2.0,95.0,CRM 112-03-2565N,2025-08-25,Published
+APMP-QM-KR-0000042F-2,Gases,Environmental,ozone,air,Amount-of-substance fraction,0.0,1000.0,nmol/mol,1.0,22.0,nmol/mol,Absolute,2.0,95.0,Calibration service with SRP,2025-08-25,Published

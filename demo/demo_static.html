@@ -1,0 +1,90 @@
+<!doctype html><meta charset="utf-8">
+<title>CiteSage 화학소재측정본부판 — 근거 범위를 검토한 질의 데모</title>
+<style>
+  :root{--paper:#FBFAF7;--ink:#1B2530;--ink2:#5A6675;--muted:#8B96A3;--line:#E4E0D8;
+    --panel:#F3F0EA;--panel-br:#E0DBD1;--spine:#C8792E;--chip:#EFEAE1;--chip-br:#DED7CB}
+  body{margin:0;background:var(--paper);color:var(--ink);
+    font:15px/1.65 -apple-system,'Noto Sans KR',sans-serif}
+  .wrap{max-width:1200px;margin:0 auto;padding:34px 28px 60px}
+  .eyebrow{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em;
+    color:var(--muted);text-transform:uppercase}
+  h1{font-size:30px;margin:6px 0 8px}
+  .lede{color:var(--ink2);max-width:74ch;margin:0 0 18px}
+  .contract{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 18px}
+  .badge{border:1px solid var(--panel-br);background:var(--panel);border-radius:999px;
+    padding:4px 9px;font:11px/1.3 ui-monospace,Menlo,monospace;color:var(--ink2)}
+  .badge.pass{border-color:#A9C7B1;background:#EDF6EF;color:#28623A}
+  .qs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+  .qs button{border:1px solid var(--panel-br);background:#fff;border-radius:10px;
+    padding:9px 14px;font:inherit;font-size:13.5px;cursor:pointer;color:var(--ink2);text-align:left}
+  .qs button.on{background:var(--spine);border-color:var(--spine);color:#fff}
+  .layout{display:grid;grid-template-columns:1.6fr 1fr;gap:18px;align-items:start}
+  .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px 24px}
+  .card h2{font-size:16px;margin:0 0 10px;color:var(--ink)}
+  .answer p{margin:0 0 10px}.answer li{margin:0 0 8px}
+  .answer h3{font-size:14.5px;margin:18px 0 8px;color:var(--spine)}
+  .answer li.sub{margin-left:14px;list-style:'– ';color:var(--ink2)}
+  .answer table{border-collapse:collapse;width:100%;margin:0 0 14px;font-size:13.5px}
+  .answer th,.answer td{border:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top}
+  .answer th{background:var(--panel);font-weight:600}
+  .answer{max-height:none}
+  .chip{display:inline-block;background:var(--chip);border:1px solid var(--chip-br);
+    border-radius:7px;padding:0 6px;font-family:ui-monospace,Menlo,monospace;font-size:12px;
+    color:var(--ink2);text-decoration:none}
+  .chip.hot{background:var(--spine);border-color:var(--spine);color:#fff}
+  .panel{background:var(--panel);border:1px solid var(--panel-br);border-radius:14px;
+    padding:18px 20px;position:sticky;top:16px}
+  .panel .empty{color:var(--muted)}
+  .src{background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:0 0 10px}
+  .src b{display:block;margin-bottom:4px;font-size:14px}
+  .src .meta{color:var(--muted);font-size:12.5px}
+  .src a{color:var(--spine)}
+  .src.hot{outline:2px solid var(--spine)}
+  .foot{margin-top:22px;font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:12px;max-width:82ch}
+</style>
+<div class="wrap">
+  <div class="eyebrow">KRISS 7,970편 + 배경 문헌 10,882편 · citation-grounded assistant</div>
+  <h1>CiteSage 화학소재측정본부판 — 인용에 근거한 답변</h1>
+  <p class="lede">혼합 코퍼스에서 생성한 답변 가운데 <b>출처 초록과 주장 범위를 대조한 3건</b>을
+  선별했습니다. 답변 속 <span class="chip">W…</span> 칩을 클릭하면 검토에 사용한 출처 카드가 열리고,
+  온라인에서는 OpenAlex 레코드로 이동합니다.</p>
+  <div class="contract">
+    <span class="badge pass">CITATION_ID PASS · 11건</span>
+    <span class="badge pass">SOURCE_SUPPORT_REVIEW PASS</span>
+    <span class="badge">DOMAIN_EXPERT_REVIEW NOT_RUN</span>
+  </div>
+  <div class="qs" id="qs"></div>
+  <div class="layout">
+    <div class="card"><h2 id="qtitle"></h2><div class="answer" id="answer"></div></div>
+    <div class="panel" id="panel"><p class="empty">← 답변의 인용 칩을 클릭하면 근거 논문이 여기 열립니다.</p></div>
+  </div>
+  <p class="foot">코퍼스는 KRISS 연구자 시드 7,970편과 계량·분석화학 배경 문헌 10,882편의 혼합입니다.
+  초기 답변은 bge-m3 + BM25 + 리랭커 검색과 로컬/OpenAI 호환 LLM으로 생성했고, 공개본의 인용 ID와
+  출처 초록의 지지 범위를 다시 검토했습니다. 측정·화학 분야 전문가 검토는 아직 수행하지 않았습니다.
+  이 페이지는 사전 실행 결과를 구운 정적 데모입니다.</p>
+</div>
+<script>
+const PAYLOAD={"meta": {"corpus": {"total": 18852, "kriss": 7970, "background": 10882, "description": "KRISS 소속 논문(초록 보유)과 Metrologia, ACQUAL, 분석화학, 측정불확도 배경 문헌"}, "reviewed_on": "2026-08-11", "citation_count": 11}, "queries": [{"q": "중량법 표준가스 조제에서 점검해야 할 주요 불확도·보정 요인은?", "answer_html": "<p>중량법으로 표준가스 혼합물을 조제할 때는 하나의 요인을 항상 &quot;지배적&quot;이라고 정하기보다, 가스종·농도·실린더·희석 단계에 맞춰 다음 항목을 불확도 예산에서 점검해야 한다.</p>\n<ol>\n<li><b>원료가스 순도와 불순물 보정</b> — 원료가스의 불순물은 최종 몰분율에 직접 반영된다. 검출한계 부근의 불순물에는 대칭분포가 부적절할 수 있어, ISO 19229에 맞는 비대칭 분포와 몬테카를로 전파가 필요한 경우가 있다 <a class=\"chip\" data-w=\"W1967416930\" href=\"#\">W1967416930</a> <a class=\"chip\" data-w=\"W7139013649\" href=\"#\">W7139013649</a>.</li>\n<li><b>질량 측정과 상관관계</b> — 연속 칭량의 오차는 서로 독립이 아닐 수 있다. 이 상관을 무시하면 최종 몰분율 불확도를 과대 또는 부정확하게 계산할 수 있으며, 적절히 반영하면 불확도가 줄어들 수 있다 <a class=\"chip\" data-w=\"W2166498629\" href=\"#\">W2166498629</a>.</li>\n<li><b>실린더 팽창과 부력 보정</b> — 고압 충전으로 실린더 체적이 변하면 부력 보정에 영향을 준다. 변화량은 재질과 용량 등에 따라 달라 실제 실린더에 맞는 평가가 필요하다 <a class=\"chip\" data-w=\"W2031327355\" href=\"#\">W2031327355</a>. 다만 선형 팽창과 상관된 칭량을 전제로 하면 그 영향이 최종 몰분율에서 상쇄될 수 있으므로, 이를 무조건 지배요인으로 간주해서는 안 된다 <a class=\"chip\" data-w=\"W2166498629\" href=\"#\">W2166498629</a>.</li>\n<li><b>벽면 흡착과 장기 안정성</b> — 미량 또는 반응성 성분은 실린더 내벽 흡착 때문에 중량법 계산값과 실제 기상 농도가 달라질 수 있다 <a class=\"chip\" data-w=\"W2747874022\" href=\"#\">W2747874022</a>. 아세토니트릴 사례에서는 10 nmol/mol 미만에서 큰 흡착 손실이 관찰됐지만, 100 nmol/mol과 10 µmol/mol에서는 조제법을 조정해 3년 유효기간의 표준을 확보했다 <a class=\"chip\" data-w=\"W4403313453\" href=\"#\">W4403313453</a>.</li>\n</ol>\n<p>따라서 핵심은 보편적인 순위가 아니라, 목표 조성과 사용 기간에 맞춰 <b>순도·칭량 상관·부력·흡착·안정성</b>을 실제 데이터로 평가하는 것이다.</p>", "sources": {"W1967416930": {"title": "Gravimetric methods for the preparation of standard gas mixtures", "year": "2011", "url": "https://openalex.org/W1967416930"}, "W7139013649": {"title": "Monte Carlo uncertainty evaluation of gravimetric gas mixture with asymmetric distributions", "year": "2026", "url": "https://openalex.org/W7139013649"}, "W2166498629": {"title": "Uncertainty reduction due to correlation effects in weighing during the preparation of primary gas standards", "year": "2002", "url": "https://openalex.org/W2166498629"}, "W2031327355": {"title": "Evaluation of changes in cylinder volume due to gas filling and subsequent release", "year": "2013", "url": "https://openalex.org/W2031327355"}, "W2747874022": {"title": "Determination of physical adsorption loss of primary standard gas mixtures in cylinders using cylinder-to-cylinder division", "year": "2017", "url": "https://openalex.org/W2747874022"}, "W4403313453": {"title": "Development of accurate and stable primary standard gas mixtures for global atmospheric acetonitrile monitoring: evaluating adsorption loss and long-term stability", "year": "2024", "url": "https://openalex.org/W4403313453"}}}, {"q": "유기 순도 표준물질 평가에서 qNMR과 질량균형법은 어떻게 비교되는가?", "answer_html": "<p>두 방법은 경쟁 관계라기보다 시료 특성과 이용 가능한 불순물 정보에 따라 선택하거나 교차 확인하는 방법이다.</p>\n<ul>\n<li><b>질량균형법</b>은 관련 불순물을 빠짐없이 분리·검출·정량할 수 있을 때 유용하다. 반대로 푸모니신 B₁처럼 비휘발성이고 UV 흡수가 약한 물질은 필요한 불순물 분석이 어려워 질량균형법 적용이 제한될 수 있다 <a class=\"chip\" data-w=\"W3005154217\" href=\"#\">W3005154217</a>.</li>\n<li><b>qNMR</b>은 NMR 신호 면적이 핵 수에 비례한다는 원리를 이용해 표준물질과 분석물질의 신호를 비교하여 주성분 함량을 정량한다. 푸모니신 B₁ 사례에서는 벤조산 내부표준을 사용해 993 mg/g, 확장불확도 32 mg/g을 얻었다 <a class=\"chip\" data-w=\"W3005154217\" href=\"#\">W3005154217</a>.</li>\n<li><b>SI 추적성은 자동으로 생기지 않는다.</b> 적합한 내부·외부 표준, 신호 분리, 측정조건 최적화와 불확도 평가가 필요하다. 검증된 내부표준물질군은 최적 조건에서 약 1 mg/g 수준의 표준불확도를 보였고 <a class=\"chip\" data-w=\"W2973765253\" href=\"#\">W2973765253</a>, 외부표준 방식은 특정 조건에서 약 1%의 정확도와 정밀도를 달성했다 <a class=\"chip\" data-w=\"W2072331499\" href=\"#\">W2072331499</a>.</li>\n</ul>\n<p>정리하면, 불순물을 포괄적으로 정량할 수 있으면 질량균형법을 사용할 수 있고, 그 경로가 제한되거나 독립적인 순도 값이 필요하면 qNMR이 강한 대안이 된다. 최종 인증에서는 두 방법의 적용 가능성과 불확도 예산을 시료별로 판단해야 한다 <a class=\"chip\" data-w=\"W3125977334\" href=\"#\">W3125977334</a>.</p>", "sources": {"W3005154217": {"title": "Purity Assessment of Fumonisin B1 by Quantitative 1H NMR Spectroscopy", "year": "2020", "url": "https://openalex.org/W3005154217"}, "W2973765253": {"title": "Development and validation of a suite of standards for the purity assignment of organic compounds by quantitative NMR spectroscopy", "year": "2019", "url": "https://openalex.org/W2973765253"}, "W2072331499": {"title": "Quantitative 1H NMR with External Standards:  Use in Preparation of Calibration Solutions for Algal Toxins and Other Natural Products", "year": "2005", "url": "https://openalex.org/W2072331499"}, "W3125977334": {"title": "Quantitative NMR as a Versatile Tool for the Reference Material Preparation", "year": "2021", "url": "https://openalex.org/W3125977334"}}}, {"q": "KRISS의 혈청 페닐알라닌 ID-LC-MS/MS 후보 기준측정법 사례에서 무엇을 확인할 수 있는가?", "answer_html": "<p>이 연구는 모든 임상 LC-MS/MS 기준측정법의 일반 규칙을 제시한 것이 아니라, <b>혈청 페닐알라닌</b>에 대한 KRISS의 후보 기준측정법 사례다 <a class=\"chip\" data-w=\"W2055245512\" href=\"#\">W2055245512</a>. 이 사례에서 확인되는 핵심은 다음과 같다.</p>\n<ol>\n<li><b>동위원소희석 정량</b> — phenylalanine-ring-(¹³C₆)을 내부표준으로 사용하고, 분석물질과 동위원소 유사체를 각각 MRM 전이로 측정했다 <a class=\"chip\" data-w=\"W2055245512\" href=\"#\">W2055245512</a>.</li>\n<li><b>단순한 전처리와 선택적 검출</b> — 유도체화 없이 시료를 준비하고 LC-MS/MS의 선택적 검출을 이용했다 <a class=\"chip\" data-w=\"W2055245512\" href=\"#\">W2055245512</a>.</li>\n<li><b>불확도 제시</b> — 혈청 페닐알라닌 측정 결과의 확장불확도는 약 1.2%로 보고됐다(95% 수준) <a class=\"chip\" data-w=\"W2055245512\" href=\"#\">W2055245512</a>.</li>\n<li><b>검증 결과를 유리한 부분만 말하지 않기</b> — 표준참조물질을 분석했을 때 결과는 인증값과 다소 차이가 있었지만 중량법 값과는 잘 일치했다. 상용 HPLC 결과들은 서로 일관되지 않았다 <a class=\"chip\" data-w=\"W2055245512\" href=\"#\">W2055245512</a>.</li>\n</ol>\n<p>따라서 이 사례의 메시지는 &quot;LC-MS/MS이면 곧 기준법&quot;이 아니라, <b>동위원소 내부표준·선택적 측정·불확도 평가·독립 기준과의 비교를 함께 제시해야 후보 기준측정법을 평가할 수 있다</b>는 것이다.</p>", "sources": {"W2055245512": {"title": "Determination of phenylalanine in human serum by isotope dilution liquid chromatography/tandem mass spectrometry", "year": "2006", "url": "https://openalex.org/W2055245512"}}}]},D=PAYLOAD.queries;
+const qs=document.getElementById('qs'),ans=document.getElementById('answer'),
+      qt=document.getElementById('qtitle'),panel=document.getElementById('panel');
+let cur=0;
+function srcCard(w,s,hot){return `<div class="src${hot?' hot':''}" id="src-${w}"><b>${s.title}</b>
+  <div class="meta">${s.year} · <a href="${s.url}" target="_blank">${w} → OpenAlex 레코드 보기</a></div></div>`}
+function render(i,hotW){
+  cur=i;const d=D[i];
+  [...qs.children].forEach((b,j)=>b.classList.toggle('on',j===i));
+  qt.textContent='Q. '+d.q;ans.innerHTML=d.answer_html;
+  panel.innerHTML=Object.entries(d.sources).map(([w,s])=>srcCard(w,s,w===hotW)).join('')||'<p class="empty">출처 없음</p>';
+  ans.querySelectorAll('.chip').forEach(c=>{c.onclick=e=>{e.preventDefault();
+    render(cur,c.dataset.w);
+    const el=document.getElementById('src-'+c.dataset.w);if(el)el.scrollIntoView({block:'nearest',behavior:'smooth'});};});
+  ans.querySelectorAll('.chip').forEach(c=>c.classList.toggle('hot',c.dataset.w===hotW));
+}
+D.forEach((d,i)=>{const b=document.createElement('button');b.textContent='Q'+(i+1)+'. '+d.q;
+  b.onclick=()=>{location.hash='q'+(i+1);render(i);};qs.appendChild(b);});
+// #q3 in the URL opens that question — lets a slide/bookmark jump straight to one.
+function fromHash(){const m=/^#q(\d+)$/.exec(location.hash);
+  return m&&D[+m[1]-1]?+m[1]-1:0;}
+window.addEventListener('hashchange',()=>render(fromHash()));
+render(fromHash());
+</script>
