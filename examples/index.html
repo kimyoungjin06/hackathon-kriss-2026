@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="해커톤 시간 안에 만들 수 있는 네
+가지 현실적인 결과물과 완성 기준입니다.">
+  <meta name="theme-color" content="#f7f9fb">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:title" content="3시간 산출물
+예시 · KRISS AI Hackathon">
+  <meta property="og:description" content="해커톤 시간 안에 만들 수 있는
+네 가지 현실적인 결과물과 완성 기준입니다.">
+  <meta property="og:url" content="https://kimyoungjin06.github.io/hackathon-kriss-2026/examples/">
+  <meta property="og:image" content="https://kimyoungjin06.github.io/hackathon-kriss-2026/assets/social-card.png">
+  <link rel="canonical" href="https://kimyoungjin06.github.io/hackathon-kriss-2026/examples/">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/docs.css">
+  <title>3시간 산출물 예시 · KRISS AI Hackathon</title>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../" aria-label="KRISS AI 해커톤 공개 대문">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span><strong>KRISS 화학소재측정본부</strong><small>AI HACKATHON · PUBLIC DESK</small></span>
+    </a>
+    <nav class="header-nav" aria-label="공개 자료">
+      <a href="../program/">프로그램</a>
+      <a href="../guide/">참가자 안내</a>
+      <a href="../demo/">CiteSage</a>
+      <a href="../api/">API</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="doc-hero">
+      <p class="eyebrow">PUBLIC DOCUMENT · EXAMPLES</p>
+      <div class="doc-title-row">
+        <div>
+          <h1>3시간 산출물 예시</h1>
+          <p>해커톤 시간 안에 만들 수 있는 네 가지 현실적인 결과물과
+완성 기준입니다.</p>
+        </div>
+        <span class="doc-state">참가자용 · CURRENT</span>
+      </div>
+    </section>
+
+    <div class="doc-layout">
+            <aside class="doc-index" aria-label="문서 목차">
+        <p>ON THIS PAGE</p>
+        <ul>
+        <li><a
+        href="#예시-1-반복-작업-자동화--여러-파일에서-같은-항목-뽑아-요약표-만들기"
+        id="toc-예시-1-반복-작업-자동화--여러-파일에서-같은-항목-뽑아-요약표-만들기">예시
+        1. 반복 작업 자동화 — 여러 파일에서 같은 항목 뽑아 요약표
+        만들기</a></li>
+        <li><a
+        href="#예시-2-자주-쓰는-분석-코드의-모듈화--매번-새로-짜는-것을-없애기"
+        id="toc-예시-2-자주-쓰는-분석-코드의-모듈화--매번-새로-짜는-것을-없애기">예시
+        2. 자주 쓰는 분석 코드의 모듈화 — "매번 새로 짜는 것"을
+        없애기</a></li>
+        <li><a
+        href="#예시-3-문서-질의-도구--규정매뉴얼절차서에-물어보기"
+        id="toc-예시-3-문서-질의-도구--규정매뉴얼절차서에-물어보기">예시
+        3. 문서 질의 도구 — 규정·매뉴얼·절차서에 물어보기</a></li>
+        <li><a
+        href="#예시-4-공개-데이터-조회정리-도구--우리-기관-측정능력-현황-리포트"
+        id="toc-예시-4-공개-데이터-조회정리-도구--우리-기관-측정능력-현황-리포트">예시
+        4. 공개 데이터 조회·정리 도구 — 우리 기관 측정능력 현황
+        리포트</a></li>
+        <li><a href="#공통--무엇을-완성으로-볼-것인가"
+        id="toc-공통--무엇을-완성으로-볼-것인가">공통 — 무엇을
+        "완성"으로 볼 것인가</a></li>
+        </ul>
+      </aside>
+            <article class="prose">
+<p>참가자가 만들 결과를 구체적으로 그릴 수 있도록 네 가지 예시를
+정리했습니다.</p>
+<blockquote>
+<p><strong>기준선</strong>: 3시간의 현실적 목표는 <strong>"개인용 도구의
+첫 버전"</strong> 입니다. 기능이 되면 성공이고, 외형·보안·범용성은
+그다음 문제입니다. 각 예시마다 <strong>3시간에 도달하는 지점</strong>과
+<strong>그 너머에 필요한 것</strong>을 함께 적었습니다.</p>
+</blockquote>
+<hr />
+<h2
+id="예시-1-반복-작업-자동화--여러-파일에서-같은-항목-뽑아-요약표-만들기">예시
+1. 반복 작업 자동화 — 여러 파일에서 같은 항목 뽑아 요약표 만들기</h2>
+<p><strong>상황</strong> 매달 여러 개의 엑셀·CSV에서 같은 항목을 찾아
+하나의 표로 옮기고, 그래프를 그려 보고서에 붙인다.</p>
+<p><strong>만드는 것</strong> 폴더를 지정하면 파일들을 읽어 공통 항목을
+표로 합치고, 요약 통계와 그래프를 만들어 한 장짜리 결과로 내주는
+도구.</p>
+<table>
+<thead>
+<tr class="header">
+<th>3시간에 도달하는 지점</th>
+<th>그 너머에 필요한 것</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>내 파일 3~5개에 대해 동작. 예상 못 한 형식이 오면 멈춤</td>
+<td>파일 형식이 흔들려도 버티기, 예외 처리, 다른 사람 파일에서도
+동작</td>
+</tr>
+</tbody>
+</table>
+<p><strong>왜 좋은 첫 과제인가</strong> 입력과 원하는 출력이 눈에
+보이고, 결과가 맞는지 본인이 즉시 판정할 수 있습니다. 코딩 경험이 없어도
+대화만으로 도달 가능합니다.</p>
+<hr />
+<h2
+id="예시-2-자주-쓰는-분석-코드의-모듈화--매번-새로-짜는-것을-없애기">예시
+2. 자주 쓰는 분석 코드의 모듈화 — "매번 새로 짜는 것"을 없애기</h2>
+<p><strong>상황</strong> 분석할 때마다 비슷한 전처리와 그래프 코드를
+새로 짠다. 예전 코드를 찾아 복사해 고쳐 쓴다.</p>
+<p><strong>만드는 것</strong> 자주 쓰는 절차를 함수로 정리하고,
+설명(주석·타입힌트)과 사용 예시를 붙여 <strong>다음에 그대로 재사용할 수
+있는 형태</strong>로 만들기.</p>
+<table>
+<thead>
+<tr class="header">
+<th>3시간에 도달하는 지점</th>
+<th>그 너머에 필요한 것</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>함수 3~5개 + 사용 예시 + README. 내 노트북에서 동작</td>
+<td>패키지화, 테스트 코드, 동료 배포, 버전 관리</td>
+</tr>
+</tbody>
+</table>
+<p><strong>왜 좋은가</strong> <strong>회수율이 가장 높은
+과제</strong>입니다. 코드는 환경이 바뀌면 못 쓸 수 있지만, 정리된 절차와
+프롬프트는 그대로 옮겨갑니다. 이미 코딩을 하시는 분들께 특히 잘
+맞습니다.</p>
+<hr />
+<h2 id="예시-3-문서-질의-도구--규정매뉴얼절차서에-물어보기">예시 3. 문서
+질의 도구 — 규정·매뉴얼·절차서에 물어보기</h2>
+<p><strong>상황</strong> 규정집이나 장비 매뉴얼에서 필요한 조항을 찾는
+데 시간이 걸린다. 어디에 있었는지 기억이 안 난다.</p>
+<p><strong>만드는 것</strong> 문서 몇 개를 넣어두고 자연어로 물어보면
+<strong>근거가 되는 원문 위치와 함께</strong> 답해주는 도구.</p>
+<table>
+<thead>
+<tr class="header">
+<th>3시간에 도달하는 지점</th>
+<th>그 너머에 필요한 것</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>문서 5~10개 규모에서 질의응답. 챗 서비스의 파일 업로드로도 가능</td>
+<td>문서 수백 건 색인, 갱신 자동화, 근거 추적, 폐쇄망 구동</td>
+</tr>
+</tbody>
+</table>
+<p><strong>주의</strong> 제대로 하려면 문서 색인을 미리 만들어야 해서
+사전 준비가 필요합니다. 3시간 안에서는 <strong>맛보기까지</strong>로
+잡는 것이 안전합니다. 대신 이 방향은 확장 가치가 커서, 워크숍 이후
+이어가기 좋은 주제입니다.</p>
+<hr />
+<h2
+id="예시-4-공개-데이터-조회정리-도구--우리-기관-측정능력-현황-리포트">예시
+4. 공개 데이터 조회·정리 도구 — 우리 기관 측정능력 현황 리포트</h2>
+<p><strong>상황</strong> 우리 기관이 국제적으로 인정받은 측정능력(CMC)이
+어떤 상태인지, 어디가 비어 있고 어디가 오래됐는지 한눈에 보고 싶다.</p>
+<p><strong>만드는 것</strong> <strong>BIPM KCDB 공개 API</strong>(인증키
+불필요)를 호출해 KRISS의 CMC 목록을 받아 정리·비교하는 도구.</p>
+<p>아래 수치는 이 저장소의 2026-08-06 KCDB 스냅샷에서 계산한 예시입니다.
+최신 값과 해석은 공식 KCDB와 함께 확인해야 합니다.</p>
+<ul>
+<li><strong>현황 정리</strong> — KRISS 화학·생물 CMC
+<strong>428건</strong>: 가스 176 · 식품 136 · 첨단소재 38 · 무기용액 35
+· 생체시료 22 · 유기용액 9</li>
+<li><strong>노후도</strong> — 2015년 이전 등록이
+<strong>133건(31%)</strong>, 가장 오래된 것은 2001년 등록분</li>
+<li><strong>공백 분석</strong> — 가스 분야 전 세계 175종 중 KRISS 보유
+81종. 예를 들어 n-pentane은 16개 기관이 보유하고 있으나 KRISS에는
+없음</li>
+<li><strong>국가 간 비교</strong> — 같은 분석종·매트릭스에서 다른 기관과
+불확도 비교 (산소/질소는 KRISS 0.02%로 우수, 이산화질소/질소는 3.0%로
+타국 최저 0.3% 대비 열위)</li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th>3시간에 도달하는 지점</th>
+<th>그 너머에 필요한 것</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>API 호출 → 정리 → 표·그래프 리포트</td>
+<td>정기 자동 실행, 변경 알림, 내부 CRM 목록과 연계</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>해석상 주의:</strong> 위의 "국가 간 불확도 비교"는 그럴듯해
+보이지만, 기관마다 인정 측정범위와 농도 구간이 달라서 <strong>숫자만
+비교하면 틀린 결론</strong>이 납니다. AI가 이런 조건을 생략할 수
+있으므로, 측정범위·단위·불확도 방식을 함께 검증해야 합니다.</p>
+</blockquote>
+<hr />
+<h2 id="공통--무엇을-완성으로-볼-것인가">공통 — 무엇을 "완성"으로 볼
+것인가</h2>
+<p>3시간이 끝났을 때 각 팀에 남으면 좋은 것은 세 가지입니다.</p>
+<ol type="1">
+<li><strong>작동하는 첫 조각</strong> — 완벽하지 않아도 됩니다. 돌아가면
+됩니다.</li>
+<li><strong>프롬프트 기록</strong> — 무엇을 어떻게 시켰더니 무엇이
+됐는지. 실패한 시도가 더 값집니다.</li>
+<li><strong>다섯 줄짜리 재현 메모</strong> — 자리에 돌아가서 다시 하려면
+무엇을 해야 하는지.</li>
+</ol>
+<p>세 번째가 특히 중요합니다. 오늘 만든 도구 자체보다, <strong>자리에
+돌아가 다시 만들 수 있는 능력</strong>이 남는 것이기 때문입니다.</p>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <p>교육·행사 진행용 공개 자료입니다. KRISS의 정책, 측정표준 또는 측정능력에 대한 공식 해석을 제공하지 않습니다.</p>
+    <div><a href="../">공개 자료 대문</a><a href="https://github.com/kimyoungjin06/hackathon-kriss-2026">GitHub 저장소 ↗</a></div>
+  </footer>
+</body>
+</html>

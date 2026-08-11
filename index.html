@@ -3,415 +3,119 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="KRISS 화학소재측정본부 AI 해커톤 공개 자료 대문">
+  <meta name="description" content="KRISS 화학소재측정본부 AI 해커톤의 프로그램, CiteSage 쇼케이스와 API 안내를 한곳에서 확인합니다.">
+  <meta name="theme-color" content="#f7f9fb">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:title" content="KRISS AI Hackathon · Public Desk">
+  <meta property="og:description" content="발표자료, CiteSage 쇼케이스와 API 안내를 연결하는 공개 자료 대문">
+  <meta property="og:url" content="https://kimyoungjin06.github.io/hackathon-kriss-2026/">
+  <meta property="og:image" content="https://kimyoungjin06.github.io/hackathon-kriss-2026/assets/social-card.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://kimyoungjin06.github.io/hackathon-kriss-2026/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/site.css">
   <title>KRISS AI Hackathon · Public Desk</title>
-  <style>
-    :root {
-      --paper: #f4f8fb;
-      --white: #ffffff;
-      --ink: #0b1d2b;
-      --navy: #082d46;
-      --blue: #0d7198;
-      --blue-soft: #dcecf3;
-      --orange: #ed7c2d;
-      --green: #248f63;
-      --muted: #5b6f7d;
-      --line: #bdced8;
-      --line-strong: #7894a4;
-      --display: "Arial Narrow", "Roboto Condensed", "Noto Sans KR", sans-serif;
-      --body: Pretendard, "Noto Sans KR", "Apple SD Gothic Neo", sans-serif;
-      --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
-    }
-
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body {
-      margin: 0;
-      color: var(--ink);
-      background:
-        linear-gradient(90deg, transparent calc(50% - .5px), rgba(8,45,70,.08) 50%, transparent calc(50% + .5px)),
-        var(--paper);
-      font-family: var(--body);
-      line-height: 1.55;
-    }
-
-    a { color: inherit; }
-    a:focus-visible, button:focus-visible {
-      outline: 3px solid var(--orange);
-      outline-offset: 4px;
-    }
-
-    .site-header {
-      min-height: 74px;
-      padding: 0 clamp(22px, 5vw, 72px);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 24px;
-      background: rgba(244,248,251,.92);
-      border-bottom: 1px solid var(--line-strong);
-    }
-
-    .brand { display: flex; align-items: center; gap: 13px; }
-    .brand-mark {
-      width: 18px;
-      height: 18px;
-      border: 5px solid var(--navy);
-      border-right-color: var(--orange);
-      transform: rotate(45deg);
-    }
-    .brand strong {
-      display: block;
-      font-size: 14px;
-      letter-spacing: -.02em;
-    }
-    .brand span, .release-state {
-      display: block;
-      margin-top: 2px;
-      color: var(--muted);
-      font: 10px/1.2 var(--mono);
-      letter-spacing: .11em;
-      text-transform: uppercase;
-    }
-    .release-state { margin: 0; text-align: right; }
-    .release-state b { color: var(--green); font-weight: 700; }
-
-    .shell { min-height: calc(100svh - 74px); }
-    .hero {
-      padding: clamp(56px, 9vw, 118px) clamp(22px, 7vw, 104px) clamp(42px, 6vw, 76px);
-      display: grid;
-      grid-template-columns: minmax(0, 1.35fr) minmax(280px, .65fr);
-      gap: clamp(42px, 8vw, 128px);
-      align-items: end;
-    }
-
-    .eyebrow, .readout-label, .rack-label, .port-code, .port-state, .utility-label {
-      margin: 0;
-      font: 11px/1.35 var(--mono);
-      letter-spacing: .12em;
-      text-transform: uppercase;
-    }
-    .eyebrow { color: var(--blue); }
-    h1 {
-      max-width: 900px;
-      margin: 18px 0 24px;
-      font-family: var(--display);
-      font-size: clamp(56px, 9.4vw, 138px);
-      font-stretch: condensed;
-      font-weight: 800;
-      line-height: .84;
-      letter-spacing: -.065em;
-      text-transform: uppercase;
-      word-break: keep-all;
-    }
-    h1 .line-two { color: var(--blue); }
-    .lede {
-      max-width: 680px;
-      margin: 0;
-      color: #314c5e;
-      font-size: clamp(16px, 1.45vw, 20px);
-      line-height: 1.75;
-      word-break: keep-all;
-    }
-    .lede b { color: var(--ink); }
-
-    .readout {
-      position: relative;
-      min-height: 250px;
-      padding: 24px 26px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      overflow: hidden;
-      color: var(--white);
-      background: var(--navy);
-      border-left: 7px solid var(--orange);
-    }
-    .readout::after {
-      content: "";
-      position: absolute;
-      right: -54px;
-      bottom: -54px;
-      width: 168px;
-      height: 168px;
-      border: 1px solid rgba(255,255,255,.22);
-      border-radius: 50%;
-      box-shadow: 0 0 0 28px rgba(255,255,255,.04), 0 0 0 56px rgba(255,255,255,.025);
-    }
-    .readout-label { color: #9fc7d8; }
-    .readout-number {
-      position: relative;
-      z-index: 1;
-      font-family: var(--display);
-      font-size: clamp(92px, 12vw, 160px);
-      font-weight: 800;
-      line-height: .72;
-      letter-spacing: -.08em;
-    }
-    .readout-foot {
-      position: relative;
-      z-index: 1;
-      display: flex;
-      justify-content: space-between;
-      gap: 14px;
-      color: #cfe1e9;
-      font: 11px/1.4 var(--mono);
-    }
-
-    .rack {
-      position: relative;
-      padding: 0 clamp(22px, 7vw, 104px) clamp(56px, 8vw, 104px);
-    }
-    .rack-head {
-      padding: 13px 0;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 20px;
-      border-top: 1px solid var(--line-strong);
-      border-bottom: 1px solid var(--line);
-    }
-    .rack-label { color: var(--blue); }
-    .rack-note { color: var(--muted); font-size: 13px; }
-
-    .ports {
-      position: relative;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      border-bottom: 1px solid var(--line-strong);
-    }
-    .ports::before {
-      content: "";
-      position: absolute;
-      z-index: 0;
-      top: 80px;
-      left: 0;
-      right: 0;
-      height: 2px;
-      background: var(--blue);
-      transform-origin: left;
-      animation: calibrate 1s cubic-bezier(.2,.8,.2,1) both;
-    }
-    .port {
-      position: relative;
-      z-index: 1;
-      min-height: 310px;
-      padding: 26px clamp(18px, 2.5vw, 38px) 30px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      text-decoration: none;
-      border-left: 1px solid var(--line);
-      background: rgba(244,248,251,.9);
-      transition: color .2s ease, background .2s ease;
-      animation: port-in .55s ease both;
-    }
-    .port:nth-child(2) { animation-delay: .08s; }
-    .port:nth-child(3) { animation-delay: .16s; border-right: 1px solid var(--line); }
-    .port:hover { color: var(--white); background: var(--navy); }
-    .port:hover .port-description, .port:hover .port-state { color: #c7dce6; }
-    .port:hover .connector { background: var(--orange); box-shadow: 0 0 0 7px rgba(237,124,45,.2); }
-
-    .port-top { display: flex; justify-content: space-between; gap: 16px; }
-    .port-code { color: var(--blue); }
-    .port-state { color: var(--muted); }
-    .port-state::before {
-      content: "";
-      display: inline-block;
-      width: 7px;
-      height: 7px;
-      margin-right: 7px;
-      border-radius: 50%;
-      background: currentColor;
-    }
-    .port-state.live { color: var(--green); }
-    .port-state.interim { color: var(--orange); }
-    .connector {
-      position: absolute;
-      top: 71px;
-      left: 50%;
-      width: 20px;
-      height: 20px;
-      border: 5px solid var(--paper);
-      border-radius: 50%;
-      background: var(--blue);
-      transform: translateX(-50%);
-      transition: background .2s ease, box-shadow .2s ease;
-    }
-    .port-copy { margin-top: 80px; }
-    .port h2 {
-      margin: 0 0 12px;
-      font-family: var(--display);
-      font-size: clamp(34px, 4vw, 54px);
-      line-height: .95;
-      letter-spacing: -.045em;
-    }
-    .port-description {
-      max-width: 320px;
-      margin: 0;
-      color: var(--muted);
-      font-size: 14px;
-      line-height: 1.7;
-      word-break: keep-all;
-    }
-    .port-action {
-      margin-top: 26px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-      font-weight: 700;
-    }
-    .port-action span:last-child { font-size: 25px; line-height: 1; }
-
-    .utility {
-      padding: 18px 0;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 24px;
-      border-bottom: 1px solid var(--line-strong);
-    }
-    .utility-label { color: var(--muted); }
-    .utility-links { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 20px; }
-    .utility a { font-size: 13px; font-weight: 700; text-underline-offset: 4px; }
-
-    footer {
-      padding: 22px clamp(22px, 7vw, 104px) 34px;
-      display: flex;
-      justify-content: space-between;
-      gap: 24px;
-      color: var(--muted);
-      font-size: 12px;
-    }
-    footer p { margin: 0; max-width: 760px; }
-    footer a { white-space: nowrap; text-underline-offset: 4px; }
-
-    @keyframes calibrate { from { transform: scaleX(0); } to { transform: scaleX(1); } }
-    @keyframes port-in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
-
-    @media (max-width: 860px) {
-      body { background: var(--paper); }
-      .hero { grid-template-columns: 1fr; align-items: start; }
-      .readout { min-height: 200px; }
-      .ports { grid-template-columns: 1fr; }
-      .ports::before { top: 0; bottom: 0; left: 28px; right: auto; width: 2px; height: auto; transform-origin: top; animation-name: calibrate-vertical; }
-      .port, .port:nth-child(3) { min-height: 220px; padding-left: 64px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-      .connector { top: 33px; left: 28px; }
-      .port-copy { margin-top: 38px; }
-      .utility { align-items: flex-start; flex-direction: column; }
-      .utility-links { justify-content: flex-start; }
-      footer { flex-direction: column; }
-    }
-
-    @media (max-width: 540px) {
-      .site-header { min-height: 66px; padding-inline: 18px; }
-      .brand strong { font-size: 12px; }
-      .release-state { display: none; }
-      .hero { padding-inline: 18px; }
-      h1 { font-size: clamp(54px, 18vw, 82px); }
-      .rack { padding-inline: 18px; }
-      .rack-note { display: none; }
-      .utility-links { gap: 14px 18px; }
-      footer { padding-inline: 18px; }
-    }
-
-    @keyframes calibrate-vertical { from { transform: scaleY(0); } to { transform: scaleY(1); } }
-
-    @media (prefers-reduced-motion: reduce) {
-      *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition: none !important; }
-    }
-  </style>
 </head>
 <body>
   <header class="site-header">
-    <div class="brand">
+    <a class="brand" href="./" aria-label="KRISS AI 해커톤 공개 대문">
       <span class="brand-mark" aria-hidden="true"></span>
-      <div>
+      <span class="brand-copy">
         <strong>KRISS 화학소재측정본부</strong>
-        <span>AI Hackathon · Public Desk</span>
-      </div>
-    </div>
-    <p class="release-state"><b>● PUBLIC</b><br>RELEASE 2026</p>
+        <small>AI HACKATHON · PUBLIC DESK</small>
+      </span>
+    </a>
+    <a class="repository-link" href="https://github.com/kimyoungjin06/hackathon-kriss-2026">GitHub 저장소 <span aria-hidden="true">↗</span></a>
   </header>
 
-  <main class="shell">
+  <main>
     <section class="hero" aria-labelledby="page-title">
-      <div>
-        <p class="eyebrow">3-hour AI hackathon · public materials</p>
-        <h1 id="page-title">세 개의 입구.<br><span class="line-two">하나의 해커톤.</span></h1>
-        <p class="lede">발표자료에서 맥락을 잡고, CiteSage에서 결과를 살펴보고, API 안내에서 연결 방법을 확인합니다. <b>필요한 자료 하나를 선택해 시작하세요.</b></p>
+      <div class="hero-copy">
+        <p class="eyebrow">3시간 AI 해커톤 · 공개 자료</p>
+        <h1 id="page-title">세 개의 경로,<br><span>하나의 실습.</span></h1>
+        <p class="lede">프로그램에서 맥락을 잡고, CiteSage에서 연구 흐름을 살펴보고, API 안내에서 연결 원칙을 확인합니다.</p>
       </div>
-      <aside class="readout" aria-label="공개 자료 상태">
-        <p class="readout-label">Active public channels</p>
-        <div class="readout-number">03</div>
-        <div class="readout-foot"><span>REFERENCE DESK</span><span>READY</span></div>
+
+      <aside class="release-board" aria-label="공개 자료 상태">
+        <div class="release-board-head">
+          <span>PUBLIC ROUTES</span>
+          <strong>03</strong>
+        </div>
+        <dl>
+          <div><dt><span class="status-dot live"></span>공개</dt><dd>1 LIVE</dd></div>
+          <div><dt><span class="status-dot preview"></span>준비 중</dt><dd>2 PREVIEW</dd></div>
+        </dl>
+        <p>각 자료의 공개 상태를 링크에 표시합니다.</p>
       </aside>
     </section>
 
-    <section class="rack" aria-labelledby="rack-title">
-      <div class="rack-head">
-        <p class="rack-label" id="rack-title">Calibrated access rail · select one port</p>
-        <span class="rack-note">링크 상태는 각 포트에 표시됩니다.</span>
+    <section class="resources" aria-labelledby="resources-title">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">SELECT A ROUTE</p>
+          <h2 id="resources-title">필요한 자료부터 시작하세요.</h2>
+        </div>
+        <p>세 경로는 진행 순서가 아닌 자료 유형입니다.</p>
       </div>
 
-      <nav class="ports" aria-label="주요 공개 자료">
-        <!-- 임시 공개 링크: 최종 발표자료와 API 문서가 정해지면 href만 교체합니다. -->
-        <a class="port" href="PROGRAM.md">
-          <div class="port-top">
-            <span class="port-code">PORT P-01</span>
-            <span class="port-state interim">INTERIM</span>
+      <nav class="resource-grid" aria-label="주요 공개 자료">
+        <a class="resource-card" href="program/">
+          <div class="card-meta">
+            <span class="card-code">DECK</span>
+            <span class="card-status preview"><span class="status-dot preview"></span>임시 · PREVIEW</span>
           </div>
-          <span class="connector" aria-hidden="true"></span>
-          <div class="port-copy">
-            <h2>발표자료</h2>
-            <p class="port-description">현재는 180분 공개 프로그램으로 연결됩니다. 최종 슬라이드가 공개되면 같은 위치에서 교체됩니다.</p>
+          <div>
+            <h3>발표자료</h3>
+            <p>180분 프로그램과 실습 규칙을 먼저 확인합니다. 최종 슬라이드는 같은 위치에 반영됩니다.</p>
           </div>
-          <div class="port-action"><span>프로그램 열기</span><span aria-hidden="true">↗</span></div>
+          <span class="card-action">프로그램 보기 <span aria-hidden="true">→</span></span>
         </a>
 
-        <a class="port" href="demo/index.html">
-          <div class="port-top">
-            <span class="port-code">PORT C-02</span>
-            <span class="port-state live">LIVE</span>
+        <a class="resource-card featured" href="demo/">
+          <div class="card-meta">
+            <span class="card-code">CITESAGE</span>
+            <span class="card-status live"><span class="status-dot live"></span>공개 · LIVE</span>
           </div>
-          <span class="connector" aria-hidden="true"></span>
-          <div class="port-copy">
-            <h2>CiteSage</h2>
-            <p class="port-description">KRISS 관련 문헌의 테마, 인용 기반 답변과 시기별 연구 흐름을 보는 오프라인 쇼케이스입니다.</p>
+          <div>
+            <h3>CiteSage</h3>
+            <p>KRISS 관련 문헌의 테마, 인용 기반 답변과 시기별 연구 흐름을 살펴보는 정적 쇼케이스입니다.</p>
           </div>
-          <div class="port-action"><span>쇼케이스 열기</span><span aria-hidden="true">↗</span></div>
+          <span class="card-action">쇼케이스 열기 <span aria-hidden="true">→</span></span>
         </a>
 
-        <a class="port" href="API_GUIDE.md">
-          <div class="port-top">
-            <span class="port-code">PORT A-03</span>
-            <span class="port-state">DRAFT</span>
+        <a class="resource-card" href="api/">
+          <div class="card-meta">
+            <span class="card-code">API</span>
+            <span class="card-status preview"><span class="status-dot preview"></span>초안 · PREVIEW</span>
           </div>
-          <span class="connector" aria-hidden="true"></span>
-          <div class="port-copy">
-            <h2>API 안내</h2>
-            <p class="port-description">공개 가능한 연결 범위, 데이터 안전 원칙과 요청 예시가 들어갈 별도 안내 문서입니다.</p>
+          <div>
+            <h3>API 안내</h3>
+            <p>공개 가능한 연결 범위, 데이터 안전 원칙과 요청 예시 형식을 확인합니다.</p>
           </div>
-          <div class="port-action"><span>안내 초안 열기</span><span aria-hidden="true">↗</span></div>
+          <span class="card-action">안내 초안 보기 <span aria-hidden="true">→</span></span>
         </a>
       </nav>
+    </section>
 
-      <div class="utility">
-        <p class="utility-label">Supporting routes</p>
-        <div class="utility-links">
-          <a href="event-hub/index.html">행사 진행 허브</a>
-          <a href="PARTICIPANT_GUIDE.md">참가자 안내</a>
-          <a href="SOURCES.md">출처와 검증 범위</a>
-          <a href="RIGHTS_AND_ATTRIBUTION.md">권리와 출처 표시</a>
-        </div>
+    <section class="support" aria-labelledby="support-title">
+      <div>
+        <p class="eyebrow">REFERENCE DESK</p>
+        <h2 id="support-title">진행과 검증에 필요한 문서</h2>
       </div>
+      <nav class="support-links" aria-label="보조 공개 자료">
+        <a href="event-hub/"><span>행사 진행 허브</span><span aria-hidden="true">→</span></a>
+        <a href="guide/"><span>참가자 안내</span><span aria-hidden="true">→</span></a>
+        <a href="examples/"><span>산출물 예시</span><span aria-hidden="true">→</span></a>
+        <a href="sources/"><span>출처와 검증 범위</span><span aria-hidden="true">→</span></a>
+        <a href="rights/"><span>권리와 출처 표시</span><span aria-hidden="true">→</span></a>
+      </nav>
     </section>
   </main>
 
   <footer>
     <p>교육·행사 진행용 공개 자료입니다. KRISS의 정책, 측정표준 또는 측정능력에 대한 공식 해석을 제공하지 않습니다.</p>
-    <a href="README.md">저장소 안내 읽기</a>
+    <span>PUBLIC RELEASE · 2026</span>
   </footer>
 </body>
 </html>

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="$page-description$">
+  <meta name="theme-color" content="#f7f9fb">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:title" content="$title$ · KRISS AI Hackathon">
+  <meta property="og:description" content="$page-description$">
+  <meta property="og:url" content="https://kimyoungjin06.github.io/hackathon-kriss-2026/$page-route$/">
+  <meta property="og:image" content="https://kimyoungjin06.github.io/hackathon-kriss-2026/assets/social-card.png">
+  <link rel="canonical" href="https://kimyoungjin06.github.io/hackathon-kriss-2026/$page-route$/">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/docs.css">
+  <title>$title$ · KRISS AI Hackathon</title>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../" aria-label="KRISS AI 해커톤 공개 대문">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span><strong>KRISS 화학소재측정본부</strong><small>AI HACKATHON · PUBLIC DESK</small></span>
+    </a>
+    <nav class="header-nav" aria-label="공개 자료">
+      <a href="../program/">프로그램</a>
+      <a href="../guide/">참가자 안내</a>
+      <a href="../demo/">CiteSage</a>
+      <a href="../api/">API</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="doc-hero">
+      <p class="eyebrow">PUBLIC DOCUMENT · $doc-code$</p>
+      <div class="doc-title-row">
+        <div>
+          <h1>$title$</h1>
+          <p>$page-description$</p>
+        </div>
+        <span class="doc-state">$page-state$</span>
+      </div>
+    </section>
+
+    <div class="doc-layout">
+      $if(toc)$
+      <aside class="doc-index" aria-label="문서 목차">
+        <p>ON THIS PAGE</p>
+        $toc$
+      </aside>
+      $endif$
+      <article class="prose">
+$body$
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <p>교육·행사 진행용 공개 자료입니다. KRISS의 정책, 측정표준 또는 측정능력에 대한 공식 해석을 제공하지 않습니다.</p>
+    <div><a href="../">공개 자료 대문</a><a href="https://github.com/kimyoungjin06/hackathon-kriss-2026">GitHub 저장소 ↗</a></div>
+  </footer>
+</body>
+</html>

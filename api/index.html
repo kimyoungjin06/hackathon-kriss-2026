@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="공개·합성 데이터로 API 실습을 시작할
+때 필요한 연결 형식과 안전 원칙입니다.">
+  <meta name="theme-color" content="#f7f9fb">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:title" content="API 안내 · KRISS AI Hackathon">
+  <meta property="og:description" content="공개·합성 데이터로 API 실습을
+시작할 때 필요한 연결 형식과 안전 원칙입니다.">
+  <meta property="og:url" content="https://kimyoungjin06.github.io/hackathon-kriss-2026/api/">
+  <meta property="og:image" content="https://kimyoungjin06.github.io/hackathon-kriss-2026/assets/social-card.png">
+  <link rel="canonical" href="https://kimyoungjin06.github.io/hackathon-kriss-2026/api/">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/docs.css">
+  <title>API 안내 · KRISS AI Hackathon</title>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../" aria-label="KRISS AI 해커톤 공개 대문">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span><strong>KRISS 화학소재측정본부</strong><small>AI HACKATHON · PUBLIC DESK</small></span>
+    </a>
+    <nav class="header-nav" aria-label="공개 자료">
+      <a href="../program/">프로그램</a>
+      <a href="../guide/">참가자 안내</a>
+      <a href="../demo/">CiteSage</a>
+      <a href="../api/">API</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="doc-hero">
+      <p class="eyebrow">PUBLIC DOCUMENT · API</p>
+      <div class="doc-title-row">
+        <div>
+          <h1>API 안내</h1>
+          <p>공개·합성 데이터로 API 실습을 시작할 때 필요한 연결 형식과
+안전 원칙입니다.</p>
+        </div>
+        <span class="doc-state">공개 초안 · PREVIEW</span>
+      </div>
+    </section>
+
+    <div class="doc-layout">
+            <aside class="doc-index" aria-label="문서 목차">
+        <p>ON THIS PAGE</p>
+        <ul>
+        <li><a href="#현재-공개-범위" id="toc-현재-공개-범위">현재 공개
+        범위</a></li>
+        <li><a href="#안전-원칙" id="toc-안전-원칙">안전 원칙</a></li>
+        <li><a href="#공개-예시-형식" id="toc-공개-예시-형식">공개 예시
+        형식</a></li>
+        <li><a href="#오류-확인-순서" id="toc-오류-확인-순서">오류 확인
+        순서</a></li>
+        <li><a href="#관련-자료" id="toc-관련-자료">관련 자료</a></li>
+        </ul>
+      </aside>
+            <article class="prose">
+<blockquote>
+<p>공개 초안 · 행사에서 사용할 API의 최종 주소와 접근 방식은 확정 후 이
+문서에 반영합니다.</p>
+</blockquote>
+<p>이 문서는 참가자가 공개·합성 데이터를 이용해 API 기반 실습을 시작할
+때 필요한 공통 원칙을 설명합니다. 실제 인증정보나 비공개 엔드포인트는
+저장소에 기록하지 않습니다.</p>
+<h2 id="현재-공개-범위">현재 공개 범위</h2>
+<ul>
+<li>API를 사용하는 과제의 입력과 출력 구조</li>
+<li>공개 가능한 요청·응답 예시</li>
+<li>오류가 발생했을 때 확인할 항목</li>
+<li>사용량과 요청 빈도에 관한 공개 기준</li>
+<li>데이터 안전과 인증정보 보관 원칙</li>
+</ul>
+<p>최종 API가 정해지면 기본 URL, 인증 방식, 최소 실행 예시와 오류 코드를
+추가합니다.</p>
+<h2 id="안전-원칙">안전 원칙</h2>
+<ol type="1">
+<li>공개 자료와 교육용·합성 데이터만 전송합니다.</li>
+<li>API 키나 토큰을 코드, 노트북, 화면 캡처 또는 Git 커밋에 남기지
+않습니다.</li>
+<li>인증정보는 환경변수나 행사에서 지정한 보안 저장소로 전달합니다.</li>
+<li>요청 전에 입력에 개인정보, 계약·보안 정보가 없는지 확인합니다.</li>
+<li>수치와 인용이 포함된 응답은 원자료나 별도 코드로 다시
+검증합니다.</li>
+</ol>
+<h2 id="공개-예시-형식">공개 예시 형식</h2>
+<p>최종 안내에는 다음과 같은 최소 예시가 들어갑니다. 아래 값은 문서
+구조를 보여주기 위한 자리표시자이며 실행되지 않습니다.</p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span class="st">&quot;</span><span class="va">$API_BASE_URL</span><span class="st">/example&quot;</span> <span class="dt">\</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">-H</span> <span class="st">&quot;Authorization: Bearer </span><span class="va">$API_TOKEN</span><span class="st">&quot;</span> <span class="dt">\</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">-H</span> <span class="st">&quot;Content-Type: application/json&quot;</span> <span class="dt">\</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">-d</span> <span class="st">&#39;{&quot;question&quot;:&quot;공개 예시 질문&quot;}&#39;</span></span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&quot;answer&quot;</span><span class="fu">:</span> <span class="st">&quot;예시 응답&quot;</span><span class="fu">,</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&quot;sources&quot;</span><span class="fu">:</span> <span class="ot">[]</span><span class="fu">,</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&quot;status&quot;</span><span class="fu">:</span> <span class="st">&quot;example&quot;</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div>
+<h2 id="오류-확인-순서">오류 확인 순서</h2>
+<ol type="1">
+<li>기본 URL과 경로가 최신 안내와 일치하는지 확인합니다.</li>
+<li>인증정보가 코드에 직접 적히지 않고 실행 환경에 설정됐는지
+확인합니다.</li>
+<li>요청 본문의 필드명과 JSON 형식이 예시와 일치하는지 확인합니다.</li>
+<li>같은 요청을 작은 공개 예시로 다시 실행합니다.</li>
+<li>반복 실패하면 인증정보를 공유하지 말고 오류 코드와 요청 구조만
+전달합니다.</li>
+</ol>
+<h2 id="관련-자료">관련 자료</h2>
+<ul>
+<li><a href="../program/">공개 프로그램</a></li>
+<li><a href="../guide/">참가자 안내</a></li>
+<li><a href="../guide/#데이터-규칙">데이터 안전 원칙</a></li>
+<li><a href="../sources/">출처와 검증 범위</a></li>
+</ul>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <p>교육·행사 진행용 공개 자료입니다. KRISS의 정책, 측정표준 또는 측정능력에 대한 공식 해석을 제공하지 않습니다.</p>
+    <div><a href="../">공개 자료 대문</a><a href="https://github.com/kimyoungjin06/hackathon-kriss-2026">GitHub 저장소 ↗</a></div>
+  </footer>
+</body>
+</html>
