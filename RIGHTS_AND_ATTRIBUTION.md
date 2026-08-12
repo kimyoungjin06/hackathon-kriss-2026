@@ -6,6 +6,18 @@
 
 행사 문서, 정적 페이지와 변환 스크립트에는 현재 별도의 오픈소스 라이선스를 부여하지 않았습니다. GitHub에서 열람·포크할 수 있다는 사실만으로 별도의 재배포·상업 이용 권한이 부여되는 것은 아닙니다. 재사용 라이선스는 추후 명시적으로 결정합니다.
 
+## Pretendard 글꼴
+
+공개 웹페이지는 Pretendard Variable v1.3.9를 저장소에 포함해 사용합니다.
+
+- 제작자: 길형진
+- 공식 안내: [Pretendard](https://cactus.tistory.com/306)
+- 소스와 배포본: [orioncactus/pretendard](https://github.com/orioncactus/pretendard)
+- 라이선스: [SIL Open Font License 1.1](https://scripts.sil.org/OFL)
+- 저장 위치: `assets/fonts/pretendard/`
+
+글꼴 파일과 함께 원문 라이선스 `OFL.txt`를 보존합니다. 글꼴 단독 판매와 예약 글꼴명 조건 등은 해당 라이선스를 따릅니다.
+
 ## UCI 가스센서 데이터
 
 `data/gas_sensor_drift.csv`는 UCI Machine Learning Repository의 Gas Sensor Array Drift Dataset을 교육용으로 변환한 파일입니다.
