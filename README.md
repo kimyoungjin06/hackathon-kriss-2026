@@ -6,7 +6,7 @@ KRISS 화학소재측정본부 워크숍을 위해 만든 3시간 AI 해커톤 �
 
 ## 바로 시작하기
 
-- [공개 자료 대문](https://kimyoungjin06.github.io/hackathon-kriss-2026/) — 발표자료, CiteSage와 API 안내로 이동
+- [공개 자료 대문](https://kimyoungjin06.github.io/hackathon-kriss-2026/) — 프로그램, CiteSage와 행사용 API 안내로 이동
 - [행사 허브](https://kimyoungjin06.github.io/hackathon-kriss-2026/event-hub/) — 일정, 트랙, 데이터 규칙과 제출물
 - [CiteSage 쇼케이스](https://kimyoungjin06.github.io/hackathon-kriss-2026/demo/) — 오프라인으로 열리는 연구 문헌 탐색 데모
 - [API 안내](https://kimyoungjin06.github.io/hackathon-kriss-2026/api/) — 공개 가능한 연결 범위와 데이터 안전 원칙
@@ -29,7 +29,7 @@ KRISS 화학소재측정본부 워크숍을 위해 만든 3시간 AI 해커톤 �
 
 | 경로 | 내용 |
 |---|---|
-| `index.html` | 발표자료·CiteSage·API 안내를 연결하는 공개 대문 |
+| `index.html` | 프로그램·CiteSage·행사용 API 안내를 연결하는 공개 대문 |
 | `event-hub/` | 행사 진행용 첫 화면 |
 | `demo/` | CiteSage 정적 쇼케이스 7개 화면 |
 | `data/` | UCI 가스센서 드리프트와 BIPM KCDB 교육용 데이터 |

@@ -29,10 +29,9 @@ a:focus-visible { outline: 3px solid var(--orange); outline-offset: 4px; }
   background: rgba(247, 249, 251, .96);
   border-bottom: 1px solid var(--line);
 }
-.brand { display: inline-flex; align-items: center; gap: 13px; flex: none; text-decoration: none; }
-.brand-mark { width: 18px; height: 18px; border: 5px solid var(--navy); border-right-color: var(--orange); transform: rotate(45deg); }
+.brand { display: inline-flex; align-items: center; flex: none; text-decoration: none; }
 .brand strong { display: block; font-size: 13px; line-height: 1.2; letter-spacing: -.02em; }
-.brand small { display: block; margin-top: 3px; color: var(--muted); font: 9px/1.2 var(--utility); letter-spacing: .12em; }
+.brand small { display: block; margin-top: 3px; color: var(--muted); font: 9px/1.2 var(--utility); letter-spacing: .08em; }
 .header-nav { display: flex; align-items: center; gap: clamp(14px, 2.5vw, 28px); }
 .header-nav a { color: var(--muted); font-size: 12px; font-weight: 700; text-decoration: none; }
 .header-nav a:hover { color: var(--blue); }
