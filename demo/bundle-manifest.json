@@ -1,0 +1,25 @@
+{
+  "contract": "citesage-artifact-v1",
+  "canonical_source": "CiteSage kriss-chem integrated bundle",
+  "files": {
+    "artifacts/cluster_map.html": "49f178aa2d43a995eb2381290ff3aa449bc743ebb09d4da64cc32f17ec7662b9",
+    "artifacts/demo_static.html": "6b490581781801ed36b8c32fd0d669cb34c85bda90d95b9ac81c28b2200278e9",
+    "artifacts/flow_dossier.html": "1689b6698b503b3d9adbf0602ca9c585034e05477ec1185998681e73b76112c4",
+    "artifacts/knowledge_flow.html": "336d0f749da6013c89022b7f27109f47c20a797b3fd5498aa6ce412955e8ff55",
+    "artifacts/knowledge_sankey.html": "d3ac3a8914f27a77f7743ef672c9bf42791a8db2c6dfefc6619291620cd1e908",
+    "artifacts/research_timeline.html": "f6c1b3e5fcd1507595208e92dcbd6d8a91622d7869545f57e2c4e977f14e4991",
+    "artifacts/theme_alluvial.html": "c3427f7a74b663e85074b12a303836d4198a239e95e1e257f9eb2e5d809220b2",
+    "assets/citesage-base.css": "97f6cc43d612f8f2292e0c892e0c0105d990ea62bf0e28fe1a1759ad8df6539b",
+    "assets/fonts/pretendard/OFL.txt": "3b8ac478fa32708ecd929cd7eae8cc32aba1710ca8ec95386d0db9db89ce57dd",
+    "assets/fonts/pretendard/PretendardVariable.woff2": "9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4",
+    "cluster_map.html": "2bc61af6198e570b17f9a83fa53c7f4290cfa278f466b2949f9895b10b1b8462",
+    "demo_static.html": "9bcf37f7c132719d56d03ecd7e560eff1988f649b5256cddd7e64f4afc515017",
+    "docs/KRISS_METHOD_AND_MONITORING.md": "9f728ad3c031c5ac6bc3da4352aad32a5355cd19f682688813e5d244e9c47e00",
+    "flow_dossier.html": "d40e0876136d392e179be0bb91b057ccf30a76e6b23e68652d8af35016f51e50",
+    "index.html": "b24e446dc6404b448525d0cd01f87299a6823b0119aaa6ae688a6d23d6f353cb",
+    "knowledge_flow.html": "25d01188f689006a55f2f9cf43b1931d9122e91ce1049b56e7a4e45142e3fe5e",
+    "knowledge_sankey.html": "4a9a9f432eba493323df230f57ca1d3d9fc115c21d11912f802338381e28682a",
+    "research_timeline.html": "08c4a623fb8dbe947a561087e4a6282c32e8538ced96a4441547075089085d71",
+    "theme_alluvial.html": "aaad8b402766daefe7e98bfca39bb973456f6e97451c5812a7b4620e871ccb81"
+  }
+}

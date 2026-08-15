@@ -1,88 +1,643 @@
-<!doctype html><meta charset="utf-8">
-<title>KRISS 화학소재측정본부 해커톤 — CiteSage 쇼케이스</title>
-<link rel="stylesheet" href="../assets/fonts/pretendard/pretendard.css">
-<style>
-  :root{--paper:#FBFAF7;--ink:#1B2530;--ink2:#5A6675;--muted:#8B96A3;--line:#E4E0D8;
-    --panel:#F3F0EA;--panel-br:#E0DBD1;--spine:#C8792E;--focus:#2F7183}
-  *{box-sizing:border-box}
-  body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.65 "Pretendard Variable",Pretendard,-apple-system,"Noto Sans KR",sans-serif}
-  .wrap{max-width:1040px;margin:0 auto;padding:44px 28px 60px}
-  .eyebrow{font:12px ui-monospace,Menlo,monospace;letter-spacing:.14em;color:var(--muted);text-transform:uppercase}
-  h1{font-size:34px;line-height:1.15;margin:6px 0 10px}.lede{color:var(--ink2);max-width:78ch;margin:0 0 30px}
-  .section{display:flex;align-items:baseline;gap:10px;margin:30px 0 12px}
-  .section h2{font-size:20px;margin:0}.section span{font-size:12px;color:var(--muted);font-family:ui-monospace,Menlo,monospace}
-  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(285px,1fr));gap:14px}
-  a.card{display:block;background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px 22px;
-    text-decoration:none;color:inherit;transition:border-color .15s,transform .15s}
-  a.card:hover{border-color:var(--spine);transform:translateY(-1px)}
-  .num{font:12px ui-monospace,Menlo,monospace;color:var(--spine);letter-spacing:.08em}
-  .deep .num{color:var(--focus)}a.card h3{font-size:18px;line-height:1.35;margin:4px 0 6px}
-  a.card p{margin:0;color:var(--ink2);font-size:14px}.say{margin-top:10px;padding:10px 12px;background:var(--panel);
-    border-left:3px solid var(--spine);border-radius:0 8px 8px 0;font-size:13px;color:var(--ink2)}
-  .say b{color:var(--ink)}.note{margin-top:30px;background:var(--panel);border:1px solid var(--panel-br);
-    border-radius:12px;padding:16px 18px;font-size:13.5px;color:var(--ink2)}.note b{color:var(--ink)}
-  .foot{margin-top:22px;font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:12px}
-  code{font-family:ui-monospace,Menlo,monospace;font-size:.92em}
-</style>
-<div class="wrap">
-  <div class="eyebrow">KRISS 화학소재측정본부 · 3시간 AI 해커톤 · 쇼케이스 (S7)</div>
-  <h1>CiteSage 화학소재측정본부판 — 7개 화면</h1>
-  <p class="lede">KRISS 연구자 시드 문헌 <b>7,970편</b>과 계량·분석화학 배경 문헌
-  <b>10,882편</b>을 합친 OpenAlex 제목·초록 탐색 코퍼스입니다. 모든 화면은
-  <b>인터넷·서버 없이</b> 열리며, OpenAlex 레코드 링크만 온라인 연결을 사용합니다.</p>
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <link rel="icon" href="data:,">
+  <title>CiteSage × KRISS — 연구 근거 탐색</title>
+  <link rel="stylesheet" href="assets/citesage-base.css">
+  <style>
+    :root {
+      --paper: #f5f8fa;
+      --surface: #ffffff;
+      --ink: #13283c;
+      --ink-2: #536577;
+      --muted: #778795;
+      --line: #d8e1e8;
+      --line-strong: #b9c8d3;
+      --navy: #173d5b;
+      --teal: #277b83;
+      --teal-soft: #e7f2f2;
+      --warn: #a95616;
+      --warn-soft: #fff1e4;
+      --fail: #a43c36;
+      --fail-soft: #fbeceb;
+      --shadow: 0 18px 45px rgb(24 53 78 / 0.09);
+      --rail: 268px;
+    }
 
-  <div class="section"><h2>3분 핵심 동선</h2><span>지도 → 검토 답변 → 시기 간 인용</span></div>
-  <div class="cards">
-    <a class="card" href="cluster_map.html">
-      <div class="num">01 · 30초</div><h3>연구 테마 지도 · 코퍼스 전체</h3>
-      <p>18,852편을 40개 클러스터로 배치하고 분야·중앙 연도·KRISS 비중을 전환합니다.</p>
-      <div class="say"><b>말할 것:</b> “KRISS 시드와 배경 문헌을 함께 놓은 탐색 지도입니다.
-      KRISS 비중은 이 코퍼스 안의 구성비이지 기관 성과지표가 아닙니다.”</div>
-    </a>
-    <a class="card" href="demo_static.html">
-      <div class="num">02 · 90초</div><h3>출처 범위를 검토한 답변 3건</h3>
-      <p>가스표준 불확도, qNMR·질량수지, 혈청 페닐알라닌 후보 기준측정절차 사례입니다.</p>
-      <div class="say"><b>말할 것:</b> “인용 ID 11개와 출처 초록 지지 범위를 확인했습니다.
-      측정·화학 분야 전문가 검토는 아직 <code>NOT_RUN</code>입니다.”</div>
-    </a>
-    <a class="card" href="knowledge_sankey.html">
-      <div class="num">03 · 45초</div><h3>시기 간 직접 인용 Sankey · 코퍼스 전체</h3>
-      <p>5개 연속 시기의 코퍼스 내부 직접 인용 24,377건을 집계합니다. 기본은 인접 시기 4개,
-      전체 보기를 누르면 10개 시기쌍이 열립니다.</p>
-      <div class="say"><b>말할 것:</b> “왼쪽→오른쪽은 인용된 선행 시기에서 인용한 후속 시기로 향하는
-      지식 흐름입니다. 실제 인용 행위는 후속→선행이며, 띠 폭은 인용 횟수일 뿐 영향력은 아닙니다.”</div>
-    </a>
+    * { box-sizing: border-box; }
+
+    html { min-width: 320px; background: var(--paper); }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      background:
+        linear-gradient(90deg, transparent 0 23px, rgb(39 123 131 / 0.05) 23px 24px, transparent 24px 100%),
+        var(--paper);
+      line-height: 1.55;
+    }
+
+    button, a { -webkit-tap-highlight-color: transparent; }
+
+    a { color: inherit; }
+
+    .shell {
+      width: min(1720px, 100%);
+      margin: 0 auto;
+      padding: 18px 22px 28px;
+    }
+
+    .masthead {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      min-height: 58px;
+      border-bottom: 1px solid var(--line-strong);
+    }
+
+    .brand {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .brand strong {
+      font-size: 19px;
+      font-weight: 780;
+      letter-spacing: -0.035em;
+    }
+
+    .brand span {
+      color: var(--teal);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+    }
+
+    .verified-at {
+      color: var(--muted);
+      font-size: 12px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .thesis {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 28px;
+      align-items: end;
+      padding: 28px 0 24px;
+    }
+
+    .thesis h1 {
+      max-width: 760px;
+      margin: 0;
+      font-size: clamp(27px, 3.3vw, 48px);
+      font-weight: 790;
+      line-height: 1.08;
+      letter-spacing: -0.045em;
+      text-wrap: balance;
+    }
+
+    .thesis p {
+      max-width: 48ch;
+      margin: 12px 0 0;
+      color: var(--ink-2);
+      font-size: 14px;
+    }
+
+    .calibration {
+      width: min(360px, 32vw);
+      padding-bottom: 7px;
+    }
+
+    .calibration-label {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 8px;
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 680;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .calibration-line {
+      height: 18px;
+      border-top: 1px solid var(--navy);
+      background: repeating-linear-gradient(90deg, var(--navy) 0 1px, transparent 1px 24px);
+      background-size: 100% 8px;
+      background-repeat: no-repeat;
+    }
+
+    .status-strip {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      overflow-x: auto;
+      padding: 11px 0 16px;
+      border-top: 1px solid var(--line);
+      scrollbar-width: thin;
+    }
+
+    .status-label {
+      flex: none;
+      margin-right: 5px;
+      color: var(--ink-2);
+      font-size: 11px;
+      font-weight: 720;
+      letter-spacing: 0.08em;
+    }
+
+    .status {
+      flex: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      min-height: 29px;
+      padding: 4px 10px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--surface);
+      color: var(--ink-2);
+      font-size: 11.5px;
+      font-weight: 620;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .status::before {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--muted);
+      content: "";
+    }
+
+    .status.fail { border-color: #e9c6c3; background: var(--fail-soft); color: var(--fail); }
+    .status.fail::before { background: var(--fail); }
+    .status.warn { border-color: #efd3b8; background: var(--warn-soft); color: var(--warn); }
+    .status.warn::before { background: var(--warn); }
+
+    .workspace {
+      display: grid;
+      grid-template-columns: var(--rail) minmax(0, 1fr);
+      min-height: 720px;
+      overflow: hidden;
+      border: 1px solid var(--line-strong);
+      border-radius: 14px;
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }
+
+    .rail {
+      padding: 18px 14px;
+      border-right: 1px solid var(--line);
+      background: #f9fbfc;
+    }
+
+    .rail-group + .rail-group { margin-top: 20px; }
+
+    .rail-title {
+      margin: 0 10px 7px;
+      color: var(--muted);
+      font-size: 10.5px;
+      font-weight: 720;
+      letter-spacing: 0.09em;
+    }
+
+    .nav-item {
+      position: relative;
+      display: grid;
+      grid-template-columns: 24px minmax(0, 1fr);
+      gap: 8px;
+      width: 100%;
+      padding: 10px 10px;
+      border: 0;
+      border-radius: 7px;
+      background: transparent;
+      color: var(--ink-2);
+      text-align: left;
+      cursor: pointer;
+    }
+
+    .nav-item:hover { background: #eef4f6; color: var(--ink); }
+
+    .nav-item[aria-selected="true"] {
+      background: var(--teal-soft);
+      color: #155c63;
+      font-weight: 720;
+    }
+
+    .nav-item[aria-selected="true"]::before {
+      position: absolute;
+      inset: 8px auto 8px -14px;
+      width: 3px;
+      background: var(--teal);
+      content: "";
+    }
+
+    .nav-code {
+      padding-top: 1px;
+      color: var(--muted);
+      font-size: 10px;
+      font-weight: 720;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .nav-name { font-size: 13px; line-height: 1.35; }
+
+    .stage { min-width: 0; background: var(--surface); }
+
+    .stage-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      min-height: 64px;
+      padding: 12px 18px 12px 22px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .stage-kicker {
+      margin: 0 0 2px;
+      color: var(--teal);
+      font-size: 10px;
+      font-weight: 750;
+      letter-spacing: 0.08em;
+    }
+
+    .stage-title {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 740;
+      letter-spacing: -0.02em;
+    }
+
+    .open-link {
+      flex: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 10px;
+      border: 1px solid var(--line-strong);
+      border-radius: 6px;
+      color: var(--ink-2);
+      background: var(--surface);
+      font-size: 11.5px;
+      font-weight: 650;
+      text-decoration: none;
+    }
+
+    .open-link:hover { border-color: var(--teal); color: var(--teal); }
+
+    .frame-wrap { position: relative; min-height: 650px; }
+
+    #artifact-frame {
+      display: block;
+      width: 100%;
+      height: max(650px, calc(100vh - 225px));
+      border: 0;
+      background: #fbfaf7;
+    }
+
+    #artifact-frame[hidden] { display: none !important; }
+
+    .loading {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      z-index: 2;
+      background: rgb(255 255 255 / 0.9);
+      color: var(--ink-2);
+      font-size: 13px;
+      transition: opacity 180ms ease;
+    }
+
+    .loading.hidden { pointer-events: none; opacity: 0; }
+
+    .method {
+      display: none;
+      height: max(650px, calc(100vh - 225px));
+      overflow: auto;
+      padding: clamp(24px, 4vw, 58px);
+      background: #fff;
+    }
+
+    .method.visible { display: block; }
+
+    .prose { max-width: 900px; margin: 0 auto; color: #26394b; font-size: 14.5px; }
+    .prose h1 { margin: 0 0 16px; color: var(--ink); font-size: clamp(25px, 3vw, 38px); letter-spacing: -0.04em; }
+    .prose h2 { margin: 46px 0 14px; padding-top: 14px; border-top: 1px solid var(--line); color: var(--ink); font-size: 21px; letter-spacing: -0.025em; }
+    .prose h3 { margin: 30px 0 10px; color: var(--ink); font-size: 17px; }
+    .prose p { margin: 10px 0; }
+    .prose blockquote { margin: 18px 0 24px; padding: 14px 18px; border-left: 3px solid var(--teal); background: var(--teal-soft); color: #34515b; }
+    .prose blockquote p { margin: 0; }
+    .prose ul, .prose ol { margin: 10px 0 16px; padding-left: 1.45em; }
+    .prose li + li { margin-top: 5px; }
+    .prose code { padding: 2px 5px; border: 1px solid #d8e3e7; border-radius: 4px; background: #eff5f6; color: #175961; font-size: 0.9em; }
+    .prose strong { color: var(--ink); font-weight: 760; }
+    .prose a { color: #176c76; text-underline-offset: 3px; }
+    .table-wrap { max-width: 100%; overflow-x: auto; margin: 14px 0 22px; border: 1px solid var(--line); border-radius: 8px; }
+    .prose table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    .prose th, .prose td { min-width: 120px; padding: 9px 11px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+    .prose th { background: #f2f6f8; color: var(--ink); font-weight: 720; }
+    .prose tr:last-child td { border-bottom: 0; }
+
+    .footer-note {
+      margin: 17px 2px 0;
+      color: var(--muted);
+      font-size: 11.5px;
+    }
+
+    :focus-visible { outline: 3px solid rgb(39 123 131 / 0.3); outline-offset: 2px; }
+
+    @media (max-width: 900px) {
+      .shell { padding: 12px 12px 22px; }
+      .masthead { min-height: 52px; }
+      .verified-at { display: none; }
+      .thesis { grid-template-columns: 1fr; padding: 22px 0 18px; }
+      .calibration { width: 100%; }
+      .workspace { grid-template-columns: 1fr; min-height: 0; }
+      .rail {
+        display: flex;
+        gap: 6px;
+        overflow-x: auto;
+        padding: 10px;
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .rail-group { display: contents; }
+      .rail-group + .rail-group { margin: 0; }
+      .rail-title { display: none; }
+      .nav-item { display: block; flex: none; width: auto; padding: 8px 11px; white-space: nowrap; }
+      .nav-item[aria-selected="true"]::before { inset: auto 10px -10px; width: auto; height: 3px; }
+      .nav-code { display: none; }
+      .nav-name { font-size: 12px; }
+      .stage-head { min-height: 58px; padding: 10px 12px 10px 15px; }
+      .open-link span { display: none; }
+      .frame-wrap, #artifact-frame, .method { min-height: 600px; height: 72vh; }
+      .method { padding: 24px 18px 40px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header class="masthead">
+      <a class="brand" href="#cluster" aria-label="CiteSage KRISS 홈">
+        <strong>CiteSage</strong>
+        <span>KRISS 문헌 탐색</span>
+      </a>
+      <div class="verified-at">자료 상태 기준일 · 2026.08.12</div>
+    </header>
+
+    <section class="thesis" aria-labelledby="page-title">
+      <div>
+        <h1 id="page-title">결과와 검증 상태를<br>같은 화면에서 봅니다.</h1>
+        <p>KRISS 연구자 시드 문헌과 배경 문헌에서 질문·연구 테마·인용 흐름을 살펴보고, 결과가 만들어진 방법과 알려진 한계를 함께 확인합니다.</p>
+      </div>
+      <div class="calibration" aria-hidden="true">
+        <div class="calibration-label"><span>문헌 범위</span><span>근거</span><span>검토</span></div>
+        <div class="calibration-line"></div>
+      </div>
+    </section>
+
+    <div class="status-strip" aria-label="현재 검증 상태">
+      <span class="status-label">검증 현황</span>
+      <span class="status fail" title="SOURCE_IDENTITY=FAIL">출처 식별 오류 발견</span>
+      <span class="status warn" title="CLEAN_REBUILD=NOT_RUN">정제 재구축 전</span>
+      <span class="status warn" title="DOMAIN_EXPERT_REVIEW=NOT_RUN">분야 전문가 검토 전</span>
+      <span class="status">검증 중인 예시</span>
+    </div>
+
+    <main class="workspace">
+      <nav class="rail" role="tablist" aria-label="CiteSage KRISS 콘텐츠">
+        <div class="rail-group">
+          <p class="rail-title">질문과 근거</p>
+          <button class="nav-item" role="tab" aria-selected="false" data-view="answers">
+            <span class="nav-code">01</span><span class="nav-name">검토 답변</span>
+          </button>
+          <button class="nav-item" role="tab" aria-selected="false" data-view="dossier">
+            <span class="nav-code">02</span><span class="nav-name">논문별 근거 검토</span>
+          </button>
+          <button class="nav-item" role="tab" aria-selected="false" data-view="flow">
+            <span class="nav-code">03</span><span class="nav-name">논문 인용 흐름</span>
+          </button>
+        </div>
+        <div class="rail-group">
+          <p class="rail-title">연구 지형과 변화</p>
+          <button class="nav-item" role="tab" aria-selected="true" data-view="cluster">
+            <span class="nav-code">04</span><span class="nav-name">연구 테마 지도</span>
+          </button>
+          <button class="nav-item" role="tab" aria-selected="false" data-view="alluvial">
+            <span class="nav-code">05</span><span class="nav-name">시기별 주제 연결</span>
+          </button>
+          <button class="nav-item" role="tab" aria-selected="false" data-view="sankey">
+            <span class="nav-code">06</span><span class="nav-name">선행 시기 인용 구성</span>
+          </button>
+          <button class="nav-item" role="tab" aria-selected="false" data-view="timeline">
+            <span class="nav-code">07</span><span class="nav-name">관련 문헌 타임라인</span>
+          </button>
+        </div>
+        <div class="rail-group">
+          <p class="rail-title">검증과 재현</p>
+          <button class="nav-item" role="tab" aria-selected="false" data-view="method">
+            <span class="nav-code">08</span><span class="nav-name">수집·검증 방법</span>
+          </button>
+        </div>
+      </nav>
+
+      <section class="stage" aria-live="polite">
+        <header class="stage-head">
+          <div>
+            <p class="stage-kicker" id="stage-kicker">분석 문헌 전체</p>
+            <h2 class="stage-title" id="stage-title">연구 테마 지도</h2>
+          </div>
+          <a class="open-link" id="open-link" href="artifacts/cluster_map.html" target="_blank" rel="noopener">
+            <span>새 창에서 보기</span><b aria-hidden="true">↗</b>
+          </a>
+        </header>
+        <div class="frame-wrap" id="frame-wrap">
+          <div class="loading" id="loading">화면을 불러오는 중입니다.</div>
+          <iframe
+            id="artifact-frame"
+            title="연구 테마 지도"
+            src="artifacts/cluster_map.html"
+            sandbox="allow-scripts allow-same-origin allow-popups"
+          ></iframe>
+          <article class="method" id="method-view">
+            <div class="prose" id="method-content">방법론 문서를 불러오는 중입니다.</div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <p class="footer-note">이 화면은 아직 검증이 끝나지 않은 자료의 구성과 탐색 기능을 확인하기 위한 예시입니다. 출처 식별 오류를 바로잡고 정제 문헌 집합을 다시 구축하기 전에는 논문 수와 군집 해석을 확정 결과로 인용하지 마세요.</p>
   </div>
 
-  <div class="section"><h2>심화 탐색</h2><span>발표 후 질의응답·체험용</span></div>
-  <div class="cards deep">
-    <a class="card" href="theme_alluvial.html">
-      <div class="num">04 · GLOBAL</div><h3>시기별 테마 인용 연결</h3>
-      <p>시기마다 독립적으로 묶은 클러스터를 후속 문헌의 직접 인용으로 연결합니다.
-      리본은 연결 강도이지 테마 변환을 뜻하지 않습니다.</p>
-    </a>
-    <a class="card" href="knowledge_flow.html">
-      <div class="num">05 · FOCUS</div><h3>표준가스 논문 단위 인용 흐름</h3>
-      <p>“중량법 표준가스 조제 불확도 흡착 안정성” 질의의 13편·12개 직접 인용을 시간축에서 봅니다.
-      KRISS 4편과 배경 9편을 구분하며, 노드를 가리키면 초록 검토 요약과 범위가 열립니다.</p>
-    </a>
-    <a class="card" href="research_timeline.html">
-      <div class="num">06 · FOCUS</div><h3>연속 구간 연구 타임라인</h3>
-      <p>같은 13편을 누락·중복 없이 4개 연속 구간에 배치하고, 각 구간의 제목·초록 검토 요약과
-      근거 레코드를 함께 보여줍니다.</p>
-    </a>
-    <a class="card" href="flow_dossier.html">
-      <div class="num">07 · FOCUS</div><h3>논문별 초록 검토 dossier</h3>
-      <p>노드를 클릭하면 한국어 요약·범위, OpenAlex 초록, 관측된 부모·자식 인용 관계가 분리되어
-      열립니다. 인용 관계를 과학적 기여·계승·인과로 자동 해석하지 않습니다.</p>
-    </a>
-  </div>
+  <script>
+    const views = {
+      answers:  { title: "검토 답변", kicker: "질문과 근거", src: "artifacts/demo_static.html" },
+      dossier:  { title: "중량법 표준가스 논문별 근거 검토", kicker: "논문별 근거 검토", src: "artifacts/flow_dossier.html" },
+      flow:     { title: "논문 단위 인용 흐름", kicker: "논문 간 직접 인용", src: "artifacts/knowledge_flow.html" },
+      cluster:  { title: "연구 테마 지도", kicker: "분석 문헌 전체", src: "artifacts/cluster_map.html" },
+      alluvial: { title: "시기별 상위 주제와 세부 군집", kicker: "상위 주제에서 세부 군집으로", src: "artifacts/theme_alluvial.html" },
+      sankey:   { title: "선행 시기 인용 구성", kicker: "후속 시기별 구성비", src: "artifacts/knowledge_sankey.html" },
+      timeline: { title: "중량법 표준가스 관련 문헌 타임라인", kicker: "질문으로 추린 문헌", src: "artifacts/research_timeline.html" },
+      method:   { title: "문헌 수집과 검증 방법", kicker: "수집·검증 방법", src: "docs/KRISS_METHOD_AND_MONITORING.md" }
+    };
 
-  <div class="note"><b>운영 메모</b><br>
-    · 3분 발표는 <b>01 → 02 → 03</b>만 사용하고, 04~07은 질문이 나왔을 때 여세요.<br>
-    · 자유 질의는 이 정적 묶음에서 불가합니다. 새 질문은 <code>make serve</code>와 검색·생성 서버가 필요합니다.<br>
-    · 답변은 <b>125%</b>, 지도·Sankey·심화 화면은 <b>100~110%</b> 확대를 권합니다.
-  </div>
-  <p class="foot">코퍼스: OpenAlex 제목·초록 기반 공개 서지 · 공개 답변: 인용 ID 및 초록 지지 범위 검토 완료 ·
-  심화 표준가스 내용: 제목·초록 지지 범위 검토 PASS · 분야 전문가 검토: NOT_RUN.</p>
-</div>
+    const frame = document.querySelector("#artifact-frame");
+    const methodView = document.querySelector("#method-view");
+    const methodContent = document.querySelector("#method-content");
+    const loading = document.querySelector("#loading");
+    const openLink = document.querySelector("#open-link");
+    const title = document.querySelector("#stage-title");
+    const kicker = document.querySelector("#stage-kicker");
+    let methodLoaded = false;
+
+    function inlineMarkdown(value) {
+      return value
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/`([^`]+)`/g, "<code>$1</code>")
+        .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+        .replace(/&lt;(https?:\/\/[^&]+)&gt;/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
+    }
+
+    function isTableDivider(line) {
+      return /^\s*\|?(\s*:?-{3,}:?\s*\|)+\s*:?-{3,}:?\s*\|?\s*$/.test(line);
+    }
+
+    function tableCells(line) {
+      return line.trim().replace(/^\|/, "").replace(/\|$/, "").split("|").map(cell => cell.trim());
+    }
+
+    function renderMarkdown(markdown) {
+      const lines = markdown.replace(/\r/g, "").split("\n");
+      const output = [];
+      let index = 0;
+
+      while (index < lines.length) {
+        const line = lines[index];
+        if (!line.trim()) { index += 1; continue; }
+
+        const heading = line.match(/^(#{1,3})\s+(.+)$/);
+        if (heading) {
+          const level = heading[1].length;
+          output.push(`<h${level}>${inlineMarkdown(heading[2])}</h${level}>`);
+          index += 1;
+          continue;
+        }
+
+        if (line.startsWith(">")) {
+          const quote = [];
+          while (index < lines.length && lines[index].startsWith(">")) {
+            quote.push(lines[index].replace(/^>\s?/, ""));
+            index += 1;
+          }
+          output.push(`<blockquote><p>${inlineMarkdown(quote.join("\n")).replace(/\n/g, "<br>")}</p></blockquote>`);
+          continue;
+        }
+
+        if (line.includes("|") && index + 1 < lines.length && isTableDivider(lines[index + 1])) {
+          const headers = tableCells(line);
+          index += 2;
+          const rows = [];
+          while (index < lines.length && lines[index].includes("|") && lines[index].trim()) {
+            rows.push(tableCells(lines[index]));
+            index += 1;
+          }
+          output.push(`<div class="table-wrap"><table><thead><tr>${headers.map(cell => `<th>${inlineMarkdown(cell)}</th>`).join("")}</tr></thead><tbody>${rows.map(row => `<tr>${row.map(cell => `<td>${inlineMarkdown(cell)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`);
+          continue;
+        }
+
+        const list = line.match(/^\s*(-|\d+\.)\s+(.+)$/);
+        if (list) {
+          const ordered = /\d+\./.test(list[1]);
+          const tag = ordered ? "ol" : "ul";
+          const items = [];
+          while (index < lines.length) {
+            const item = lines[index].match(/^\s*(-|\d+\.)\s+(.+)$/);
+            if (!item || /\d+\./.test(item[1]) !== ordered) break;
+            items.push(`<li>${inlineMarkdown(item[2])}</li>`);
+            index += 1;
+          }
+          output.push(`<${tag}>${items.join("")}</${tag}>`);
+          continue;
+        }
+
+        const paragraph = [line.trim()];
+        index += 1;
+        while (index < lines.length && lines[index].trim() &&
+          !/^(#{1,3})\s+/.test(lines[index]) &&
+          !lines[index].startsWith(">") &&
+          !/^\s*(-|\d+\.)\s+/.test(lines[index]) &&
+          !(lines[index].includes("|") && index + 1 < lines.length && isTableDivider(lines[index + 1]))) {
+          paragraph.push(lines[index].trim());
+          index += 1;
+        }
+        output.push(`<p>${inlineMarkdown(paragraph.join(" "))}</p>`);
+      }
+      return output.join("");
+    }
+
+    async function loadMethod() {
+      if (methodLoaded) return;
+      try {
+        const response = await fetch(views.method.src, { cache: "no-store" });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        methodContent.innerHTML = renderMarkdown(await response.text());
+        methodLoaded = true;
+      } catch (error) {
+        methodContent.innerHTML = `<h1>방법론 문서를 열 수 없습니다</h1><p>서버에서 <code>${views.method.src}</code>를 찾지 못했습니다. 새로고침한 뒤 다시 시도하세요.</p>`;
+      }
+    }
+
+    function selectView(key, updateHash = true) {
+      const view = views[key] || views.cluster;
+      const activeKey = views[key] ? key : "cluster";
+      document.querySelectorAll(".nav-item").forEach(button => {
+        button.setAttribute("aria-selected", String(button.dataset.view === activeKey));
+      });
+      title.textContent = view.title;
+      kicker.textContent = view.kicker;
+      openLink.href = view.src;
+
+      if (activeKey === "method") {
+        frame.hidden = true;
+        loading.classList.add("hidden");
+        methodView.classList.add("visible");
+        loadMethod();
+      } else {
+        methodView.classList.remove("visible");
+        frame.hidden = false;
+        loading.classList.remove("hidden");
+        frame.title = view.title;
+        if (!frame.src.endsWith(view.src)) frame.src = view.src;
+      }
+
+      if (updateHash) history.replaceState(null, "", `#${activeKey}`);
+    }
+
+    document.querySelectorAll(".nav-item").forEach(button => {
+      button.addEventListener("click", () => selectView(button.dataset.view));
+    });
+
+    frame.addEventListener("load", () => loading.classList.add("hidden"));
+    window.addEventListener("hashchange", () => selectView(location.hash.slice(1), false));
+    selectView(location.hash.slice(1) || "cluster", false);
+  </script>
+</body>
+</html>

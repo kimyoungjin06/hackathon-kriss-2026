@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("fonts/pretendard/PretendardVariable.woff2") format("woff2-variations");
+}
+
+:root {
+  --citesage-font: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic",
+    "Noto Sans KR", sans-serif;
+}
+
+html,
+body,
+button,
+input,
+select,
+textarea,
+body *,
+svg text {
+  font-family: var(--citesage-font) !important;
+  font-synthesis: none;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}

@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <meta name="citesage-artifact-contract" content="citesage-artifact-v1">
+  <link rel="stylesheet" href="../assets/citesage-base.css">
+<title>중량법 표준가스 — 논문 단위 인용 흐름</title>
+<style>
+  :root{--paper:#FBFAF7;--ink:#1B2530;--ink2:#5A6675;--muted:#8B96A3;
+    --line:#E4E0D8;--panel:#F3F0EA;--panel-br:#E0DBD1;--spine:#C8792E;
+    --kriss:#2F7183;--background:#A7B0B8;--grid:#EDE9E1}
+  @media (prefers-color-scheme:dark){:root{--paper:#0F151A;--ink:#E7EDF3;--ink2:#A9B6C2;
+    --muted:#6E7C8A;--line:#232D36;--panel:#151D24;--panel-br:#26313B;--spine:#E0913F;
+    --kriss:#75AEC0;--background:#5A6B78;--grid:#1A222A}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    line-height:1.5;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1180px;margin:0 auto;padding:40px 24px 64px}
+  .eyebrow{font:12px ui-monospace,"SF Mono",Menlo,monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2)}
+  h1{font-size:clamp(26px,4vw,40px);line-height:1.08;letter-spacing:-.02em;margin:.35em 0 .3em;font-weight:760}
+  .thesis{font-size:17px;color:var(--ink2);max-width:76ch;margin:0}
+  .contract{display:flex;gap:7px;flex-wrap:wrap;margin:16px 0 4px}
+  .badge{border:1px solid var(--panel-br);background:var(--panel);border-radius:999px;padding:4px 9px;
+    font:11px/1.3 ui-monospace,Menlo,monospace;color:var(--ink2)}
+  .reviewline{font:11.5px ui-monospace,Menlo,monospace;color:var(--muted);margin:8px 0 0}
+  .legend{display:flex;flex-wrap:wrap;gap:15px 22px;margin:20px 0 8px;font-size:13px;color:var(--ink2);align-items:center}
+  .item{display:flex;align-items:center;gap:8px}.sw{width:26px;height:0;border-top:3px solid;flex:none}
+  .dot{width:12px;height:12px;border-radius:50%;flex:none}.ring{border:3px solid var(--spine);background:transparent}
+  .canvas-wrap{margin-top:14px;border:1px solid var(--line);border-radius:14px;overflow-x:auto;overflow-y:hidden}
+  svg{display:block}.yr{font:11px ui-monospace,Menlo,monospace;fill:var(--muted)}
+  text.node-label{font-size:10.5px;fill:var(--ink);pointer-events:none;paint-order:stroke;
+    stroke:var(--paper);stroke-width:4px;stroke-linejoin:round}
+  .edge{fill:none;stroke:var(--background);opacity:.35;stroke-width:1.2}.edge.spine{stroke:var(--spine);opacity:.95;stroke-width:2.6}
+  .node{cursor:pointer}.node circle{stroke:var(--paper);stroke-width:1.5}.node.main circle{stroke:var(--spine);stroke-width:3}
+  .node.seed circle{stroke-dasharray:3 2}
+  .panel{margin-top:20px;border:1px solid var(--panel-br);background:var(--panel);border-radius:12px;padding:18px 20px;min-height:96px}
+  .panel .role{font:11px ui-monospace,monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--spine)}
+  .panel h3{margin:.35em 0 .3em;font-size:18px;line-height:1.25}.panel .meta{font-size:13.5px;color:var(--ink2)}
+  .panel .summary{font-size:14.5px;line-height:1.62;margin:12px 0 8px}.panel .scope{font-size:12px;color:var(--muted);margin:0 0 10px}
+  .panel a{color:var(--kriss);text-decoration:none;font-size:13px}.panel a:hover{text-decoration:underline}
+  .hint{color:var(--muted);font-size:13px}.foot{margin-top:26px;font-size:12.5px;color:var(--muted);max-width:86ch;
+    border-top:1px solid var(--line);padding-top:16px}:focus-visible{outline:2px solid var(--spine);outline-offset:2px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">질문으로 추린 문헌 · 논문 간 직접 인용</div>
+  <h1>질문으로 추린 문헌들은 서로 어떻게 인용하는가</h1>
+  <p class="thesis"><b>“중량법 표준가스 조제 불확도 흡착 안정성”</b> 질문으로 추린 논문과 그 문헌 집합 내부 직접 인용을 시간축에 놓았습니다.
+  왼쪽→오른쪽은 <b>인용된 선행 논문 → 인용한 후속 논문</b>이라는 지식 흐름 방향이며, 실제 인용 행위는 반대입니다.</p>
+  <div class="contract"><span class="badge">관련 문헌 13편</span><span class="badge">직접 인용 12건</span>
+    <span class="badge">KRISS 연구자 시드 4편 · 배경 문헌 9편</span><span class="badge">인용망 중심 경로(SPC) 6편</span></div>
+  <p class="reviewline">출처 지지 범위 검토 완료 · 분야 전문가 검토 전</p>
+  <div class="legend">
+    <span class="item"><span class="sw" style="border-top-color:var(--spine)"></span>인용망 중심 경로(SPC)의 직접 인용</span>
+    <span class="item"><span class="sw" style="border-top-color:var(--background);border-top-width:1px"></span>그 밖의 직접 인용</span>
+    <span class="item"><span class="dot" style="background:var(--kriss)"></span>KRISS 시드 문헌</span>
+    <span class="item"><span class="dot" style="background:var(--background)"></span>배경 문헌</span>
+    <span class="item"><span class="dot ring"></span>인용망 중심 경로(SPC) 문헌</span>
+    <span class="item hint">원 크기는 다른 논문에 인용된 횟수, 점선 테두리는 질문 기준 문헌을 나타냅니다. 논문을 선택하면 OpenAlex 논문 정보가 열립니다.</span>
+  </div>
+  <div class="canvas-wrap"><svg id="viz"></svg></div>
+  <div class="panel" id="panel"><div class="role">논문에 마우스를 올리거나 Tab 키로 선택하세요</div>
+    <h3>질문으로 추린 문헌의 인용 흐름</h3><div class="meta">논문을 가리키면 제목·초록 검토 요약과 적용 범위가 열립니다.</div></div>
+  <p class="foot">데이터: KRISS 연구자 시드 문헌 7,970편과 배경 문헌 10,882편의 분석 문헌 집합에서 추출한 13편.
+  중심 경로는 이 인용망에서 계산한 Search Path Count(SPC) 결과이므로 분야 전체의 유일한 발전 경로나
+  영향력·계승·인과를 뜻하지 않습니다. 논문 요약은 로컬 OpenAlex 제목·초록의 지지 범위를
+  검토했으며, 측정·화학 분야 전문가 검토는 아직 수행하지 않았습니다.</p>
+</div>
+<script>
+const DATA={"query": "중량법 표준가스 조제 불확도 흡착 안정성", "nodes": [{"id": "W1969728699", "t": "Uncertainty calculations for the preparation of primary gas mixtures. Part 1: Gravimetry", "y": 2000, "c": 37, "a": ["A Alink", "Adriaan M. H. van der Veen"], "v": "Metrologia", "seed": true, "main": true, "kriss": false, "source_set": "metrologia", "label": "중량법 조제 불확도 계산"}, {"id": "W1971384274", "t": "Implementation of a generalized least-squares method for determining calibration curves from data with general uncertainty structures", "y": 2006, "c": 47, "a": ["Martin Milton", "P M Harris", "I. M. Smith"], "v": "Metrologia", "seed": false, "main": true, "kriss": false, "source_set": "metrologia", "label": "상관 불확도를 포함한 교정곡선"}, {"id": "W2037310247", "t": "Validation of the gravimetric values and uncertainties of independently prepared primary standard gas mixtures", "y": 2006, "c": 16, "a": ["Martin Milton", "Frank Guenther", "Walter R. Miller"], "v": "Metrologia", "seed": true, "main": true, "kriss": false, "source_set": "metrologia", "label": "독립 조제 혼합물의 중량값 검증"}, {"id": "W2085312569", "t": "Coefficient of contribution to the combined standard uncertainty", "y": 2006, "c": 39, "a": ["Rüdiger Kessel", "Raghu N. Kacker", "Michael Berglund"], "v": "Metrologia", "seed": false, "main": false, "kriss": false, "source_set": "metrologia", "label": "불확도 성분의 기여계수"}, {"id": "W1967416930", "t": "Gravimetric methods for the preparation of standard gas mixtures", "y": 2011, "c": 78, "a": ["Martin Milton", "Gergely Vargha", "Andrew S. Brown"], "v": "Metrologia", "seed": false, "main": true, "kriss": false, "source_set": "metrologia", "label": "표준가스의 중량법 조제와 연속 희석"}, {"id": "W1992100865", "t": "Practical estimation of the uncertainty of analytical measurement standards", "y": 2011, "c": 6, "a": ["Ruud Peters", "I.J.W. Elbers", "Mirjam D. Klijnstra"], "v": "Accreditation and Quality Assurance", "seed": true, "main": false, "kriss": false, "source_set": "acqual", "label": "측정표준의 조제·보관 안정성 불확도"}, {"id": "W2023075932", "t": "International comparison CCQM-K66: Impurity analysis of methane", "y": 2011, "c": 1, "a": ["Kenji Kato", "T. Watanabe", "Hans-Joachim Heine"], "v": "Metrologia", "seed": true, "main": false, "kriss": true, "source_set": "seed_authors", "label": "CCQM-K66 메탄 불순물 비교"}, {"id": "W2008006840", "t": "Measurement Science and Technology: a historical perspective", "y": 2012, "c": 111, "a": ["R.J. Dewhurst"], "v": "Measurement Science and Technology", "seed": false, "main": false, "kriss": false, "source_set": "uncertainty", "label": "측정과학 저널의 역사적 조망"}, {"id": "W2055374718", "t": "Atomic weights in gas analysis", "y": 2014, "c": 13, "a": ["Adriaan M. H. van der Veen", "Katarina Hafner"], "v": "Metrologia", "seed": true, "main": true, "kriss": false, "source_set": "metrologia", "label": "가스 분석에서 표준원자량의 불확도 기여"}, {"id": "W2760834369", "t": "Gravimetric Standard Gas Mixtures for Global Monitoring of Atmospheric SF6", "y": 2017, "c": 29, "a": ["Jeong Sik Lim", "Jinbok Lee", "Jinbok Lee"], "v": "Analytical Chemistry", "seed": true, "main": false, "kriss": true, "source_set": "seed_authors", "label": "대기 SF₆ 감시용 중량법 표준가스"}, {"id": "W2926898730", "t": "Advances in reference materials and measurement techniques for greenhouse gas atmospheric observations", "y": 2019, "c": 46, "a": ["Paul J. Brewer", "Jin Seog Kim", "Sangil Lee"], "v": "Metrologia", "seed": false, "main": true, "kriss": true, "source_set": "seed_authors", "label": "온실가스 관측을 위한 기준물질 인프라"}, {"id": "W2969774409", "t": "Modelling European quality assurance procedures for analysers monitoring emissions under the EU’s Industrial Emissions Directive", "y": 2019, "c": 3, "a": ["T Smith", "Rod Robinson", "Marc Coleman"], "v": "Accreditation and Quality Assurance", "seed": true, "main": false, "kriss": false, "source_set": "acqual", "label": "배출가스 분석기 품질보증 모델"}, {"id": "W4282967848", "t": "Preparation of gas standards for quality assurance of hydrogen fuel", "y": 2022, "c": 13, "a": ["Jeong-Soon Lee", "Sang Woo Kim", "Gwangsup Kim"], "v": "International Journal of Hydrogen Energy", "seed": true, "main": false, "kriss": true, "source_set": "seed_authors", "label": "수소연료 불순물 평가용 가스표준"}], "edges": [{"s": "W2760834369", "d": "W2926898730", "m": false}, {"s": "W2055374718", "d": "W2926898730", "m": true}, {"s": "W1969728699", "d": "W2037310247", "m": true}, {"s": "W2037310247", "d": "W1971384274", "m": true}, {"s": "W2008006840", "d": "W2055374718", "m": false}, {"s": "W1969728699", "d": "W2055374718", "m": false}, {"s": "W1967416930", "d": "W2055374718", "m": true}, {"s": "W2085312569", "d": "W2055374718", "m": false}, {"s": "W2037310247", "d": "W1967416930", "m": false}, {"s": "W1971384274", "d": "W1967416930", "m": true}, {"s": "W1969728699", "d": "W1967416930", "m": false}, {"s": "W2760834369", "d": "W4282967848", "m": false}], "content": {"W1969728699": {"label": "중량법 조제 불확도 계산", "summary": "일차 표준가스 혼합물의 중량법 조제를 일반적으로 기술하고, 칭량 주기와 전달 가스 질량의 결합표준불확도 식을 제시한다. 조제 과정에서 생기는 변수 의존성과 칭량 결과의 공분산을 평가한다.", "scope_note": "제시된 내용은 초록에 설명된 일반 중량법 모델 범위다."}, "W1971384274": {"label": "상관 불확도를 포함한 교정곡선", "summary": "상관된 교정 데이터를 포함할 수 있는 일반화 최소제곱 교정곡선 방법을 검토하고, 천연가스 조성 분석기와 가스 유량 희석기의 교정 예시를 제시한다.", "scope_note": "표준가스 조제법 자체가 아니라 측정시스템 교정 데이터 처리에 관한 연구다."}, "W2037310247": {"label": "독립 조제 혼합물의 중량값 검증", "summary": "독립적으로 중량 조제한 표준가스 혼합물들을 하나의 비교 과정으로 분석해 중량값과 불확도를 검증한다. 초록은 두 이상치를 제외한 7회 측정 잔차의 상대 표준편차 0.002%와 상대 확장불확도 0.004%를 보고한다.", "scope_note": "수치는 해당 비교 설계와 초록에 보고된 결과에 한정된다."}, "W2085312569": {"label": "불확도 성분의 기여계수", "summary": "비상관 입력뿐 아니라 상관된 입력변수에도 적용할 수 있는 결합표준불확도 기여계수를 제안한다. 상관관계가 각 성분의 상대적 중요도를 바꿀 수 있음을 설명한다.", "scope_note": "표준가스 전용 방법이 아니라 측정방정식 전반의 불확도 예산을 위한 배경 방법론이다."}, "W1967416930": {"label": "표준가스의 중량법 조제와 연속 희석", "summary": "실린더에 개별 성분을 칭량하는 일차 표준가스 조제법과 그 불확도의 수학적 기술을 제시한다. 최종 혼합물의 불확도를 줄이는 연속 희석 전략을 식별하고 실제 구현 예를 검토한다.", "scope_note": "정확도 범위는 논문이 검토한 사례와 조건에 따라 달라진다."}, "W1992100865": {"label": "측정표준의 조제·보관 안정성 불확도", "summary": "화학 측정표준 또는 교정물질의 조제, 화학적 안정성, 조성 안정성이 농도값 불확도에 기여하는 정도를 추정하는 방법을 사례로 보여준다.", "scope_note": "표준가스에 한정된 연구가 아니라 분석용 화학 측정표준의 일반 배경 문헌이다."}, "W2023075932": {"label": "CCQM-K66 메탄 불순물 비교", "summary": "표준가스 원료로 쓰이는 메탄의 순도 분석 역량을 비교하기 위해 질소·아르곤·이산화탄소·에탄 불순물을 넣은 합성 혼합물을 사용한다. 초록은 1–5 µmol/mol 수준 불순물의 분석이 대체로 5–10% 불확도에서 가능했다고 보고한다.", "scope_note": "KRISS 단독 성과가 아니라 여러 국가측정표준기관이 참여한 국제비교 결과다."}, "W2008006840": {"label": "측정과학 저널의 역사적 조망", "summary": "Measurement Science and Technology 저널의 역사를 통해 측정과학의 변화와 주요 논문을 조망하는 역사적 관점의 글이다.", "scope_note": "초록만으로 구체적인 표준가스 기여나 발전 단계를 확인할 수 없어 배경 문헌으로만 표시한다."}, "W2055374718": {"label": "가스 분석에서 표준원자량의 불확도 기여", "summary": "중량법 기준·교정 가스 혼합물의 조성 계산에서 칭량, 분자량, 원료가스 조성의 불확도 기여를 분리해 평가한다. 표준원자량과 관련한 불확도가 칭량 기여와 같은 크기 수준이 될 수 있음을 보고한다.", "scope_note": "원자량 구간의 적용 조건과 실제 재료의 동위원소 조성을 함께 고려해야 한다는 논문의 범위를 유지한다."}, "W2760834369": {"label": "대기 SF₆ 감시용 중량법 표준가스", "summary": "KRISS가 합성공기 중 5–15 pmol/mol SF₆ 표준가스 6종을 중량법으로 조제하고 원료가스 불순물, 다단 희석, 검증 측정을 함께 평가한 사례다. 초록은 최종 표준의 95% 수준 불확도를 명목상 0.08%로 보고한다.", "scope_note": "수치와 성능은 이 SF₆ 표준가스 조제·검증 사례에 한정된다."}, "W2926898730": {"label": "온실가스 관측을 위한 기준물질 인프라", "summary": "이산화탄소·메탄·아산화질소 대기 관측을 뒷받침하는 물질량분율의 일차 실현, 동위원소 조성의 추적성, WMO GAW 관측 체계와 분석기술의 발전을 검토한다.", "scope_note": "개별 실험 결과가 아니라 국제 온실가스 측정 인프라의 연구 지형을 다룬 리뷰다."}, "W2969774409": {"label": "배출가스 분석기 품질보증 모델", "summary": "EN 14181에 따른 배출가스 분석기 교정에서 기준방법의 불확도를 바꿔가며 품질보증 결과를 모델링한다. 초록은 기준방법 불확도가 15%를 넘을 때 교정 실패 문제가 커지는 사례를 제시한다.", "scope_note": "표준가스 조제보다 분석기 교정과 규제 품질보증에 가까운 배경 연구다."}, "W4282967848": {"label": "수소연료 불순물 평가용 가스표준", "summary": "KRISS가 ISO 14687에 따른 수소연료 불순물 평가를 위해 CO, CO₂, CH₄ 등 여러 성분의 추적 가능한 중량법 가스표준을 개발한 사례다. 초록은 성분별 확장불확도와 3년 동안의 안정성 결과를 보고한다.", "scope_note": "불확도와 안정성 수치는 논문에 제시된 성분·농도·기간 범위에 한정된다."}}, "content_scope": {"query": "중량법 표준가스 조제 불확도 흡착 안정성", "flow_node_count": 13, "reviewed_on": "2026-08-11", "evidence_basis": "OpenAlex title and abstract in the local mixed corpus", "source_support_review": "PASS", "domain_expert_review": "NOT_RUN", "claim_boundary": "요약은 로컬 코퍼스의 제목과 초록이 직접 지지하는 범위만 기술한다. 인용 연결은 내용상 계승, 영향력, 동의 또는 인과를 뜻하지 않는다."}},svg=document.getElementById('viz'),panel=document.getElementById('panel'),NS='http://www.w3.org/2000/svg';
+const years=DATA.nodes.map(n=>n.y),yMin=Math.min(...years),yMax=Math.max(...years),yearSpan=Math.max(1,yMax-yMin);
+const W=Math.max(920,yearSpan*44+160),H=560,padL=70,padR=70,padT=36,padB=44;
+const xOf=y=>padL+(y-yMin)/yearSpan*(W-padL-padR),cmax=Math.max(1,...DATA.nodes.map(n=>n.c));
+const rOf=c=>5+Math.sqrt(c/cmax)*20,id2n=new Map(DATA.nodes.map(n=>[n.id,n])),nbrs=new Map(DATA.nodes.map(n=>[n.id,[]]));
+DATA.edges.forEach(e=>{if(id2n.has(e.s)&&id2n.has(e.d)){nbrs.get(e.s).push(e.d);nbrs.get(e.d).push(e.s);}});
+const cy=padT+(H-padT-padB)/2;
+DATA.nodes.forEach((n,i)=>{n._x=xOf(n.y);n._y=n.main?cy:cy+((i%2)?1:-1)*(60+(i%5)*26);});
+for(let it=0;it<80;it++){
+  DATA.nodes.forEach(n=>{const ns=nbrs.get(n.id);if(ns.length){let s=0;ns.forEach(m=>s+=id2n.get(m)._y);n._y+=(s/ns.length-n._y)*(n.main?.12:.32);}
+    n._y=Math.max(padT+rOf(n.c),Math.min(H-padB-rOf(n.c),n._y));});
+  for(let a=0;a<DATA.nodes.length;a++)for(let b=a+1;b<DATA.nodes.length;b++){const A=DATA.nodes[a],B=DATA.nodes[b];
+    if(Math.abs(A._x-B._x)<34){const dy=A._y-B._y,need=rOf(A.c)+rOf(B.c)+6;if(Math.abs(dy)<need){const push=(need-Math.abs(dy))/2*(dy<0?-1:1);A._y+=push;B._y-=push;}}}
+}
+const mainOrder=[...DATA.nodes].filter(n=>n.main).sort((a,b)=>a.y-b.y||a._y-b._y);
+mainOrder.forEach((n,i)=>n._labelAbove=i%2===1);
+const edgePath=e=>{const a=id2n.get(e.s),b=id2n.get(e.d),mx=(a._x+b._x)/2;return `M${a._x},${a._y} C${mx},${a._y} ${mx},${b._y} ${b._x},${b._y}`;};
+svg.setAttribute('viewBox',`0 0 ${W} ${H}`);svg.setAttribute('width',W);svg.setAttribute('height',H);svg.setAttribute('role','img');
+svg.setAttribute('aria-label','중량법 표준가스 질문으로 추린 문헌의 시간축 직접 인용 흐름');
+for(let y=Math.ceil(yMin/2)*2;y<=yMax;y+=2){const x=xOf(y),ln=document.createElementNS(NS,'line');
+  ln.setAttribute('x1',x);ln.setAttribute('x2',x);ln.setAttribute('y1',padT-8);ln.setAttribute('y2',H-padB+6);ln.setAttribute('stroke','var(--grid)');svg.appendChild(ln);
+  const tx=document.createElementNS(NS,'text');tx.setAttribute('x',x);tx.setAttribute('y',H-padB+22);tx.setAttribute('text-anchor','middle');tx.setAttribute('class','yr');tx.textContent="'"+String(y).slice(2);svg.appendChild(tx);}
+[...DATA.edges].sort((a,b)=>(a.m?1:0)-(b.m?1:0)).forEach(e=>{if(!id2n.has(e.s)||!id2n.has(e.d))return;const p=document.createElementNS(NS,'path');p.setAttribute('d',edgePath(e));p.setAttribute('class','edge'+(e.m?' spine':''));svg.appendChild(p);});
+DATA.nodes.forEach(n=>{const g=document.createElementNS(NS,'g');g.setAttribute('class','node'+(n.main?' main':'')+(n.seed?' seed':''));g.setAttribute('tabindex','0');g.setAttribute('transform',`translate(${n._x},${n._y})`);
+  const c=document.createElementNS(NS,'circle');c.setAttribute('r',rOf(n.c));c.setAttribute('fill',n.kriss?'var(--kriss)':'var(--background)');g.appendChild(c);
+  if(n.main){const t=document.createElementNS(NS,'text');t.setAttribute('class','node-label');t.setAttribute('x',0);
+    t.setAttribute('y',n._labelAbove?-rOf(n.c)-9:rOf(n.c)+16);t.setAttribute('text-anchor','middle');
+    t.textContent=n.label.length>20?n.label.slice(0,19)+'…':n.label;g.appendChild(t);}
+  const show=()=>render(n);g.addEventListener('mouseenter',show);g.addEventListener('focus',show);g.addEventListener('click',()=>window.open('https://openalex.org/'+n.id,'_blank'));
+  g.addEventListener('keydown',ev=>{if(ev.key==='Enter')window.open('https://openalex.org/'+n.id,'_blank');});svg.appendChild(g);});
+function render(n){const labels=[n.kriss?'KRISS 연구자 시드':'배경 문헌'];if(n.main)labels.push('인용망 중심 경로(SPC)');if(n.seed)labels.push('질문 기준 문헌');const c=DATA.content[n.id];
+  panel.innerHTML=`<div class="role">${labels.join(' · ')}</div><h3>${esc(n.t)}</h3>`+
+    `<div class="meta">${esc((n.a||[]).join(', '))} · ${n.y} · ${esc(n.v||'')} · 인용된 횟수 ${n.c.toLocaleString()}</div>`+
+    `<p class="summary"><b>${esc(c.label)}</b><br>${esc(c.summary)}</p><p class="scope">범위: ${esc(c.scope_note)}</p>`+
+    `<a href="https://openalex.org/${n.id}" target="_blank" rel="noopener">OpenAlex 레코드 열기 ↗</a>`;}
+function esc(s){return String(s||'').replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c]));}
+</script>
+</body>
+</html>

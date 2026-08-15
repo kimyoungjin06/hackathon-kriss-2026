@@ -13,12 +13,12 @@
   <path d="M100 153h1000" stroke="#0a344b" stroke-width="2"/>
   <path d="M100 153v327" stroke="#e9732f" stroke-width="7"/>
   <text class="sans" x="100" y="96" fill="#102632" font-size="22" font-weight="700">KRISS 화학소재측정본부 워크숍</text>
-  <text x="132" y="230" fill="#0d6f95" font-family="monospace" font-size="18" font-weight="700" letter-spacing="3">2026 · PUBLIC MATERIALS</text>
+  <text class="sans" x="132" y="230" fill="#0d6f95" font-size="18" font-weight="700" letter-spacing="3">2026 · PUBLIC MATERIALS</text>
   <text class="sans" x="122" y="357" fill="#102632" font-size="94" font-weight="800" letter-spacing="-6">AI 해커톤</text>
   <text class="sans" x="122" y="464" fill="#0d6f95" font-size="94" font-weight="800" letter-spacing="-6">공개 자료</text>
   <text class="sans" x="745" y="226" fill="#60727c" font-size="20">작은 업무 도구를 만들고,</text>
   <text class="sans" x="745" y="263" fill="#60727c" font-size="20">결과의 근거와 한계를 검증하는</text>
   <text class="sans" x="745" y="300" fill="#60727c" font-size="20">3시간 워크숍</text>
   <path d="M745 345h355" stroke="#cbd7dd"/>
-  <text x="745" y="390" fill="#0a344b" font-family="monospace" font-size="16" letter-spacing="2">PROGRAM · CITESAGE · API</text>
+  <text class="sans" x="745" y="390" fill="#0a344b" font-size="16" letter-spacing="2">PROGRAM · CITESAGE · API</text>
 </svg>

@@ -10,3 +10,17 @@
   font-weight: 45 920;
   font-display: swap;
 }
+
+html,
+body,
+button,
+input,
+select,
+textarea,
+code,
+kbd,
+samp,
+pre,
+svg text {
+  font-family: "Pretendard Variable", Pretendard, "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+}
